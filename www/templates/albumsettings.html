@@ -1,0 +1,30 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">Album Settings</h1>
+    <div class="buttons">
+      <button class="button button-black" ng-click="closeSettings()"><i class="icon ion-close"></i></button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <form ng-submit="doAlbum()">
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label">Number of Photos</span>
+          <input type="text" ng-model="albumData.numberofphoto">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Photos per page</span>
+          <select ng-options="perpageOption as perpageOption.subItem.name for perpageOption in perpageOptions track by perpageOption.id" ng-model="albumData.perpage">
+		  </select>
+        </label>
+		<label class="import-file">
+			<input type="file" multiple onchange="angular.element(this).scope().fileNameChanged(this)">
+			<div>Import file...</div>
+		</label>
+        <label class="item">
+          <button class="button button-block button-positive" type="submit">Apply</button>
+        </label>
+      </div>
+    </form>
+  </ion-content>
+</ion-modal-view>

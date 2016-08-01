@@ -1,0 +1,20 @@
+<ion-view view-title="{{pageTitle}}" style="background-image:url('{{backgroundImage}}')">
+<ion-content class="has-footer">
+    <h1>{{pageTitle}}</h1>
+<ul rn-carousel rn-carousel-controls class="carousel ng-scope">
+	<li class="ng-scope" ng-repeat="page in range">
+	<div class="row " ng-class="albumData.perpage.id==2?'responsive-md':''" >
+		<div class="col" ng-class="albumData.perpage.id==2?'':'col-50'" ng-repeat="holder in holders" style="border:5px solid green;min-height:200px;">touch to select a photo</div>
+	</div>
+	</li>
+</ul>
+   <div rn-carousel-indicators ng-if="range.length > 1" slides="range" rn-carousel-index="carouselIndex"></div>
+    
+    
+  </ion-content>
+  <ion-footer-bar align-title="right" class="bar-energized">
+  <a class="tab-item" style="max-width:unset !important;" ng-click="album()">
+    <i class="icon ion-gear-a"></i>
+  </a>
+</ion-footer-bar>
+</ion-view>
