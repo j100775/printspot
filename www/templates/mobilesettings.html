@@ -1,0 +1,37 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">Album Settings</h1>
+    <div class="buttons">
+      <button class="button button-black" ng-click="closeSettings()"><i class="icon ion-close"></i></button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <form ng-submit="doMobile()">
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label">Cover Type</span>
+          <select ng-options="covertype.name for covertype in mobilecoverType track by covertype.id" ng-model="mobileData.covertype" ng-change="selectCoverType()">
+		 </select>
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Model & Phone</span>
+          <select ng-options="mobilemodel.name for mobilemodel in mobilemodels track by mobilemodel.id" ng-model="mobileData.mobilemodel" ng-change="selectMobile()">
+		 </select>
+        </label>
+        
+        <label class="item item-input" ng-if="designs">
+          <span class="input-label">Design</span>
+<ion-list>
+  <ion-radio ng-model="mobileData.design" ng-repeat="design in designs" ng-value="design">
+	  <img ng-src="{{serviceUrl}}image/{{design}}" width="32px" height="48px"></ion-radio>
+</ion-list>
+          <!--<select ng-options="design for (key, design) in designs" ng-model="mobileData.design" ng-change="selecDesign()">-->
+		 </select>
+        </label>
+        <label class="item item-input">
+          <button class="button button-block button-positive" type="submit">Apply</button>
+        </label>
+      </div>
+    </form>
+  </ion-content>
+</ion-modal-view>

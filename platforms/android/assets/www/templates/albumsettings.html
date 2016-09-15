@@ -17,11 +17,12 @@
           <select ng-options="perpageOption as perpageOption.subItem.name for perpageOption in perpageOptions track by perpageOption.id" ng-model="albumData.perpage">
 		  </select>
         </label>
-		<label class="import-file">
-			<input type="file" multiple onchange="angular.element(this).scope().fileNameChanged(this)">
-			<div>Import file...</div>
+		<label class="item-input">
+		<span class="input-label">Select a theme</span>
+          <select ng-options="themeOption as themeOption.name for themeOption in themeOptions track by themeOption.id" ng-model="albumData.theme">
+		  </select>
 		</label>
-        <label class="item">
+        <label class="item-input">
           <button class="button button-block button-positive" type="submit">Apply</button>
         </label>
       </div>

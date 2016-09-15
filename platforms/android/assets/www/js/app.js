@@ -4,9 +4,9 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers','angular-carousel'])
+angular.module('starter', ['ionic', 'starter.controllers','angular-carousel','ngCordova'])
 
-.run(function($ionicPlatform) {
+.run(function($ionicPlatform,$cordovaSQLite) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -19,7 +19,60 @@ angular.module('starter', ['ionic', 'starter.controllers','angular-carousel'])
       // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
     }
+    // open a database all for app
+    // create table if not exits
   });
+})
+.factory('customeInterceptor',['$timeout','$injector', '$q',function($timeout, $injector, $q) {
+  
+  var requestInitiated;
+
+  function showLoadingText() {
+    $injector.get("$ionicLoading").show({
+      template: 'Loading...',
+      animation: 'fade-in',
+      showBackdrop: true
+    });
+  };
+  
+  function hideLoadingText(){
+    $injector.get("$ionicLoading").hide();
+  };
+
+  return {
+    request : function(config) {
+      requestInitiated = true;
+      showLoadingText();
+      console.log('Request Initiated with interceptor');
+      return config;
+    },
+    response : function(response) {
+      requestInitiated = false;
+        
+      // Show delay of 300ms so the popup will not appear for multiple http request
+      $timeout(function() {
+
+        if(requestInitiated) return;
+        hideLoadingText();
+        console.log('Response received with interceptor');
+
+      },300);
+      
+      return response;
+    },
+    requestError : function (err) {
+      hideLoadingText();
+      console.log('Request Error logging via interceptor');
+      return err;
+    },
+    responseError : function (err) {
+      hideLoadingText();
+      console.log('Response error via interceptor');
+      return $q.reject(err);
+    }
+  }
+}]).constant('appConfig',{'apiUrl':'http://sirstech.in/printspot/'}).config(function ($urlRouterProvider,$httpProvider) {
+    $httpProvider.interceptors.push('customeInterceptor');
 })
 
 .config(function($stateProvider, $urlRouterProvider) {
@@ -58,6 +111,15 @@ angular.module('starter', ['ionic', 'starter.controllers','angular-carousel'])
         }
       }
     })
+    .state('app.login',{
+		url:'/login',
+		views:{
+		'menuContent':{
+			templateUrl:'templates/login.html',
+		    controller: 'loginCtrl'
+			}
+		}
+	})
 
   .state('app.single', {
     url: '/playlists/:playlistId',
@@ -70,4 +132,29 @@ angular.module('starter', ['ionic', 'starter.controllers','angular-carousel'])
   });
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/playlists');
-});
+})
+.service('AuthService', function($q, $http,$cordovaDevice){
+  var login = function(name, pw) {
+     
+      var q = $q.defer();	
+    // return q(function(resolve, reject) {
+      if ((name == 'admin' && pw == 'admin') || (name == 'user' && pw == 'user')) {
+         // console.log('passhere');
+        // Make a request and receive your auth token from your server
+        storeUserCredentials(name + '.yourServerToken');
+        q.resolve('Login success.');
+      } else {
+        q.reject('Login Failed.');
+      }
+      return q.promise;
+    //});
+  };
+  var logout = function(){
+	  return;
+	  };
+ return {
+    login: login,
+    logout: logout,
+  };
+})
+;

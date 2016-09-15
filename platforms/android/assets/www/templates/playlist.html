@@ -1,20 +1,40 @@
-<ion-view view-title="{{pageTitle}}" style="background-image:url('{{backgroundImage}}')">
+<ion-view view-title="{{pageTitle}}">
 <ion-content class="has-footer">
-    <h1>{{pageTitle}}</h1>
-<ul rn-carousel rn-carousel-controls class="carousel ng-scope">
-	<li class="ng-scope" ng-repeat="page in range">
-	<div class="row " ng-class="albumData.perpage.id==2?'responsive-md':''" >
-		<div class="col" ng-class="albumData.perpage.id==2?'':'col-50'" ng-repeat="holder in holders" style="border:5px solid green;min-height:200px;">touch to select a photo</div>
-	</div>
-	</li>
-</ul>
+
+<div ng-if="productId==1">
+	<ul rn-carousel rn-carousel-controls class="carousel ng-scope"  style="background-image:url('{{backgroundImage}}')">
+		<li class="ng-scope" ng-repeat="range in ranges" id={{range.id+1}} >
+		<div class="row range" ng-repeat="shel in range.shels" ng-class="{'responsive-md':({{range.shels.length}}<2),'r-even':({{$index}} % 2 === 0),'r-odd':({{$index}} % 2 !== 0)}" ng-init=" rowcnt = $index" >
+			<div class="col " ng-class="albumData.perpage.id==2?'shel':'col-50'" ng-repeat="col in shel"  >
+				<img  ng-src="{{col.image}}" style="width:100%;opacity:.6;" id="image{{col.id+1}}" ng-click='setPhoto("{{range.id}}","{{rowcnt}}","{{$index}}")'  >
+			</div>
+		</div>
+		</li>
+	</ul>
    <div rn-carousel-indicators ng-if="range.length > 1" slides="range" rn-carousel-index="carouselIndex"></div>
-    
-    
-  </ion-content>
+</div>
+
+<div ng-if="productId==5">
+	<div class="row">
+		<div class="product_5">
+			<div class="design_holder" style="background-image:url('{{mobileData.design}}')" >
+				<img ng-src="{{mobileData.device}}"  class="device_holder" />
+			</div>
+		</div>
+	</div>
+</div>
+  </ion-content>  
   <ion-footer-bar align-title="right" class="bar-energized">
   <a class="tab-item" style="max-width:unset !important;" ng-click="album()">
     <i class="icon ion-gear-a"></i>
   </a>
-</ion-footer-bar>
+  <a ng-if="productId==5" class="tab-item" style="max-width:unset !important;" ng-click="setPhoto()">
+    <i class="icon ion-camera"></i>
+  </a>
+  <a class="tab-item" style="max-width:unset !important;" ng-click="saveAlbum()">
+    <i class="icon ion-archive"></i>
+  </a>
+   </ion-footer-bar>
+
+
 </ion-view>

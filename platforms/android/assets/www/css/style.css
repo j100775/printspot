@@ -1,4 +1,36 @@
 /* Empty. Add your own CSS if you like */
 ul[rn-carousel] {
-min-height:480px;
+min-height:508px;
+}
+
+.col.shel{
+max-width:225px;
+padding:10px;
+}
+
+.range div.col-50{
+border:2px dashed green;
+}
+.range col.col-50,.range .col.shel{
+border:2px dashed green;
+margin:1px;
+}
+
+/*product 5 */
+
+.device_holder{
+height:480px;
+width:100%;
+
+}
+.design_holder{
+    display: block;
+    height: 480px;
+    width: 280px;
+    margin:20px auto;
+    background-repeat:no-repeat;
+    background-size:320px 480px;
+}
+.product_5{
+width:100%;
 }
