@@ -1,0 +1,110 @@
+<about>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data mode="show" enable="true" type="default" usefor="vid">AboutShow,Creative</data>
+</trackingurl>
+<adata type="backbtn">
+<backbtn>
+<offsetx>393</offsetx>
+<offsety>69</offsety>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</backbtn>
+</adata>
+<adata type="imageslide">
+<imageslide>
+<imgpath>
+http://dev.pmi5media.com/repoadmin2/files/non_linear_images/638/home_pagemain1427866082.png
+</imgpath>
+<imgwidth>470</imgwidth>
+<imgheight>290</imgheight>
+<offsetx>0</offsetx>
+<offsety>45</offsety>
+<gloweffect>true</gloweffect>
+<applyanim>true</applyanim>
+<delaytime/>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</adata>
+<adata type="thumbnails">
+<thumbnails>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data mode="show" enable="true" type="default" usefor="vid">ThumbGalleryShow,Creative</data>
+</trackingurl>
+<thumbdata type="thumbgallery">
+<thumbgallery>
+<tgalwidth>407</tgalwidth>
+<tgalheight>223</tgalheight>
+<tgaloffsetx>32</tgaloffsetx>
+<tgaloffsety>89</tgaloffsety>
+<enabletracking>true</enabletracking>
+<thumbbar isvertical="true" effecttype="fade" width="121.6" height="356.4" offsetx="509.4840294840296" offsety="3.2286995515695067" iconwidth="120.09876543209876" iconheight="179.00633484162896" galtype="media">
+<photo>
+<small>
+<imgpath>
+http://dev.pmi5media.com/repoadmin2/files/non_linear_images/638/can03main1427802520.png
+</imgpath>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</small>
+<big type="videoplayer">
+<vidplayer>
+<vidwidth>640</vidwidth>
+<vidheight>360</vidheight>
+<offsetx>0</offsetx>
+<offsety>0</offsety>
+<autoplay>true</autoplay>
+<volume>100</volume>
+<showcontrols>true</showcontrols>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<vidpath>
+http://dev.pmi5media.com/repoadmin2/campaigns/media/e2c420d928d4bf8ce0ff2ec19b371514.mp4
+</vidpath>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true" usefor="">http://www.pmi5media.com</data>
+</trackingurl>
+</vidplayer>
+</big>
+</photo>
+<photo>
+<small>
+<imgpath>
+http://dev.pmi5media.com/repoadmin2/files/non_linear_images/638/img7main1427801562.jpg
+</imgpath>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</small>
+<big type="youtube">
+<youtube>
+<videourl>https://youtu.be/4ESv1Iap1ps</videourl>
+<autoplay>true</autoplay>
+<showcontrols>false</showcontrols>
+<volume>40</volume>
+</youtube>
+</big>
+</photo>
+</thumbbar>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</thumbgallery>
+</thumbdata>
+</thumbnails>
+</adata>
+</about>

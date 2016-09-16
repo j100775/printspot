@@ -1,0 +1,119 @@
+<main><campaign><showdebugger>false</showdebugger><livepath>http://localhost/riaz/vpaidwrapper/</livepath><swffile>vholder/vpaidholder.swf</swffile><durationseconds>23</durationseconds><islinearad>true</islinearad><switchtononlinear>false</switchtononlinear><showcounter>true</showcounter><stopcounter>true</stopcounter><counteroffsetx>324</counteroffsetx><counteroffsety>346</counteroffsety><countercolor>0xffffff</countercolor><showskipad>false</showskipad><skipadoffsetx>0</skipadoffsetx><skipadoffsety>0</skipadoffsety><skipadvalue>0</skipadvalue><skipadcolor>0xffffff</skipadcolor><campid>#campid#</campid><campgroup>Standard</campgroup></campaign><ad type="videoplayer"><vidplayer><showontop>true</showontop><vidpath>http://localhost/riaz/vpaidwrapper/video/nike.mp4</vidpath><isresize>false</isresize><resizeduration>0</resizeduration><resizeheight>100</resizeheight><resizewidth>100</resizewidth><resizeoffsetx>50</resizeoffsetx><resizeoffsety>50</resizeoffsety><btnbaroffsetx>45</btnbaroffsetx><btnbaroffsety>288</btnbaroffsety><showcontrols>true</showcontrols><enableclick>false</enableclick><clickurl>false</clickurl><volume>100</volume><enabletracking>true</enabletracking><trackingurl><data enable="true" type="default">http://www.pmi5media.com</data></trackingurl><seekbartracking><trackingurl timeval="1"><data enable="true" type="default">http://www.pmi5media.com</data></trackingurl></seekbartracking></vidplayer></ad>
+<ad type="clickthru">
+<clickthrus>
+<clickthru>
+<showafter>2</showafter>
+<hideafter>6</hideafter>
+<iconno>img/cart.png</iconno>
+<iconwidth>128</iconwidth>
+<iconheight>128</iconheight>
+<fromleft>75</fromleft>
+<fromtop>34</fromtop>
+<showtooltip>true</showtooltip>
+<tipwidth>164</tipwidth>
+<tipheight>52</tipheight>
+<tipoffsetx>50</tipoffsetx>
+<tipoffsety>50</tipoffsety>
+<tooltip>Hi this is ore first test for extender</tooltip>
+<tipbgcolor>0xfafff2</tipbgcolor>
+<tiplinecolor>0xffffa6</tiplinecolor>
+<tiptextcolor>0x421cff</tiptextcolor>
+<enableclick>false</enableclick>
+<type>click</type>
+<clickurl>http://www.facebook.com/mariness</clickurl><enabletracking>true</enabletracking><trackingurl><data type="default" enable="true">http://www.pmi5media.com</data></trackingurl>
+</clickthru>
+</clickthrus>
+</ad></main>
+
+
+
+<!--
+<main><campaign><showdebugger>false</showdebugger><livepath>http://localhost/riaz/vpaidwrapper/embedswf/</livepath><swffile>vholder/vpaidholder.swf</swffile><durationseconds>120</durationseconds><islinearad>true</islinearad><switchtononlinear>false</switchtononlinear><showcounter>false</showcounter><stopcounter>true</stopcounter><counteroffsetx>0</counteroffsetx><counteroffsety>0</counteroffsety><countercolor>0xffffff</countercolor><showskipad>false</showskipad><skipadvalue>0</skipadvalue><skipadoffsetx>0</skipadoffsetx><skipadoffsety>0</skipadoffsety><skipadcolor>0xffffff</skipadcolor><campid>#campid#</campid><campgroup>Standard</campgroup>
+<scripttag>test from script tag</scripttag>
+</campaign>
+
+
+<ad type="imageslide">
+<imageslide>
+<imgpath>img/jsworld/bgmain1431341762.jpg</imgpath>
+<imgwidth>200</imgwidth>
+<imgheight>100</imgheight>
+<offsetx>100</offsetx>
+<offsety>200</offsety>
+<gloweffect>true</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>right</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</ad>
+
+
+<ad type="imageslide">
+<imageslide>
+<imgpath>img/jsworld/4main1431349445.jpg</imgpath>
+<imgwidth>200</imgwidth>
+<imgheight>100</imgheight>
+<offsetx>100</offsetx>
+<offsety>230</offsety>
+<gloweffect>true</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>bottom</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</ad>
+
+
+<ad type="imageslide">
+<imageslide>
+<imgpath>img/jsworld/7main1431349516.jpg</imgpath>
+<imgwidth>400</imgwidth>
+<imgheight>100</imgheight>
+<offsetx>100</offsetx>
+<offsety>120</offsety>
+<gloweffect>true1</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</ad>
+
+
+<ad type="minisiteapp"><minisiteapp><mscontent type="imageapp"><imageapp><opengallery>true</opengallery><openonover>true</openonover><expandafter>1000</expandafter><overlaytype>image</overlaytype><gloweffect>false</gloweffect><bgimg>http://assets.vidaptiv.com/non_linear_images/674/logo-(1)main1434524474.png</bgimg><overimg>http://assets.vidaptiv.com/non_linear_images/674/logo-(1)11434524474.png</overimg><imgwidth>224</imgwidth><imgheight>126</imgheight><offsetx>215</offsetx><offsety>214</offsety><applyanim>true</applyanim><delaytime>0</delaytime><effecttype>move</effecttype><slidefrom>bottom</slidefrom><showcrossbtn>false</showcrossbtn><aligncrossbtn>topleft</aligncrossbtn><enableclick>false</enableclick><clickurl>false</clickurl><enabletracking>true</enabletracking><trackingurl><data mode="show" type="default" enable="true">http://www.pmi5media.com</data></trackingurl></imageapp></mscontent><mscontent type="imageslide"><imageslide><imgpath>http://assets.vidaptiv.com/non_linear_images/635/bgmain1431341762.jpg</imgpath><imgwidth>640</imgwidth><imgheight>360</imgheight><offsetx>0</offsetx><offsety>0</offsety><gloweffect>false</gloweffect><applyanim>false</applyanim><delaytime>0</delaytime><effecttype>alpha</effecttype><slidefrom>left</slidefrom><enableclick>false</enableclick><clickurl>false</clickurl><enabletracking>true</enabletracking><trackingurl><data type="default" enable="true">http://www.pmi5media.com</data></trackingurl></imageslide></mscontent><mscontent type="admenu"><admenu><offsetx>0</offsetx><offsety>0</offsety><applyanim>false</applyanim><delaytime>0</delaytime><effecttype>alpha</effecttype><showontop>true</showontop><showfirstwidget>false</showfirstwidget><slidefrom>left</slidefrom><mitem type="itemapp"><itemapp><bgimg>http://assets.vidaptiv.com/non_linear_images/635/1_photo_hovermain1431521097.png</bgimg><overimg>http://assets.vidaptiv.com/non_linear_images/635/1_photo11431521097.png</overimg><imgwidth>112</imgwidth><imgheight>36</imgheight><offsetx>506</offsetx><offsety>70</offsety><type>widget</type><widgetname>about_1</widgetname><enableclick>false</enableclick><clickurl>false</clickurl><enabletracking>true</enabletracking><trackingurl><data type="default" enable="true">http://www.pmi5media.com</data></trackingurl></itemapp></mitem></admenu></mscontent><mscontent type="about"><about><enabletracking>true</enabletracking><trackingurl><data mode="show" type="default" enable="true" usefor="vid">AboutShow,Creative</data></trackingurl><adata type="imageslide"><imageslide><imgpath>http://assets.vidaptiv.com/non_linear_images/635/1main1431519563.png</imgpath><imgwidth>640</imgwidth><imgheight>360</imgheight><offsetx>0</offsetx><offsety>0</offsety><gloweffect>false</gloweffect><applyanim>false</applyanim><delaytime>0</delaytime><effecttype>alpha</effecttype><slidefrom>left</slidefrom><enableclick>false</enableclick><clickurl>false</clickurl><enabletracking>true</enabletracking><trackingurl><data enable="true" type="default">http://www.pmi5media.com</data></trackingurl></imageslide></adata><adata type="backbtn"><backbtn><imgpath>http://assets.vidaptiv.com/non_linear_images/635/closedmain1431342351.png</imgpath><imgwidth>24</imgwidth><imgheight>24</imgheight><offsetx>462</offsetx><offsety>0</offsety><enabletracking>true</enabletracking><trackingurl><data enable="true" type="default">http://www.pmi5media.com</data></trackingurl></backbtn></adata>
+
+<adata type="gallery">
+<gallery>
+<navbtneffect>move</navbtneffect>
+<navbtnleftimg>default</navbtnleftimg>
+<navbtnrightimg>default</navbtnrightimg>
+<galwidth>400</galwidth><galheight>225</galheight><galoffsetx>40</galoffsetx><galoffsety>47</galoffsety><type>image</type><enabletracking>true</enabletracking><trackingurl>
+<data mode="show" enable="true" type="default" usefor="vid">GalleryShow,Creative</data></trackingurl>
+<slides><slide>
+<photo type="imageslide"><imageslide><imgpath>http://assets.vidaptiv.com/non_linear_images/635/1main1431349313.jpg</imgpath><imgwidth>640</imgwidth><imgheight>360</imgheight><offsetx>0</offsetx><offsety>0</offsety><gloweffect>false</gloweffect><applyanim>false</applyanim><effecttype>alpha</effecttype><delaytime>0</delaytime><slidefrom>left</slidefrom><enableclick>false</enableclick><clickurl>false</clickurl><enabletracking>true</enabletracking><trackingurl><data enable="true" type="default">http://www.pmi5media.com</data></trackingurl></imageslide></photo></slide></slides><slides><slide><photo type="imageslide"><imageslide><imgpath>http://assets.vidaptiv.com/non_linear_images/635/2main1431349362.jpg</imgpath><imgwidth>640</imgwidth><imgheight>360</imgheight><offsetx>0</offsetx><offsety>0</offsety><gloweffect>false</gloweffect><applyanim>false</applyanim><effecttype>alpha</effecttype><delaytime>0</delaytime><slidefrom>left</slidefrom><enableclick>false</enableclick><clickurl>false</clickurl><enabletracking>true</enabletracking><trackingurl><data enable="true" type="default">http://www.pmi5media.com</data></trackingurl></imageslide></photo></slide></slides></gallery></adata></about></mscontent><mscontent type="closebtn"><closebtn><offsetx>610</offsetx><offsety>0</offsety><removead>false</removead></closebtn></mscontent></minisiteapp></ad>
+
+
+<ad type="videoplayer">
+<vidplayer><showontop>false</showontop><vidpath>http://localhost/riaz/vpaidwrapper/video/nike.mp4</vidpath><isresize>true1</isresize><resizeduration>4</resizeduration><resizeheight>200</resizeheight><resizewidth>400</resizewidth><resizeoffsetx>50</resizeoffsetx><resizeoffsety>50</resizeoffsety><btnbaroffsetx>45</btnbaroffsetx><btnbaroffsety>288</btnbaroffsety><showcontrols>true</showcontrols><enableclick>false</enableclick><clickurl>false</clickurl><volume>100</volume><enabletracking>true</enabletracking><trackingurl><data enable="true" type="default">http://www.pmi5media.com</data></trackingurl><seekbartracking><trackingurl timeval="1"><data enable="true" type="default">http://www.pmi5media.com</data></trackingurl></seekbartracking></vidplayer>
+</ad>
+</main>
+-->

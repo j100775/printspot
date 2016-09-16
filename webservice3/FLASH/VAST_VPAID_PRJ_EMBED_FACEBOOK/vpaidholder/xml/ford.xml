@@ -1,0 +1,837 @@
+<main>
+    <campaign>
+        <showdebugger>false</showdebugger>
+        <livepath>http://dev.pmi5media.com/</livepath>
+        <swffile>swf/vpaidholder.swf</swffile>
+        <durationseconds>21</durationseconds>
+        <islinearad>false</islinearad>
+        <switchtononlinear>false</switchtononlinear>
+        <showcounter>false</showcounter>
+        <stopcounter>false</stopcounter>
+        <counteroffsetx>37</counteroffsetx>
+        <counteroffsety>346</counteroffsety>
+        <countercolor>0xffffff</countercolor>
+        <showskipad>false</showskipad>
+        <skipadoffsetx>0</skipadoffsetx>
+        <skipadoffsety>0</skipadoffsety>
+        <skipadvalue>0</skipadvalue>
+        <skipadcolor>0xffffff</skipadcolor>
+        <campid>#campid#</campid>
+        <campgroup>Standard</campgroup>
+    </campaign>
+    <ad type="minisiteapp">
+        <minisiteapp>
+            <mscontent type="imageapp">
+                <imageapp>
+                    <opengallery>true</opengallery>
+                    <openonover>false</openonover>
+                    <expandafter>1000</expandafter>
+                    <overlaytype>image</overlaytype>
+                    <gloweffect>false</gloweffect>
+                    <bgimg>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/NEW_1main1424350014.png</bgimg>
+                    <overimg>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/NEW_hover11424350014.png</overimg>
+                    <imgwidth>223</imgwidth>
+                    <imgheight>103</imgheight>
+                    <offsetx>10</offsetx>
+                    <offsety>10</offsety>
+                    <applyanim>true</applyanim>
+                    <delaytime>2</delaytime>
+                    <effecttype>move</effecttype>
+                    <slidefrom>left</slidefrom>
+                    <showcrossbtn>false</showcrossbtn>
+                    <aligncrossbtn>topleft</aligncrossbtn>
+                    <enableclick>false</enableclick>
+                    <clickurl>false</clickurl>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data mode="show" type="default" enable="true">http://www.pmi5media.com</data>
+                    </trackingurl>
+                </imageapp>
+            </mscontent>
+            <mscontent type="imageslide">
+                <imageslide>
+                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/368/bg_1main1424258640.png</imgpath>
+                    <imgwidth>223</imgwidth>
+                    <imgheight>310</imgheight>
+                    <offsetx>10</offsetx>
+                    <offsety>10</offsety>
+                    <gloweffect>false</gloweffect>
+                    <applyanim>false</applyanim>
+                    <delaytime />
+                    <effecttype>alpha</effecttype>
+                    <slidefrom>left</slidefrom>
+                    <enableclick>false</enableclick>
+                    <clickurl>false</clickurl>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data type="default" enable="true">http://www.pmi5media.com</data>
+                    </trackingurl>
+                </imageslide>
+            </mscontent>
+            <mscontent type="admenu">
+                <admenu>
+                    <offsetx>31</offsetx>
+                    <offsety>0</offsety>
+                    <applyanim>false</applyanim>
+                    <delaytime>0</delaytime>
+                    <effecttype>alpha</effecttype>
+                    <showontop>true</showontop>
+                    <showfirstwidget>false</showfirstwidget>
+                    <slidefrom>left</slidefrom>
+                    <mitem type="itemapp">
+                        <itemapp>
+                            <bgimg>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/368/gallery_hovermain1424259165.png</bgimg>
+                            <overimg>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/368/gallery11424259165.png</overimg>
+                            <imgwidth>202</imgwidth>
+                            <imgheight>38</imgheight>
+                            <offsetx>0</offsetx>
+                            <offsety>112</offsety>
+                            <type>widget</type>
+                            <widgetname>gallery_1</widgetname>
+                            <enableclick>false</enableclick>
+                            <clickurl>false</clickurl>
+                            <enabletracking>true</enabletracking>
+                            <trackingurl>
+                                <data type="default" enable="true">http://www.pmi5media.com</data>
+                            </trackingurl>
+                        </itemapp>
+                    </mitem>
+                    <mitem type="itemapp">
+                        <itemapp>
+                            <bgimg>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/360_view_hovermain1424268498.png</bgimg>
+                            <overimg>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/360_view11424268498.png</overimg>
+                            <imgwidth>202</imgwidth>
+                            <imgheight>39</imgheight>
+                            <offsetx>0</offsetx>
+                            <offsety>149</offsety>
+                            <type>widget</type>
+                            <widgetname>view360_1</widgetname>
+                            <enableclick>false</enableclick>
+                            <clickurl>false</clickurl>
+                            <enabletracking>true</enabletracking>
+                            <trackingurl>
+                                <data type="default" enable="true">http://www.pmi5media.com</data>
+                            </trackingurl>
+                        </itemapp>
+                    </mitem>
+                    <mitem type="itemapp">
+                        <itemapp>
+                            <bgimg>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/368/color_hovermain1424259251.png</bgimg>
+                            <overimg>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/368/color11424259251.png</overimg>
+                            <imgwidth>202</imgwidth>
+                            <imgheight>38</imgheight>
+                            <offsetx>0</offsetx>
+                            <offsety>187</offsety>
+                            <type>widget</type>
+                            <widgetname>thumbnails_1</widgetname>
+                            <enableclick>false</enableclick>
+                            <clickurl>false</clickurl>
+                            <enabletracking>true</enabletracking>
+                            <trackingurl>
+                                <data type="default" enable="true">http://www.pmi5media.com</data>
+                            </trackingurl>
+                        </itemapp>
+                    </mitem>
+                    <mitem type="itemapp">
+                        <itemapp>
+                            <bgimg>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/facebookmain1424267457.png</bgimg>
+                            <overimg>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/facebook11424267457.png</overimg>
+                            <imgwidth>30</imgwidth>
+                            <imgheight>30</imgheight>
+                            <offsetx>85</offsetx>
+                            <offsety>283</offsety>
+                            <type>click</type>
+                            <widgetname>false</widgetname>
+                            <enableclick>true</enableclick>
+                            <clickurl>https://www.facebook.com/fordfiesta</clickurl>
+                            <enabletracking>true</enabletracking>
+                            <trackingurl>
+                                <data type="default" enable="true">http://www.pmi5media.com</data>
+                            </trackingurl>
+                        </itemapp>
+                    </mitem>
+                    <mitem type="itemapp">
+                        <itemapp>
+                            <bgimg>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/twittermain1424267475.png</bgimg>
+                            <overimg>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/twitter11424267475.png</overimg>
+                            <imgwidth>30</imgwidth>
+                            <imgheight>30</imgheight>
+                            <offsetx>125</offsetx>
+                            <offsety>283</offsety>
+                            <type>click</type>
+                            <widgetname>false</widgetname>
+                            <enableclick>true</enableclick>
+                            <clickurl>https://twitter.com/fordfiesta</clickurl>
+                            <enabletracking>true</enabletracking>
+                            <trackingurl>
+                                <data type="default" enable="true">http://www.pmi5media.com</data>
+                            </trackingurl>
+                        </itemapp>
+                    </mitem>
+                    <mitem type="itemapp">
+                        <itemapp>
+                            <bgimg>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/youtubemain1424268247.png</bgimg>
+                            <overimg>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/youtube11424268247.png</overimg>
+                            <imgwidth>30</imgwidth>
+                            <imgheight>30</imgheight>
+                            <offsetx>165</offsetx>
+                            <offsety>283</offsety>
+                            <type>click</type>
+                            <widgetname>false</widgetname>
+                            <enableclick>true</enableclick>
+                            <clickurl>https://www.youtube.com/user/FordFiesta</clickurl>
+                            <enabletracking>true</enabletracking>
+                            <trackingurl>
+                                <data type="default" enable="true">http://www.pmi5media.com</data>
+                            </trackingurl>
+                        </itemapp>
+                    </mitem>
+                    <mitem type="itemapp">
+                        <itemapp>
+                            <bgimg>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/368/learnmore_logo_1main1424260296.png</bgimg>
+                            <overimg>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/368/learnmore_logo_111424260296.png</overimg>
+                            <imgwidth>60</imgwidth>
+                            <imgheight>35</imgheight>
+                            <offsetx>18</offsetx>
+                            <offsety>235</offsety>
+                            <type>click</type>
+                            <widgetname>false</widgetname>
+                            <enableclick>true</enableclick>
+                            <clickurl>http://www.ford.com/cars/fiesta/</clickurl>
+                            <enabletracking>true</enabletracking>
+                            <trackingurl>
+                                <data type="default" enable="true">http://www.pmi5media.com</data>
+                            </trackingurl>
+                        </itemapp>
+                    </mitem>
+                    <mitem type="itemapp">
+                        <itemapp>
+                            <bgimg>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/368/Untitled-1main1424262250.jpg</bgimg>
+                            <overimg>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/368/Untitled-111424262250.jpg</overimg>
+                            <imgwidth>88</imgwidth>
+                            <imgheight>28</imgheight>
+                            <offsetx>100</offsetx>
+                            <offsety>238</offsety>
+                            <type>click</type>
+                            <widgetname>false</widgetname>
+                            <enableclick>true</enableclick>
+                            <clickurl>http://www.ford.com/cars/fiesta/features/</clickurl>
+                            <enabletracking>true</enabletracking>
+                            <trackingurl>
+                                <data type="default" enable="true">http://www.pmi5media.com</data>
+                            </trackingurl>
+                        </itemapp>
+                    </mitem>
+                </admenu>
+            </mscontent>
+            <mscontent type="gallery">
+                <gallery>
+                    <navbtneffect>move</navbtneffect>
+                    <navbtnleftimg>default</navbtnleftimg>
+                    <navbtnrightimg>default</navbtnrightimg>
+                    <galwidth>380</galwidth>
+                    <galheight>214</galheight>
+                    <galoffsetx>245</galoffsetx>
+                    <galoffsety>60</galoffsety>
+                    <type>image</type>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data mode="show" type="default" enable="true" usefor="vid">GalleryShow,Creative</data>
+                    </trackingurl>
+                    <slides>
+                        <slide>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/368/1main1424164785.jpg</imgpath>
+                                    <imgwidth>640</imgwidth>
+                                    <imgheight>362</imgheight>
+                                    <offsetx>0</offsetx>
+                                    <offsety>0</offsety>
+                                    <gloweffect>false</gloweffect>
+                                    <applyanim>false</applyanim>
+                                    <effecttype>alpha</effecttype>
+                                    <delaytime>0</delaytime>
+                                    <slidefrom>left</slidefrom>
+                                    <enableclick>false</enableclick>
+                                    <clickurl>false</clickurl>
+                                    <enabletracking>true</enabletracking>
+                                    <trackingurl>
+                                        <data type="default" enable="true">http://www.pmi5media.com</data>
+                                    </trackingurl>
+                                </imageslide>
+                            </photo>
+                        </slide>
+                    </slides>
+                    <slides>
+                        <slide>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/368/2main1424164800.jpg</imgpath>
+                                    <imgwidth>640</imgwidth>
+                                    <imgheight>362</imgheight>
+                                    <offsetx>0</offsetx>
+                                    <offsety>0</offsety>
+                                    <gloweffect>false</gloweffect>
+                                    <applyanim>false</applyanim>
+                                    <effecttype>alpha</effecttype>
+                                    <delaytime>0</delaytime>
+                                    <slidefrom>left</slidefrom>
+                                    <enableclick>false</enableclick>
+                                    <clickurl>false</clickurl>
+                                    <enabletracking>true</enabletracking>
+                                    <trackingurl>
+                                        <data type="default" enable="true">http://www.pmi5media.com</data>
+                                    </trackingurl>
+                                </imageslide>
+                            </photo>
+                        </slide>
+                    </slides>
+                    <slides>
+                        <slide>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/368/3main1424164873.jpg</imgpath>
+                                    <imgwidth>640</imgwidth>
+                                    <imgheight>360</imgheight>
+                                    <offsetx>0</offsetx>
+                                    <offsety>0</offsety>
+                                    <gloweffect>false</gloweffect>
+                                    <applyanim>false</applyanim>
+                                    <effecttype>alpha</effecttype>
+                                    <delaytime>0</delaytime>
+                                    <slidefrom>left</slidefrom>
+                                    <enableclick>false</enableclick>
+                                    <clickurl>false</clickurl>
+                                    <enabletracking>true</enabletracking>
+                                    <trackingurl>
+                                        <data enable="true" type="default">http://www.pmi5media.com</data>
+                                    </trackingurl>
+                                </imageslide>
+                            </photo>
+                        </slide>
+                    </slides>
+                    <slides>
+                        <slide>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/368/4main1424164961.jpg</imgpath>
+                                    <imgwidth>640</imgwidth>
+                                    <imgheight>360</imgheight>
+                                    <offsetx>0</offsetx>
+                                    <offsety>0</offsety>
+                                    <gloweffect>false</gloweffect>
+                                    <applyanim>false</applyanim>
+                                    <effecttype>alpha</effecttype>
+                                    <delaytime>0</delaytime>
+                                    <slidefrom>left</slidefrom>
+                                    <enableclick>false</enableclick>
+                                    <clickurl>false</clickurl>
+                                    <enabletracking>true</enabletracking>
+                                    <trackingurl>
+                                        <data enable="true" type="default">http://www.pmi5media.com</data>
+                                    </trackingurl>
+                                </imageslide>
+                            </photo>
+                        </slide>
+                    </slides>
+                    <slides>
+                        <slide>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/368/5main1424165046.jpg</imgpath>
+                                    <imgwidth>640</imgwidth>
+                                    <imgheight>360</imgheight>
+                                    <offsetx>0</offsetx>
+                                    <offsety>0</offsety>
+                                    <gloweffect>false</gloweffect>
+                                    <applyanim>false</applyanim>
+                                    <effecttype>alpha</effecttype>
+                                    <delaytime>0</delaytime>
+                                    <slidefrom>left</slidefrom>
+                                    <enableclick>false</enableclick>
+                                    <clickurl>false</clickurl>
+                                    <enabletracking>true</enabletracking>
+                                    <trackingurl>
+                                        <data enable="true" type="default">http://www.pmi5media.com</data>
+                                    </trackingurl>
+                                </imageslide>
+                            </photo>
+                        </slide>
+                    </slides>
+                    <slides>
+                        <slide>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/368/6main1424165116.jpg</imgpath>
+                                    <imgwidth>640</imgwidth>
+                                    <imgheight>360</imgheight>
+                                    <offsetx>0</offsetx>
+                                    <offsety>0</offsety>
+                                    <gloweffect>false</gloweffect>
+                                    <applyanim>false</applyanim>
+                                    <effecttype>alpha</effecttype>
+                                    <delaytime>0</delaytime>
+                                    <slidefrom>left</slidefrom>
+                                    <enableclick>false</enableclick>
+                                    <clickurl>false</clickurl>
+                                    <enabletracking>true</enabletracking>
+                                    <trackingurl>
+                                        <data enable="true" type="default">http://www.pmi5media.com</data>
+                                    </trackingurl>
+                                </imageslide>
+                            </photo>
+                        </slide>
+                    </slides>
+                    <slides>
+                        <slide>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/368/7main1424165186.jpg</imgpath>
+                                    <imgwidth>640</imgwidth>
+                                    <imgheight>360</imgheight>
+                                    <offsetx>0</offsetx>
+                                    <offsety>0</offsety>
+                                    <gloweffect>false</gloweffect>
+                                    <applyanim>false</applyanim>
+                                    <effecttype>alpha</effecttype>
+                                    <delaytime>0</delaytime>
+                                    <slidefrom>left</slidefrom>
+                                    <enableclick>false</enableclick>
+                                    <clickurl>false</clickurl>
+                                    <enabletracking>true</enabletracking>
+                                    <trackingurl>
+                                        <data enable="true" type="default">http://www.pmi5media.com</data>
+                                    </trackingurl>
+                                </imageslide>
+                            </photo>
+                        </slide>
+                    </slides>
+                    <slides>
+                        <slide>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/368/8main1424165262.jpg</imgpath>
+                                    <imgwidth>640</imgwidth>
+                                    <imgheight>360</imgheight>
+                                    <offsetx>0</offsetx>
+                                    <offsety>0</offsety>
+                                    <gloweffect>false</gloweffect>
+                                    <applyanim>false</applyanim>
+                                    <effecttype>alpha</effecttype>
+                                    <delaytime>0</delaytime>
+                                    <slidefrom>left</slidefrom>
+                                    <enableclick>false</enableclick>
+                                    <clickurl>false</clickurl>
+                                    <enabletracking>true</enabletracking>
+                                    <trackingurl>
+                                        <data enable="true" type="default">http://www.pmi5media.com</data>
+                                    </trackingurl>
+                                </imageslide>
+                            </photo>
+                        </slide>
+                    </slides>
+                    <slides>
+                        <slide>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/368/9main1424165323.jpg</imgpath>
+                                    <imgwidth>640</imgwidth>
+                                    <imgheight>360</imgheight>
+                                    <offsetx>0</offsetx>
+                                    <offsety>0</offsety>
+                                    <gloweffect>false</gloweffect>
+                                    <applyanim>false</applyanim>
+                                    <effecttype>alpha</effecttype>
+                                    <delaytime>0</delaytime>
+                                    <slidefrom>left</slidefrom>
+                                    <enableclick>false</enableclick>
+                                    <clickurl>false</clickurl>
+                                    <enabletracking>true</enabletracking>
+                                    <trackingurl>
+                                        <data enable="true" type="default">http://www.pmi5media.com</data>
+                                    </trackingurl>
+                                </imageslide>
+                            </photo>
+                        </slide>
+                    </slides>
+                </gallery>
+            </mscontent>
+            <mscontent type="view360">
+                <view360>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data mode="show" enable="true" type="default" usefor="vid">360Show,Creative</data>
+                    </trackingurl>
+                    <viewdata type="imageslide">
+                        <imageslide>
+                            <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/368/bgmain1424171066.jpg</imgpath>
+                            <imgwidth>382</imgwidth>
+                            <imgheight>218</imgheight>
+                            <offsetx>245</offsetx>
+                            <offsety>60</offsety>
+                            <gloweffect>false</gloweffect>
+                            <applyanim>false</applyanim>
+                            <effecttype>alpha</effecttype>
+                            <slidefrom>left</slidefrom>
+                            <delaytime>0</delaytime>
+                            <enableclick>false</enableclick>
+                            <clickurl>false</clickurl>
+                            <enabletracking>true</enabletracking>
+                            <trackingurl>
+                                <data type="default" enable="true">http://www.pmi5media.com</data>
+                            </trackingurl>
+                        </imageslide>
+                    </viewdata>
+                    <viewdata type="viewgallery">
+                        <viewgallery>
+                            <viewwidth>285</viewwidth>
+                            <viewheight>142</viewheight>
+                            <viewoffsetx>295</viewoffsetx>
+                            <viewoffsety>95</viewoffsety>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/1main1424415811.jpg</imgpath>
+                                </imageslide>
+                            </photo>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/2main1424415916.jpg</imgpath>
+                                </imageslide>
+                            </photo>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/3main1424415933.jpg</imgpath>
+                                </imageslide>
+                            </photo>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/4main1424415946.jpg</imgpath>
+                                </imageslide>
+                            </photo>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/5main1424415962.jpg</imgpath>
+                                </imageslide>
+                            </photo>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/6main1424415974.jpg</imgpath>
+                                </imageslide>
+                            </photo>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/7main1424415988.jpg</imgpath>
+                                </imageslide>
+                            </photo>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/8main1424416101.jpg</imgpath>
+                                </imageslide>
+                            </photo>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/9main1424416115.jpg</imgpath>
+                                </imageslide>
+                            </photo>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/10main1424416133.jpg</imgpath>
+                                </imageslide>
+                            </photo>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/11main1424416144.jpg</imgpath>
+                                </imageslide>
+                            </photo>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/12main1424416164.jpg</imgpath>
+                                </imageslide>
+                            </photo>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/13main1424416177.jpg</imgpath>
+                                </imageslide>
+                            </photo>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/14main1424416188.jpg</imgpath>
+                                </imageslide>
+                            </photo>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/15main1424416201.jpg</imgpath>
+                                </imageslide>
+                            </photo>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/16main1424416214.jpg</imgpath>
+                                </imageslide>
+                            </photo>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/17main1424416229.jpg</imgpath>
+                                </imageslide>
+                            </photo>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/18main1424416241.jpg</imgpath>
+                                </imageslide>
+                            </photo>
+                            <photo type="imageslide">
+                                <imageslide>
+                                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/19main1424416252.jpg</imgpath>
+                                </imageslide>
+                            </photo>
+                        </viewgallery>
+                    </viewdata>
+                </view360>
+            </mscontent>
+            <mscontent type="thumbnails">
+                <thumbnails>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data mode="show" enable="true" type="default" usefor="vid">ThumbGalleryShow,Creative</data>
+                    </trackingurl>
+                    <thumbdata type="thumbgallery">
+                        <thumbgallery>
+                            <tgalwidth>382</tgalwidth>
+                            <tgalheight>216</tgalheight>
+                            <tgaloffsetx>245</tgaloffsetx>
+                            <tgaloffsety>60</tgaloffsety>
+                            <enabletracking>true</enabletracking>
+                            <thumbbar isvertical="false" effecttype="fade" width="450" height="50" offsetx="90.47120418848168" offsety="304.99999999999994" iconwidth="70" iconheight="36" galtype="image">
+                                <photo>
+                                    <small>
+                                        <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/Blue-Candy-1main1424347021.png</imgpath>
+                                        <enabletracking>true</enabletracking>
+                                        <trackingurl>
+                                            <data type="default" enable="true">http://www.pmi5media.com</data>
+                                        </trackingurl>
+                                    </small>
+                                    <big type="imageslide">
+                                        <imageslide>
+                                            <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/1main1424347036.png</imgpath>
+                                            <imgwidth>640</imgwidth>
+                                            <imgheight>360</imgheight>
+                                            <offsetx>0</offsetx>
+                                            <offsety>0</offsety>
+                                            <gloweffect>false</gloweffect>
+                                            <applyanim>false</applyanim>
+                                            <delaytime>0</delaytime>
+                                            <effecttype>alpha</effecttype>
+                                            <slidefrom>left</slidefrom>
+                                            <enableclick>false</enableclick>
+                                            <clickurl>false</clickurl>
+                                            <enabletracking>true</enabletracking>
+                                            <trackingurl>
+                                                <data type="default" enable="true">http://www.pmi5media.com</data>
+                                            </trackingurl>
+                                        </imageslide>
+                                    </big>
+                                </photo>
+                                <photo>
+                                    <small>
+                                        <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/Ruby-Red-2main1424347077.png</imgpath>
+                                        <enabletracking>true</enabletracking>
+                                        <trackingurl>
+                                            <data enable="true" type="default">http://www.pmi5media.com</data>
+                                        </trackingurl>
+                                    </small>
+                                    <big type="imageslide">
+                                        <imageslide>
+                                            <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/2main1424347134.png</imgpath>
+                                            <imgwidth>640</imgwidth>
+                                            <imgheight>360</imgheight>
+                                            <offsetx>0</offsetx>
+                                            <offsety>0</offsety>
+                                            <gloweffect>false</gloweffect>
+                                            <applyanim>false</applyanim>
+                                            <delaytime>0</delaytime>
+                                            <effecttype>alpha</effecttype>
+                                            <slidefrom>left</slidefrom>
+                                            <enableclick>false</enableclick>
+                                            <clickurl>false</clickurl>
+                                            <enabletracking>true</enabletracking>
+                                            <trackingurl>
+                                                <data enable="true" type="default">http://www.pmi5media.com</data>
+                                            </trackingurl>
+                                        </imageslide>
+                                    </big>
+                                </photo>
+                                <photo>
+                                    <small>
+                                        <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/Performance-Blue-3main1424347190.png</imgpath>
+                                        <enabletracking>true</enabletracking>
+                                        <trackingurl>
+                                            <data enable="true" type="default">http://www.pmi5media.com</data>
+                                        </trackingurl>
+                                    </small>
+                                    <big type="imageslide">
+                                        <imageslide>
+                                            <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/3main1424347275.png</imgpath>
+                                            <imgwidth>640</imgwidth>
+                                            <imgheight>360</imgheight>
+                                            <offsetx>0</offsetx>
+                                            <offsety>0</offsety>
+                                            <gloweffect>false</gloweffect>
+                                            <applyanim>false</applyanim>
+                                            <delaytime>0</delaytime>
+                                            <effecttype>alpha</effecttype>
+                                            <slidefrom>left</slidefrom>
+                                            <enableclick>false</enableclick>
+                                            <clickurl>false</clickurl>
+                                            <enabletracking>true</enabletracking>
+                                            <trackingurl>
+                                                <data enable="true" type="default">http://www.pmi5media.com</data>
+                                            </trackingurl>
+                                        </imageslide>
+                                    </big>
+                                </photo>
+                                <photo>
+                                    <small>
+                                        <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/Magnetic 4main1424347326.png</imgpath>
+                                        <enabletracking>true</enabletracking>
+                                        <trackingurl>
+                                            <data enable="true" type="default">http://www.pmi5media.com</data>
+                                        </trackingurl>
+                                    </small>
+                                    <big type="imageslide">
+                                        <imageslide>
+                                            <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/4main1424347367.png</imgpath>
+                                            <imgwidth>640</imgwidth>
+                                            <imgheight>360</imgheight>
+                                            <offsetx>0</offsetx>
+                                            <offsety>0</offsety>
+                                            <gloweffect>false</gloweffect>
+                                            <applyanim>false</applyanim>
+                                            <delaytime>0</delaytime>
+                                            <effecttype>alpha</effecttype>
+                                            <slidefrom>left</slidefrom>
+                                            <enableclick>false</enableclick>
+                                            <clickurl>false</clickurl>
+                                            <enabletracking>true</enabletracking>
+                                            <trackingurl>
+                                                <data enable="true" type="default">http://www.pmi5media.com</data>
+                                            </trackingurl>
+                                        </imageslide>
+                                    </big>
+                                </photo>
+                                <photo>
+                                    <small>
+                                        <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/Green-Envy-Tricoat-5main1424347415.png</imgpath>
+                                        <enabletracking>true</enabletracking>
+                                        <trackingurl>
+                                            <data enable="true" type="default">http://www.pmi5media.com</data>
+                                        </trackingurl>
+                                    </small>
+                                    <big type="imageslide">
+                                        <imageslide>
+                                            <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/5main1424347466.png</imgpath>
+                                            <imgwidth>640</imgwidth>
+                                            <imgheight>360</imgheight>
+                                            <offsetx>0</offsetx>
+                                            <offsety>0</offsety>
+                                            <gloweffect>false</gloweffect>
+                                            <applyanim>false</applyanim>
+                                            <delaytime>0</delaytime>
+                                            <effecttype>alpha</effecttype>
+                                            <slidefrom>left</slidefrom>
+                                            <enableclick>false</enableclick>
+                                            <clickurl>false</clickurl>
+                                            <enabletracking>true</enabletracking>
+                                            <trackingurl>
+                                                <data enable="true" type="default">http://www.pmi5media.com</data>
+                                            </trackingurl>
+                                        </imageslide>
+                                    </big>
+                                </photo>
+                                <photo>
+                                    <small>
+                                        <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/Ingot-Silver-6main1424347499.png</imgpath>
+                                        <enabletracking>true</enabletracking>
+                                        <trackingurl>
+                                            <data enable="true" type="default">http://www.pmi5media.com</data>
+                                        </trackingurl>
+                                    </small>
+                                    <big type="imageslide">
+                                        <imageslide>
+                                            <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/6main1424347552.png</imgpath>
+                                            <imgwidth>640</imgwidth>
+                                            <imgheight>360</imgheight>
+                                            <offsetx>0</offsetx>
+                                            <offsety>0</offsety>
+                                            <gloweffect>false</gloweffect>
+                                            <applyanim>false</applyanim>
+                                            <delaytime>0</delaytime>
+                                            <effecttype>alpha</effecttype>
+                                            <slidefrom>left</slidefrom>
+                                            <enableclick>false</enableclick>
+                                            <clickurl>false</clickurl>
+                                            <enabletracking>true</enabletracking>
+                                            <trackingurl>
+                                                <data enable="true" type="default">http://www.pmi5media.com</data>
+                                            </trackingurl>
+                                        </imageslide>
+                                    </big>
+                                </photo>
+                            </thumbbar>
+                            <trackingurl>
+                                <data type="default" enable="true">http://www.pmi5media.com</data>
+                            </trackingurl>
+                        </thumbgallery>
+                    </thumbdata>
+                </thumbnails>
+            </mscontent>
+            <mscontent type="imageslide">
+                <imageslide>
+                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/537/dealer_locator_2main1424424437.png</imgpath>
+                    <imgwidth>165</imgwidth>
+                    <imgheight>45</imgheight>
+                    <offsetx>458</offsetx>
+                    <offsety>285</offsety>
+                    <gloweffect>false</gloweffect>
+                    <applyanim>false</applyanim>
+                    <delaytime>0</delaytime>
+                    <effecttype>alpha</effecttype>
+                    <slidefrom>left</slidefrom>
+                    <enableclick>true</enableclick>
+                    <clickurl>http://www.ford.com/dealerships/locate/?gnav=header-finddealer</clickurl>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data type="default" enable="true">http://www.pmi5media.com</data>
+                    </trackingurl>
+                </imageslide>
+            </mscontent>
+            <mscontent type="closebtn">
+                <closebtn>
+                    <removead>false</removead>
+                    <imgpath>http://dev.pmi5media.com/repoadmin2/files/non_linear_images/368/closedmain1424089295.png</imgpath>
+                    <offsetx>209</offsetx>
+                    <offsety>31</offsety>
+                </closebtn>
+            </mscontent>
+        </minisiteapp>
+    </ad>
+    <ad type="videoplayer">
+        <vidplayer>
+            <showontop>false</showontop>
+            <vidpath>http://dev.pmi5media.com/repoadmin2/campaigns/media/b53b3a3d6ab90ce0268229151c9bde11.mp4</vidpath>
+            <btnbaroffsetx>50</btnbaroffsetx>
+            <btnbaroffsety>100</btnbaroffsety>
+            <showcontrols>false</showcontrols>
+            <volume>100</volume>
+            <enableclick>false</enableclick>
+            <clickurl>false</clickurl>
+            <enabletracking>true</enabletracking>
+            <trackingurl>
+                <data enable="true" type="default">http://www.pmi5media.com</data>
+            </trackingurl>
+            <seekbartracking>
+                <trackingurl timeval="1">
+                    <data enable="true" type="default">http://www.pmi5media.com</data>
+                </trackingurl>
+            </seekbartracking>
+        </vidplayer>
+    </ad>
+</main>

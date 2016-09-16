@@ -1,0 +1,1534 @@
+<main>
+<campaign>
+<showdebugger>false</showdebugger>
+<livepath>http://localhost/riaz/vpaidwrapper/embedswf/</livepath>
+<swffile>vpaidholder.swf</swffile>
+<durationseconds>130</durationseconds>
+<islinearad>true</islinearad>
+<switchtononlinear>false</switchtononlinear>
+<showcounter>false</showcounter>
+<stopcounter>true</stopcounter>
+<counteroffsetx>0</counteroffsetx>
+<counteroffsety>0</counteroffsety>
+<countercolor>0xffffff</countercolor>
+<showskipad>false</showskipad>
+<skipadoffsetx>0</skipadoffsetx>
+<skipadoffsety>0</skipadoffsety>
+<skipadvalue>0</skipadvalue>
+<skipadcolor>0xffffff</skipadcolor>
+<scripttag/>
+<campid>576</campid>
+<jsbasepath>http://console.vidaptiv.com/</jsbasepath>
+<campgroup>Standard</campgroup>
+</campaign>
+<ad type="minisiteapp">
+<minisiteapp>
+<mscontent type="imageapp">
+<imageapp>
+<opengallery>true</opengallery>
+<openonover>false</openonover>
+<expandafter>1000</expandafter>
+<overlaytype>image</overlaytype>
+<gloweffect>false</gloweffect>
+<bgimg>
+http://console.vidaptiv.com/files/non_linear_images/776/new_bannermain1439191517.png
+</bgimg>
+<overimg>
+http://console.vidaptiv.com/files/non_linear_images/776/new_banner11439191517.png
+</overimg>
+<imgwidth>176</imgwidth>
+<imgheight>99</imgheight>
+<offsetx>1</offsetx>
+<offsety>222</offsety>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<showcrossbtn>false</showcrossbtn>
+<aligncrossbtn>topleft</aligncrossbtn>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data mode="show" type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageapp>
+</mscontent>
+<mscontent type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/bgmain1438760946.png
+</imgpath>
+<imgwidth>640</imgwidth>
+<imgheight>360</imgheight>
+<offsetx>0</offsetx>
+<offsety>0</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>false</applyanim>
+<delaytime>0</delaytime>
+<effecttype>alpha</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</mscontent>
+<mscontent type="admenu">
+<admenu>
+<offsetx>0</offsetx>
+<offsety>0</offsety>
+<applyanim>false</applyanim>
+<delaytime>0</delaytime>
+<effecttype>alpha</effecttype>
+<showontop>true</showontop>
+<showfirstwidget>true</showfirstwidget>
+<slidefrom>left</slidefrom>
+<mitem type="itemapp">
+<itemapp>
+<bgimg>
+http://console.vidaptiv.com/files/non_linear_images/776/01main1438602909.jpg
+</bgimg>
+<overimg>
+http://console.vidaptiv.com/files/non_linear_images/776/111438602909.jpg
+</overimg>
+<imgwidth>76</imgwidth>
+<imgheight>37</imgheight>
+<offsetx>159</offsetx>
+<offsety>14</offsety>
+<type>widget</type>
+<widgetname>about_1</widgetname>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</itemapp>
+</mitem>
+<mitem type="itemapp">
+<itemapp>
+<bgimg>
+http://console.vidaptiv.com/files/non_linear_images/776/02main1438604624.jpg
+</bgimg>
+<overimg>
+http://console.vidaptiv.com/files/non_linear_images/776/211438604624.jpg
+</overimg>
+<imgwidth>62</imgwidth>
+<imgheight>37</imgheight>
+<offsetx>236</offsetx>
+<offsety>14</offsety>
+<type>widget</type>
+<widgetname>about_2</widgetname>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</itemapp>
+</mitem>
+<mitem type="itemapp">
+<itemapp>
+<bgimg>
+http://console.vidaptiv.com/files/non_linear_images/776/03main1438604835.jpg
+</bgimg>
+<overimg>
+http://console.vidaptiv.com/files/non_linear_images/776/311438604835.jpg
+</overimg>
+<imgwidth>69</imgwidth>
+<imgheight>37</imgheight>
+<offsetx>299</offsetx>
+<offsety>14</offsety>
+<type>widget</type>
+<widgetname>about_3</widgetname>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</itemapp>
+</mitem>
+<mitem type="itemapp">
+<itemapp>
+<bgimg>
+http://console.vidaptiv.com/files/non_linear_images/776/04main1438606062.jpg
+</bgimg>
+<overimg>
+http://console.vidaptiv.com/files/non_linear_images/776/411438606062.jpg
+</overimg>
+<imgwidth>59</imgwidth>
+<imgheight>37</imgheight>
+<offsetx>369</offsetx>
+<offsety>14</offsety>
+<type>widget</type>
+<widgetname>about_4</widgetname>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</itemapp>
+</mitem>
+<mitem type="itemapp">
+<itemapp>
+<bgimg>
+http://console.vidaptiv.com/files/non_linear_images/776/05main1438606160.jpg
+</bgimg>
+<overimg>
+http://console.vidaptiv.com/files/non_linear_images/776/511438606160.jpg
+</overimg>
+<imgwidth>132</imgwidth>
+<imgheight>37</imgheight>
+<offsetx>429</offsetx>
+<offsety>14</offsety>
+<type>widget</type>
+<widgetname>about_5</widgetname>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</itemapp>
+</mitem>
+<mitem type="itemapp">
+<itemapp>
+<bgimg>
+http://console.vidaptiv.com/files/non_linear_images/776/06main1438606268.jpg
+</bgimg>
+<overimg>
+http://console.vidaptiv.com/files/non_linear_images/776/611438606268.jpg
+</overimg>
+<imgwidth>48</imgwidth>
+<imgheight>37</imgheight>
+<offsetx>562</offsetx>
+<offsety>14</offsety>
+<type>widget</type>
+<widgetname>about_6</widgetname>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</itemapp>
+</mitem>
+<mitem type="itemapp">
+<itemapp>
+<bgimg>
+http://console.vidaptiv.com/files/non_linear_images/776/logomain1438606400.png
+</bgimg>
+<overimg>
+http://console.vidaptiv.com/files/non_linear_images/776/logo11438606400.png
+</overimg>
+<imgwidth>125</imgwidth>
+<imgheight>50</imgheight>
+<offsetx>16</offsetx>
+<offsety>1</offsety>
+<type>click</type>
+<widgetname>false</widgetname>
+<enableclick>true</enableclick>
+<clickurl>
+http://playadelcarmen.grand.hyatt.com/en/hotel/home.html
+</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</itemapp>
+</mitem>
+</admenu>
+</mscontent>
+<mscontent type="about">
+<about>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data mode="show" enable="true" type="default" usefor="vid">AboutShow,Creative</data>
+</trackingurl>
+<adata type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/our_hotalmain1438759759.png
+</imgpath>
+<imgwidth>640</imgwidth>
+<imgheight>360</imgheight>
+<offsetx>0</offsetx>
+<offsety>0</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>false</applyanim>
+<delaytime>0</delaytime>
+<effecttype>alpha</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</adata>
+<adata type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/outlinemain1438776392.png
+</imgpath>
+<imgwidth>71</imgwidth>
+<imgheight>35</imgheight>
+<offsetx>545</offsetx>
+<offsety>313</offsety>
+<gloweffect>true</gloweffect>
+<applyanim>true</applyanim>
+<delaytime/>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>true</enableclick>
+<clickurl>
+http://playadelcarmen.grand.hyatt.com/en/hotel/our-hotel.html
+</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</adata>
+</about>
+</mscontent>
+<mscontent type="about">
+<about>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data mode="show" type="default" enable="true" usefor="vid">AboutShow,Creative</data>
+</trackingurl>
+<adata type="thumbnails">
+<thumbnails>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data mode="show" type="default" enable="true" usefor="vid">ThumbGalleryShow,Creative</data>
+</trackingurl>
+<thumbdata type="thumbgallery">
+<thumbgallery>
+<tgalwidth>608</tgalwidth>
+<tgalheight>342</tgalheight>
+<tgaloffsetx>15</tgaloffsetx>
+<tgaloffsety>10</tgaloffsety>
+<enabletracking>true</enabletracking>
+<thumbbar isvertical="false" effecttype="fade" width="624" height="66" offsetx="8" offsety="268" iconwidth="104" iconheight="66" galtype="image">
+<photo>
+<small>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/1main1438609527.jpg
+</imgpath>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</small>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/1main1438760709.jpg
+</imgpath>
+<imgwidth>640</imgwidth>
+<imgheight>360</imgheight>
+<offsetx>0</offsetx>
+<offsety>0</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/outlinemain1438778340.png
+</imgpath>
+<imgwidth>58</imgwidth>
+<imgheight>22</imgheight>
+<offsetx>568</offsetx>
+<offsety>236</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>true</enableclick>
+<clickurl>
+http://playadelcarmen.grand.hyatt.com/en/hotel/rooms/standard.html
+</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+</photo>
+<photo>
+<small>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/2main1438761225.jpg
+</imgpath>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</small>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/2main1438779501.jpg
+</imgpath>
+<imgwidth>640</imgwidth>
+<imgheight>360</imgheight>
+<offsetx>0</offsetx>
+<offsety>0</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/outlinemain1438778471.png
+</imgpath>
+<imgwidth>58</imgwidth>
+<imgheight>22</imgheight>
+<offsetx>568</offsetx>
+<offsety>236</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>true</enableclick>
+<clickurl>
+http://playadelcarmen.grand.hyatt.com/en/hotel/rooms/accessible.html
+</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+</photo>
+<photo>
+<small>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/3main1438761899.jpg
+</imgpath>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</small>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/3main1438779543.jpg
+</imgpath>
+<imgwidth>640</imgwidth>
+<imgheight>360</imgheight>
+<offsetx>0</offsetx>
+<offsety>0</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/outlinemain1438778593.png
+</imgpath>
+<imgwidth>58</imgwidth>
+<imgheight>22</imgheight>
+<offsetx>568</offsetx>
+<offsety>236</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>true</enableclick>
+<clickurl>
+http://playadelcarmen.grand.hyatt.com/en/hotel/rooms/view.html
+</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+</photo>
+<photo>
+<small>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/4main1438761879.jpg
+</imgpath>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</small>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/4main1438779579.jpg
+</imgpath>
+<imgwidth>640</imgwidth>
+<imgheight>360</imgheight>
+<offsetx>0</offsetx>
+<offsety>0</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/outlinemain1438778690.png
+</imgpath>
+<imgwidth>58</imgwidth>
+<imgheight>22</imgheight>
+<offsetx>568</offsetx>
+<offsety>236</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>true</enableclick>
+<clickurl>
+http://playadelcarmen.grand.hyatt.com/en/hotel/rooms/swim-up.html
+</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+</photo>
+<photo>
+<small>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/5main1438762141.jpg
+</imgpath>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</small>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/5main1438779716.jpg
+</imgpath>
+<imgwidth>640</imgwidth>
+<imgheight>360</imgheight>
+<offsetx>0</offsetx>
+<offsety>0</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/outlinemain1438778796.png
+</imgpath>
+<imgwidth>58</imgwidth>
+<imgheight>22</imgheight>
+<offsetx>568</offsetx>
+<offsety>236</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>true</enableclick>
+<clickurl>
+http://playadelcarmen.grand.hyatt.com/en/hotel/rooms/grand-club.html
+</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+</photo>
+<photo>
+<small>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/6main1438762305.jpg
+</imgpath>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</small>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/6main1438779756.jpg
+</imgpath>
+<imgwidth>640</imgwidth>
+<imgheight>360</imgheight>
+<offsetx>0</offsetx>
+<offsety>0</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/outlinemain1438778978.png
+</imgpath>
+<imgwidth>58</imgwidth>
+<imgheight>22</imgheight>
+<offsetx>568</offsetx>
+<offsety>236</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>true</enableclick>
+<clickurl>
+http://playadelcarmen.grand.hyatt.com/en/hotel/rooms/suite.html
+</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+</photo>
+</thumbbar>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</thumbgallery>
+</thumbdata>
+</thumbnails>
+</adata>
+</about>
+</mscontent>
+<mscontent type="about">
+<about>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data mode="show" enable="true" type="default" usefor="vid">AboutShow,Creative</data>
+</trackingurl>
+<adata type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/3_Activitiesmain1438762645.jpg
+</imgpath>
+<imgwidth>608</imgwidth>
+<imgheight>342</imgheight>
+<offsetx>15</offsetx>
+<offsety>10</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>false</applyanim>
+<delaytime>0</delaytime>
+<effecttype>alpha</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</adata>
+<adata type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/outlinemain1438779862.png
+</imgpath>
+<imgwidth>65</imgwidth>
+<imgheight>30</imgheight>
+<offsetx>553</offsetx>
+<offsety>316</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>false</applyanim>
+<delaytime>0</delaytime>
+<effecttype>alpha</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>true</enableclick>
+<clickurl>
+http://playadelcarmen.grand.hyatt.com/en/hotel/activities.html
+</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</adata>
+</about>
+</mscontent>
+<mscontent type="about">
+<about>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data mode="show" enable="true" type="default" usefor="vid">AboutShow,Creative</data>
+</trackingurl>
+<adata type="thumbnails">
+<thumbnails>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data mode="show" enable="true" type="default" usefor="vid">ThumbGalleryShow,Creative</data>
+</trackingurl>
+<thumbdata type="thumbgallery">
+<thumbgallery>
+<tgalwidth>608</tgalwidth>
+<tgalheight>342</tgalheight>
+<tgaloffsetx>15</tgaloffsetx>
+<tgaloffsety>10</tgaloffsety>
+<enabletracking>true</enabletracking>
+<thumbbar isvertical="false" effecttype="fade" width="460" height="66" offsetx="35" offsety="268" iconwidth="104" iconheight="66" galtype="image">
+<photo>
+<small>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/1main1438763686.jpg
+</imgpath>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</small>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/1main1438764366.jpg
+</imgpath>
+<imgwidth>640</imgwidth>
+<imgheight>360</imgheight>
+<offsetx>0</offsetx>
+<offsety>0</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/outlinemain1438780949.png
+</imgpath>
+<imgwidth>134.4</imgwidth>
+<imgheight>36</imgheight>
+<offsetx>430</offsetx>
+<offsety>288</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>true</enableclick>
+<clickurl>
+http://playadelcarmen.grand.hyatt.com/en/hotel/dining/parrilla-playa.html
+</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+</photo>
+<photo>
+<small>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/2main1438763742.jpg
+</imgpath>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</small>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/2main1438764463.jpg
+</imgpath>
+<imgwidth>640</imgwidth>
+<imgheight>360</imgheight>
+<offsetx>0</offsetx>
+<offsety>0</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/outlinemain1438781085.png
+</imgpath>
+<imgwidth>134.4</imgwidth>
+<imgheight>36</imgheight>
+<offsetx>430</offsetx>
+<offsety>288</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>true</enableclick>
+<clickurl>
+http://playadelcarmen.grand.hyatt.com/en/hotel/dining/la-cocina.html
+</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+</photo>
+<photo>
+<small>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/3main1438763792.jpg
+</imgpath>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</small>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/3main1438764551.jpg
+</imgpath>
+<imgwidth>640</imgwidth>
+<imgheight>360</imgheight>
+<offsetx>0</offsetx>
+<offsety>0</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+<big type="imageslide">
+<imageslide>
+<imgpath/>
+<imgwidth>134.4</imgwidth>
+<imgheight>36</imgheight>
+<offsetx>430</offsetx>
+<offsety>288</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>true</enableclick>
+<clickurl>
+http://playadelcarmen.grand.hyatt.com/en/hotel/dining/el-paseo.html
+</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+</photo>
+</thumbbar>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</thumbgallery>
+</thumbdata>
+</thumbnails>
+</adata>
+</about>
+</mscontent>
+<mscontent type="about">
+<about>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data mode="show" enable="true" type="default" usefor="vid">AboutShow,Creative</data>
+</trackingurl>
+<adata type="thumbnails">
+<thumbnails>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data mode="show" enable="true" type="default" usefor="vid">ThumbGalleryShow,Creative</data>
+</trackingurl>
+<thumbdata type="thumbgallery">
+<thumbgallery>
+<tgalwidth>608</tgalwidth>
+<tgalheight>342</tgalheight>
+<tgaloffsetx>15</tgaloffsetx>
+<tgaloffsety>10</tgaloffsety>
+<enabletracking>true</enabletracking>
+<thumbbar isvertical="false" effecttype="fade" width="520" height="66" offsetx="8" offsety="268" iconwidth="104" iconheight="66" galtype="image">
+<photo>
+<small>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/1main1438765256.jpg
+</imgpath>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</small>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/1main1438781512.jpg
+</imgpath>
+<imgwidth>640</imgwidth>
+<imgheight>360</imgheight>
+<offsetx>0</offsetx>
+<offsety>0</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/outlinemain1438782388.png
+</imgpath>
+<imgwidth>55</imgwidth>
+<imgheight>26</imgheight>
+<offsetx>578</offsetx>
+<offsety>230</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>true</enableclick>
+<clickurl>
+http://playadelcarmen.grand.hyatt.com/en/hotel/meetings-and-events/meetings.html
+</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+</photo>
+<photo>
+<small>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/2main1438765334.jpg
+</imgpath>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</small>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/2main1438766999.jpg
+</imgpath>
+<imgwidth>640</imgwidth>
+<imgheight>360</imgheight>
+<offsetx>0</offsetx>
+<offsety>0</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/outlinemain1438852972.png
+</imgpath>
+<imgwidth>55</imgwidth>
+<imgheight>26</imgheight>
+<offsetx>574</offsetx>
+<offsety>200</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>true</enableclick>
+<clickurl>
+http://playadelcarmen.grand.hyatt.com/en/hotel/meetings-and-events/meetings.html
+</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+</photo>
+<photo>
+<small>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/3main1438765407.jpg
+</imgpath>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</small>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/3main1438767021.jpg
+</imgpath>
+<imgwidth>640</imgwidth>
+<imgheight>360</imgheight>
+<offsetx>0</offsetx>
+<offsety>0</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/outlinemain1438853334.png
+</imgpath>
+<imgwidth>55</imgwidth>
+<imgheight>26</imgheight>
+<offsetx>578</offsetx>
+<offsety>230</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>true</enableclick>
+<clickurl>
+http://playadelcarmen.grand.hyatt.com/en/hotel/meetings-and-events/events.html
+</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+</photo>
+<photo>
+<small>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/4main1438765476.jpg
+</imgpath>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</small>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/4main1438767041.jpg
+</imgpath>
+<imgwidth>640</imgwidth>
+<imgheight>360</imgheight>
+<offsetx>0</offsetx>
+<offsety>0</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/outlinemain1438853322.png
+</imgpath>
+<imgwidth>55</imgwidth>
+<imgheight>26</imgheight>
+<offsetx>578</offsetx>
+<offsety>230</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>true</enableclick>
+<clickurl>
+http://playadelcarmen.grand.hyatt.com/en/hotel/meetings-and-events/weddings.html
+</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+</photo>
+<photo>
+<small>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/5main1438765667.jpg
+</imgpath>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</small>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/5main1438767063.jpg
+</imgpath>
+<imgwidth>640</imgwidth>
+<imgheight>360</imgheight>
+<offsetx>0</offsetx>
+<offsety>0</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/outlinemain1438853307.png
+</imgpath>
+<imgwidth>55</imgwidth>
+<imgheight>26</imgheight>
+<offsetx>578</offsetx>
+<offsety>230</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>true</enableclick>
+<clickurl>
+http://playadelcarmen.grand.hyatt.com/en/hotel/meetings-and-events/catering.html
+</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+</photo>
+</thumbbar>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</thumbgallery>
+</thumbdata>
+</thumbnails>
+</adata>
+</about>
+</mscontent>
+<mscontent type="about">
+<about>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data mode="show" enable="true" type="default" usefor="vid">AboutShow,Creative</data>
+</trackingurl>
+<adata type="thumbnails">
+<thumbnails>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data mode="show" type="default" enable="true" usefor="vid">ThumbGalleryShow,Creative</data>
+</trackingurl>
+<thumbdata type="thumbgallery">
+<thumbgallery>
+<tgalwidth>608</tgalwidth>
+<tgalheight>342</tgalheight>
+<tgaloffsetx>15</tgaloffsetx>
+<tgaloffsety>10</tgaloffsety>
+<enabletracking>true</enabletracking>
+<thumbbar isvertical="false" effecttype="fade" width="624" height="66" offsetx="8" offsety="268" iconwidth="104" iconheight="66" galtype="image">
+<photo>
+<small>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/1main1438769810.jpg
+</imgpath>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</small>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/1main1438769899.jpg
+</imgpath>
+<imgwidth>640</imgwidth>
+<imgheight>360</imgheight>
+<offsetx>0</offsetx>
+<offsety>0</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+</photo>
+<photo>
+<small>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/2main1438769935.jpg
+</imgpath>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</small>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/2main1438769991.jpg
+</imgpath>
+<imgwidth>640</imgwidth>
+<imgheight>360</imgheight>
+<offsetx>0</offsetx>
+<offsety>0</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+</photo>
+<photo>
+<small>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/3main1438770244.jpg
+</imgpath>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</small>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/3main1438770414.jpg
+</imgpath>
+<imgwidth>640</imgwidth>
+<imgheight>360</imgheight>
+<offsetx>0</offsetx>
+<offsety>0</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+</photo>
+<photo>
+<small>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/4main1438770894.jpg
+</imgpath>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</small>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/4main1438770964.jpg
+</imgpath>
+<imgwidth>640</imgwidth>
+<imgheight>360</imgheight>
+<offsetx>0</offsetx>
+<offsety>0</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+</photo>
+<photo>
+<small>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/5main1438771024.jpg
+</imgpath>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</small>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/5main1438771074.jpg
+</imgpath>
+<imgwidth>640</imgwidth>
+<imgheight>360</imgheight>
+<offsetx>0</offsetx>
+<offsety>0</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+</photo>
+<photo>
+<small>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/6main1438771780.jpg
+</imgpath>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</small>
+<big type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/6main1438772018.jpg
+</imgpath>
+<imgwidth>640</imgwidth>
+<imgheight>360</imgheight>
+<offsetx>0</offsetx>
+<offsety>0</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</big>
+</photo>
+</thumbbar>
+<trackingurl>
+<data enable="true" type="default">http://www.pmi5media.com</data>
+</trackingurl>
+</thumbgallery>
+</thumbdata>
+</thumbnails>
+</adata>
+<adata type="imageslide">
+<imageslide>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/outlinemain1438853966.png
+</imgpath>
+<imgwidth>490</imgwidth>
+<imgheight>200</imgheight>
+<offsetx>72</offsetx>
+<offsety>59</offsety>
+<gloweffect>false</gloweffect>
+<applyanim>false</applyanim>
+<delaytime/>
+<effecttype>alpha</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>true</enableclick>
+<clickurl>
+http://playadelcarmen.grand.hyatt.com/en/hotel/activities/hotel-activities/spa.html
+</clickurl>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</imageslide>
+</adata>
+</about>
+</mscontent>
+<mscontent type="closebtn">
+<closebtn>
+<removead>false</removead>
+<imgpath>
+http://console.vidaptiv.com/files/non_linear_images/776/closedmain1438260698.png
+</imgpath>
+<offsetx>614</offsetx>
+<offsety>3</offsety>
+</closebtn>
+</mscontent>
+</minisiteapp>
+</ad>
+<ad type="videoplayer">
+<vidplayer>
+<showontop>false</showontop>
+<vidpath>
+http://console.vidaptiv.com/campaigns/media/a666587afda6e89aec274a3657558a27.mp4
+</vidpath>
+<isresize>false</isresize>
+<resizeduration>0</resizeduration>
+<resizeheight>100</resizeheight>
+<resizewidth>100</resizewidth>
+<resizeoffsetx>50</resizeoffsetx>
+<resizeoffsety>50</resizeoffsety>
+<btnbaroffsetx>45</btnbaroffsetx>
+<btnbaroffsety>288</btnbaroffsety>
+<showcontrols>true</showcontrols>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<volume>100</volume>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+<seekbartracking>
+<trackingurl timeval="1">
+<data type="default" enable="true">http://www.pmi5media.com</data>
+</trackingurl>
+</seekbartracking>
+</vidplayer>
+</ad>
+</main>

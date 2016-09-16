@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+<campaign>
+<showdebugger>false</showdebugger>
+<showcounter>true</showcounter>
+<counteroffsetx>50</counteroffsetx>
+<counteroffsety>100</counteroffsety>
+<livepath>http://localhost/riaz/vpaidwrapper/</livepath>
+<islinearad>false</islinearad>
+<swffile>vholder/vpaidholder.swf</swffile><durationseconds>30</durationseconds></campaign>
+
+
+
+
+<ad type="minisiteapp">
+<minisiteapp>
+	
+	
+	
+	
+<!-- find dealer begin -->
+		<mscontent type="finddealer">
+		<finddealer>
+		
+			<fddata type="dealerform">
+				<dealerform>
+					<mapurl>https://www.google.com/maps/search/</mapurl>
+					<keywords>spectracide+petscontrol</keywords>
+					<offsetx>410</offsetx>
+					<offsety>257</offsety>
+				</dealerform>
+			</fddata>
+			
+			<fddata type="imageslide">
+				<imageslide>
+				<imgpath>img/spectracide/bg.jpg</imgpath>
+				<imgwidth>640</imgwidth>
+				<imgheight>360</imgheight>
+				<offsetx>0</offsetx>
+				<offsety>0</offsety>
+				<gloweffect>false</gloweffect>
+				<applyanim>true</applyanim>
+				<delaytime>0</delaytime>
+				<effecttype>alpha</effecttype>
+				<slidefrom>bottom</slidefrom>
+				<enableclick>false</enableclick>
+				<enabletracking>false</enabletracking>
+				<clickurl>http://www.pmi5media.com</clickurl>
+				<trackingurl>http://www.pmi5media.com</trackingurl>
+				</imageslide>
+			</fddata>
+			
+			<fddata type="imageslide">
+				<imageslide>
+				<imgpath>img/spectracide/facebook.png</imgpath>
+				<imgwidth>363</imgwidth>
+				<imgheight>45</imgheight>
+				<offsetx>23</offsetx>
+				<offsety>290</offsety>
+				<gloweffect>true</gloweffect>
+				<applyanim>true</applyanim>
+				<delaytime>0</delaytime>
+				<effecttype>alpha</effecttype>
+				<slidefrom>bottom</slidefrom>
+				<enableclick>true</enableclick>
+				<enabletracking>false</enabletracking>
+				<clickurl>http://www.facebook.com/spectracide</clickurl>
+				<trackingurl>http://www.pmi5media.com</trackingurl>
+				</imageslide>
+			</fddata>
+			
+			<fddata type="imageslide">
+				<imageslide>
+				<imgpath>img/spectracide/product.png</imgpath>
+				<imgwidth>205</imgwidth>
+				<imgheight>143</imgheight>
+				<offsetx>428</offsetx>
+				<offsety>119</offsety>
+				<gloweffect>false</gloweffect>
+				<applyanim>true</applyanim>
+				<delaytime>0</delaytime>
+				<effecttype>alpha</effecttype>
+				<slidefrom>right</slidefrom>
+				<enableclick>true</enableclick>
+				<enabletracking>false</enabletracking>
+				<clickurl>http://www.facebook.com/spectracide</clickurl>
+				<trackingurl>http://www.pmi5media.com</trackingurl>
+				</imageslide>
+			</fddata>
+			
+			<fddata type="backbtn">
+				<backbtn>
+					<offsetx>100</offsetx>
+					<offsety>100</offsety>
+				</backbtn>
+			</fddata>
+			
+		</finddealer>
+		</mscontent>
+	<!-- find dealer end -->
+	
+	
+	<mscontent type="gallery">
+	<gallery>
+		<navbtneffect>move</navbtneffect>
+		<galwidth>400</galwidth>
+		<galheight>230</galheight>
+		<galoffsetx>6</galoffsetx>
+		<galoffsety>24</galoffsety>
+		
+		
+		<photo type="youtube">
+		<youtube>
+			<videourl>http://youtu.be/D-AlxvUWoso</videourl>
+			<showcontrols>true</showcontrols>
+			<autoplay>true</autoplay>
+			<volume>50</volume>
+		</youtube>
+		</photo>
+		
+		<photo type="videoplayer">
+		<vidplayer>
+		<vidpath>video/nike.mp4</vidpath>
+		<vidwidth>640</vidwidth>
+		<vidheight>360</vidheight>
+		<offsetx>0</offsetx>
+		<offsety>0</offsety>
+		<enableclick>false</enableclick>
+		<clickurl>false</clickurl>
+		<enabletracking>false</enabletracking>
+		<trackingurl>false</trackingurl>
+		<autoplay>true</autoplay>
+		<volume>10</volume>
+		<showcontrols>true</showcontrols>
+		</vidplayer>
+		</photo>
+		
+		<gallerybackbtn type="backbtn">
+				<backbtn>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+				</backbtn>
+		</gallerybackbtn>
+		
+		</gallery>
+	</mscontent>
+	
+	
+
+	
+	<mscontent type="closebtn">
+		<closebtn>
+		<offsetx>610</offsetx>
+		<offsety>2</offsety>
+		</closebtn>
+	</mscontent>
+	
+</minisiteapp>
+
+</ad>
+
+</main>

@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule    ^$ app/webroot/    [L]
+	RewriteRule    (.*) app/webroot/$1 [L]
+   php_value upload_max_filesize 64M
+   
+</IfModule>

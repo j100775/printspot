@@ -1,0 +1,56 @@
+private function addScrollingEvents():void
+		{
+			//objBarBgMC.addEventListener(MouseEvent.MOUSE_OVER,movingOver,false,0,true);
+			//objBarBgMC.addEventListener(MouseEvent.MOUSE_OUT,movingOut,false,0,true);
+			
+			//IconsBar.addEventListener(MouseEvent.MOUSE_OVER,movingOver,false,0,true);
+			//IconsBar.addEventListener(MouseEvent.MOUSE_OUT,movingOut,false,0,true);
+			
+			
+			//objPrv.addEventListener(MouseEvent.MOUSE_OVER,movingOver,false,0,true);
+			objPrv.addEventListener(MouseEvent.MOUSE_OUT,movingOut,false,0,true);
+			//objNext.addEventListener(MouseEvent.MOUSE_OVER,movingOver,false,0,true);
+			objNext.addEventListener(MouseEvent.MOUSE_OUT,movingOut,false,0,true);
+		}
+			
+		private function movingOver (evt:MouseEvent):void {
+			//IconsBar.removeEventListener(MouseEvent.MOUSE_OVER, movingOver); 
+			//IconsBar.addEventListener(Event.ENTER_FRAME, enterIconbarFrame,false,0,true);
+			movingBarOnOver();
+			
+			//objPrv.removeEventListener(MouseEvent.MOUSE_OVER, movingOver); 
+			//objPrv.addEventListener(Event.ENTER_FRAME, enterIconbarFrame,false,0,true);
+			//objNext.removeEventListener(MouseEvent.MOUSE_OVER, movingOver); 
+			//objNext.addEventListener(Event.ENTER_FRAME, enterIconbarFrame,false,0,true);
+		}
+		
+		private function movingBarOnOver():void
+		{
+			//objBarBgMC.removeEventListener(MouseEvent.MOUSE_OVER, movingOver); 
+			IconsBar.addEventListener(Event.ENTER_FRAME, enterIconbarFrame,false,0,true);
+		}
+ 
+		private function movingOut (evt:MouseEvent):void {
+			//IconsBar.addEventListener(MouseEvent.MOUSE_OVER, movingOver); 
+			//IconsBar.removeEventListener(Event.ENTER_FRAME, enterIconbarFrame);
+			
+			movingBarOut();
+			//objPrv.addEventListener(MouseEvent.MOUSE_OVER, movingOver); 
+//			objPrv.removeEventListener(Event.ENTER_FRAME, enterIconbarFrame);
+//			objNext.addEventListener(MouseEvent.MOUSE_OVER, movingOver); 
+//			objNext.removeEventListener(Event.ENTER_FRAME, enterIconbarFrame);
+		}
+		
+		private function movingBarOut():void
+		{
+			//objBarBg.addEventListener(MouseEvent.MOUSE_OVER, movingOver,false,0,true); 
+			//objBarBg.removeEventListener(Event.ENTER_FRAME, enterIconbarFrame);
+			
+			IconsBar.addEventListener(MouseEvent.MOUSE_OVER, movingOver,false,0,true); 
+			IconsBar.removeEventListener(Event.ENTER_FRAME, enterIconbarFrame);
+			
+			//objPrv.removeEventListener(MouseEvent.MOUSE_OUT,movingOut);
+			//objNext.removeEventListener(MouseEvent.MOUSE_OUT,movingOut);
+			
+		}
+		

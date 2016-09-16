@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<main>
+<campaign>
+<showdebugger>true1</showdebugger>
+<livepath>http://localhost/riaz/vpaidwrapper/</livepath>
+<swffile>vholder/vpaidholder.swf</swffile>
+<durationseconds>5</durationseconds>
+<islinearad>true</islinearad>
+<switchtononlinear>true1</switchtononlinear>
+<showcounter>true</showcounter>
+<stopcounter>true1</stopcounter>
+<counteroffsetx>400</counteroffsetx>
+<counteroffsety>10</counteroffsety>
+<countercolor>0x00ffff</countercolor>
+<showskipad>true</showskipad>
+<skipadvalue>15</skipadvalue>
+<skipadoffsetx>570</skipadoffsetx>
+<skipadoffsety>50</skipadoffsety>
+<skipadcolor>0xf000ff</skipadcolor>
+<campid>118</campid>
+<campgroup>Standard</campgroup>
+</campaign>
+
+
+<ad type="videoplayer">
+<vidplayer>
+    <vidpath>video/nike.mp4</vidpath>
+    <showontop>true1</showontop>
+     
+    <volume>50</volume>
+    <showcontrols>true</showcontrols>
+    <enableclick>true1</enableclick>
+    <clickurl>http://www.pmi5media.com/</clickurl>
+    <enabletracking>true</enabletracking>
+     <trackingurl>
+      <data enable="true" >http://www.google.com?search=playervideo1</data>
+      <data enable="true"  >http://www.google.com?search=playervideo2</data>
+     </trackingurl>
+   
+    <seekbartracking>
+      <trackingurl timeval="2" >
+       <data enable="true" usefor="vid">seekbar2,creative</data>
+       <data enable="true" >http://www.google.com?search=timeval21</data>
+      </trackingurl>
+      <trackingurl timeval="5">
+       <data enable="true" usefor="vid">seekbar5,creative</data>
+       <data enable="true"  >http://www.google.com?search=timeval51</data>
+      </trackingurl>
+      <trackingurl timeval="7">
+      <data enable="true" usefor="vid">seekbar7,creative</data>
+       <data enable="true"  >http://www.google.com?search=timeval71</data>
+      </trackingurl>
+      <trackingurl timeval="9">
+      <data enable="true" usefor="vid">seekbar9,creative</data>
+       <data enable="true"  >http://www.google.com?search=timeval91</data>
+      </trackingurl>
+    </seekbartracking> 
+	
+   </vidplayer>
+</ad>
+
+
+<ad type="clickthru">
+	
+<clickthrus>
+<clickthru>
+<showafter>2</showafter>
+<hideafter>5</hideafter>
+<tooltip>A 1 Boolean value that indicates whether Flash Player automatically scroll  </tooltip>
+<iconno>img/sjacket1.jpg</iconno>
+<iconwidth>100</iconwidth>
+<iconheight>60</iconheight>
+<enableclick>true</enableclick>
+<clickurl>http://www.vidaptiv.com/</clickurl>
+<fromleft>20</fromleft>
+<fromtop>200</fromtop>
+<tipwidth>100</tipwidth>
+<tipheight>100</tipheight>
+<tipbgcolor>0x47F029</tipbgcolor>
+<tiplinecolor>0x3929F0</tiplinecolor>
+<tiptextcolor>0xF43315</tiptextcolor>
+<tipoffsetx>120</tipoffsetx>
+<tipoffsety>250</tipoffsety>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default" usefor="vid">clickicon3,creative</data>
+<data type="default" enable="true">http://www.google.com/search=clickicon31</data>
+</trackingurl>
+</clickthru>
+</clickthrus>
+
+<clickthrus>
+<clickthru>
+<showafter>5</showafter>
+<hideafter>15</hideafter>
+<tooltip>A 2 Boolean value that indicates whether Flash Player automatically scroll  </tooltip>
+<iconno>img/sjacket5.jpg</iconno>
+<iconwidth>100</iconwidth>
+<iconheight>60</iconheight>
+<enableclick>true</enableclick>
+<clickurl>http://www.vidaptiv.com/</clickurl>
+<fromleft>20</fromleft>
+<fromtop>20</fromtop>
+<tipwidth>100</tipwidth>
+<tipheight>100</tipheight>
+<tipbgcolor>0x47F029</tipbgcolor>
+<tiplinecolor>0x3929F0</tiplinecolor>
+<tiptextcolor>0xF43315</tiptextcolor>
+<tipoffsetx>80</tipoffsetx>
+<tipoffsety>20</tipoffsety>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default" usefor="vid">clickicon3,creative</data>
+<data type="default" enable="true">http://www.google.com/search=clickicon31</data>
+</trackingurl>
+</clickthru>
+</clickthrus>
+
+</ad>
+
+<ad type="extender">
+	<extender>
+  <showafter>2</showafter>
+   <kw type="keepwatching">
+     <imageslide>
+      <imgpath>img/nike/kw_small.jpg</imgpath>
+      <imgwidth>238</imgwidth>
+      <imgheight>45</imgheight>
+      <offsetx>200</offsetx>
+      <offsety>50</offsety>
+	  <gloweffect>true</gloweffect>
+      <enabletracking>true</enabletracking>
+      <trackingurl>
+        <data enable="true" usefor="vid">keepWatching,creative</data>
+        <data enable="false">http://www.linkedin.com/</data>
+        <data enable="true">http://www.pmi5media.com/</data>
+      </trackingurl>
+    </imageslide>
+  </kw>
+  <sc type="skipcontent">
+    <imageslide>
+      <imgpath>img/nike/sc_small.jpg</imgpath>
+       <imgwidth>238</imgwidth>
+      <imgheight>45</imgheight>
+      <offsetx>200</offsetx>
+      <offsety>250</offsety>
+	  <gloweffect>true</gloweffect>
+      <enabletracking>true</enabletracking>
+      <trackingurl>
+        <data enable="true"  usefor="vid">Skipcontent,creative</data>
+        <data enable="false">http://www.linkedin.com/</data>
+        <data enable="true">http://www.pmi5media.com/</data>
+      </trackingurl>
+    </imageslide>
+  </sc>
+ 
+<!--
+  <extdata type="imageslide">
+    <imageslide>
+      <imgpath>img/nike/bg3.jpg</imgpath>
+      <imgwidth>640</imgwidth>
+      <imgheight>360</imgheight>
+      <offsetx>0</offsetx>
+      <offsety>0</offsety>
+      <gloweffect>true0</gloweffect>
+      <applyanim>true</applyanim>
+      <delaytime>0</delaytime>
+      <effecttype>move</effecttype>
+      <slidefrom>left</slidefrom>
+      <enableclick>false</enableclick>
+      <clickurl>http://www.google.com/</clickurl>
+      <enabletracking>false</enabletracking>
+      <trackingurl>
+        <data enable="true">http://www.google.com/</data>
+        <data enable="false">http://www.linkedin.com/</data>
+        <data enable="true">http://www.pmi5media.com/</data>
+      </trackingurl>
+    </imageslide>
+  </extdata>
+
+  -->
+  <extdata type="imageslide">
+    <imageslide>
+      <imgpath>img/nike/more.png</imgpath>
+      <imgwidth>173</imgwidth>
+      <imgheight>30</imgheight>
+      <offsetx>460</offsetx>
+      <offsety>280</offsety>
+      <gloweffect>true</gloweffect>
+      <applyanim>true</applyanim>
+      <delaytime>0</delaytime>
+      <effecttype>move</effecttype>
+      <slidefrom>left</slidefrom>
+      <enableclick>true</enableclick>
+      <clickurl>http://www.google.com/</clickurl>
+      <enabletracking>false</enabletracking>
+      <trackingurl>
+        
+        <data enable="false">http://www.linkedin.com/</data>
+        <data enable="true">http://www.pmi5media.com/</data>
+      </trackingurl>
+    </imageslide>
+  </extdata>
+
+  
+
+  
+  
+</extender>
+</ad>
+
+
+
+ 
+<ad type="about">
+	<about>
+	<adata type="imageslide">
+		<imageslide>
+			<imgpath>img/disney/bgabout.png</imgpath>
+			<imgwidth>640</imgwidth>
+			<imgheight>360</imgheight>
+			<offsetx>0</offsetx>
+			<offsety>0</offsety>
+			<gloweffect>false</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>alpha</effecttype>
+			<slidefrom>left</slidefrom>
+			<enableclick>false</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</adata>
+		
+		<adata type="imageslide">
+		<imageslide>
+			<imgpath>img/disney/layer_26.png</imgpath>
+			<imgwidth>198</imgwidth>
+			<imgheight>178</imgheight>
+			<offsetx>190</offsetx>
+			<offsety>120</offsety>
+			<gloweffect>false</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>500</delaytime>
+			<effecttype>alpha</effecttype>
+			<slidefrom>left</slidefrom>
+			<enableclick>false</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</adata>
+		<adata type="imageslide">
+		<imageslide>
+			<imgpath>img/disney/Overlay_Logo.png</imgpath>
+			<imgwidth>369</imgwidth>
+			<imgheight>86</imgheight>
+			<offsetx>250</offsetx>
+			<offsety>5</offsety>
+			<gloweffect>false</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>move</effecttype>
+			<slidefrom>top</slidefrom>
+			<enableclick>false</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</adata>
+		
+		<adata type="abouttext">
+			<abouttext>
+				<isbold>false</isbold>
+				<fontsize>12</fontsize>
+				<fontcolor>0xffffff</fontcolor>
+				<offsetx>250</offsetx>
+				<offsety>90</offsety>
+				<txtwidth>350</txtwidth>
+				<txtheight>250</txtheight>
+				<fontfamily>verdana</fontfamily>
+				<desc>some long text &quot;break some long&quot; text somelong text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,</p> from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet../, comes from a line in section 1.10.32. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). </desc>
+			
+			</abouttext>
+		</adata>
+	
+	</about>
+	</ad>
+	
+
+<ad type="gallery">
+	<gallery>
+		<navbtneffect>move</navbtneffect>
+		<navbtnleftimg>img/redbull/full/left_arrow.png</navbtnleftimg>
+		<navbtnrightimg>img/redbull/full/right_arrow.png</navbtnrightimg>
+		
+		<photo type="imageslide">
+		<imageslide>
+			<imgpath>img/redbull/can01.png</imgpath>
+			<imgwidth>100</imgwidth>
+			<imgheight>208</imgheight>
+			<offsetx>250</offsetx>
+			<offsety>70</offsety>
+			<gloweffect>true</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>move</effecttype>
+			<slidefrom>left</slidefrom>
+			<enableclick>false</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</photo>
+		
+		<photo type="youtube">
+		<youtube>
+			<videourl>http://youtu.be/ULep3yrhg9E</videourl>
+		</youtube>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+			<imgpath>img/redbull/can03.png</imgpath>
+			<imgwidth>185</imgwidth>
+			<imgheight>185</imgheight>
+			<offsetx>200</offsetx>
+			<offsety>70</offsety>
+			<gloweffect>true</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>move</effecttype>
+			<slidefrom>top</slidefrom>
+			<enableclick>true</enableclick>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</photo>
+		
+	
+		<photo type="imageslide">
+		<imageslide>
+			<imgpath>img/redbull/can01.png</imgpath>
+			<imgwidth>95</imgwidth>
+			<imgheight>224</imgheight>
+			<offsetx>300</offsetx>
+			<offsety>70</offsety>
+			<gloweffect>true</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>move</effecttype>
+			<slidefrom>bottom</slidefrom>
+			<enableclick>true</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+			<imgpath>img/disney/Overlay_Logo.png</imgpath>
+			<imgwidth>369</imgwidth>
+			<imgheight>86</imgheight>
+			<offsetx>160</offsetx>
+			<offsety>110</offsety>
+			<gloweffect>true</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>move</effecttype>
+			<slidefrom>top</slidefrom>
+			<enableclick>false</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</photo>
+		
+		
+		</gallery>
+	</ad>
+	
+
+ 
+<ad type="about">
+	<about>
+	<adata type="imageslide">
+		<imageslide>
+			<imgpath>img/disney/bgabout.png</imgpath>
+			<imgwidth>640</imgwidth>
+			<imgheight>360</imgheight>
+			<offsetx>0</offsetx>
+			<offsety>0</offsety>
+			<gloweffect>false</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>alpha</effecttype>
+			<slidefrom>left</slidefrom>
+			<enableclick>false</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</adata>
+		
+		<adata type="imageslide">
+		<imageslide>
+			<imgpath>img/disney/layer_26.png</imgpath>
+			<imgwidth>198</imgwidth>
+			<imgheight>178</imgheight>
+			<offsetx>190</offsetx>
+			<offsety>120</offsety>
+			<gloweffect>false</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>500</delaytime>
+			<effecttype>alpha</effecttype>
+			<slidefrom>left</slidefrom>
+			<enableclick>false</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</adata>
+		<adata type="imageslide">
+		<imageslide>
+			<imgpath>img/disney/Overlay_Logo.png</imgpath>
+			<imgwidth>369</imgwidth>
+			<imgheight>86</imgheight>
+			<offsetx>250</offsetx>
+			<offsety>5</offsety>
+			<gloweffect>false</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>move</effecttype>
+			<slidefrom>top</slidefrom>
+			<enableclick>false</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</adata>
+		
+		<adata type="abouttext">
+			<abouttext>
+				<isbold>false</isbold>
+				<fontsize>12</fontsize>
+				<fontcolor>0xffffff</fontcolor>
+				<offsetx>250</offsetx>
+				<offsety>90</offsety>
+				<txtwidth>350</txtwidth>
+				<txtheight>250</txtheight>
+				<fontfamily>verdana</fontfamily>
+				<desc>some long text &quot;break some long&quot; text somelong text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,</p> from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet../, comes from a line in section 1.10.32. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). </desc>
+			
+			</abouttext>
+		</adata>
+	
+	</about>
+	</ad>
+	
+
+
+<!-- 
+<ad type="finddealer">
+
+		<finddealer>
+		
+			<fddata type="dealerform">
+				<dealerform>
+					<mapurl>https://www.google.com/maps/search/</mapurl>
+					<keywords>ford dealer</keywords>
+					<offsetx>200</offsetx>
+					<offsety>100</offsety>
+				</dealerform>
+			</fddata>
+			
+			<fddata type="imageslide">
+				<imageslide>
+				<imgpath>img/mapbg.jpg</imgpath>
+				<imgwidth>640</imgwidth>
+				<imgheight>360</imgheight>
+				<offsetx>0</offsetx>
+				<offsety>0</offsety>
+				<gloweffect>false</gloweffect>
+				<applyanim>true</applyanim>
+				<delaytime>0</delaytime>
+				<effecttype>alpha</effecttype>
+				<slidefrom>bottom</slidefrom>
+				<enableclick>false</enableclick>
+				<enabletracking>false</enabletracking>
+				<clickurl>http://www.pmi5media.com</clickurl>
+				<trackingurl>http://www.pmi5media.com</trackingurl>
+				</imageslide>
+			</fddata>
+			
+			<fddata type="imageslide">
+				<imageslide>
+				<imgpath>img/cart.png</imgpath>
+				<imgwidth>128</imgwidth>
+				<imgheight>128</imgheight>
+				<offsetx>100</offsetx>
+				<offsety>100</offsety>
+				<gloweffect>false</gloweffect>
+				<applyanim>false</applyanim>
+				<delaytime>500</delaytime>
+				<effecttype>move</effecttype>
+				<slidefrom>left</slidefrom>
+				<enableclick>false</enableclick>
+				<enabletracking>false</enabletracking>
+				<clickurl>http://www.pmi5media.com</clickurl>
+				<trackingurl>http://www.pmi5media.com</trackingurl>
+				</imageslide>
+			</fddata>
+			
+			
+			
+		</finddealer>
+
+</ad>
+		
+		-->
+
+<ad type="minisiteapp">
+<minisiteapp>
+	<mscontent type="imageapp">
+		<imageapp>
+		<opengallery>true</opengallery>
+		<openonover>false</openonover>
+		<bgimg>img/redbull/full/overlaybg.png</bgimg>
+		<overimg>img/redbull/full/overlaytext.png</overimg>
+		<imgwidth>301</imgwidth>
+		<imgheight>160</imgheight>
+		<offsetx>339</offsetx>
+		<offsety>130</offsety>
+		<gloweffect>true</gloweffect>
+		<applyanim>true</applyanim>
+		<delaytime>0</delaytime>
+		<effecttype>move</effecttype>
+		<slidefrom>right</slidefrom>
+		<enableclick>true</enableclick>
+		<clickurl>http://www.pmi5media.com</clickurl>
+		<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageapp>
+	</mscontent>
+	
+		
+	<mscontent type="imageslide">	
+		<imageslide>
+		<imgpath>img/fordmenu/bg.png</imgpath>
+		<imgwidth>640</imgwidth>
+		<imgheight>360</imgheight>
+		<offsetx>0</offsetx>
+		<offsety>0</offsety>
+		<gloweffect>false</gloweffect>
+		<applyanim>true</applyanim>
+		<delaytime>0</delaytime>
+		<effecttype>move</effecttype>
+		<slidefrom>top</slidefrom>
+		<enableclick>false</enableclick>
+		<enabletracking>false</enabletracking>
+		<clickurl>http://www.pmi5media.com</clickurl>
+		<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+	</mscontent>
+	
+	<mscontent type="gallery">
+	<gallery>
+		<navbtneffect>move</navbtneffect>
+		<navbtnleftimg>img/redbull/full/left_arrow.png</navbtnleftimg>
+		<navbtnrightimg>img/redbull/full/right_arrow.png</navbtnrightimg>
+		
+		<photo type="imageslide">
+		<imageslide>
+			<imgpath>img/redbull/can01.png</imgpath>
+			<imgwidth>100</imgwidth>
+			<imgheight>208</imgheight>
+			<offsetx>250</offsetx>
+			<offsety>70</offsety>
+			<gloweffect>true</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>move</effecttype>
+			<slidefrom>left</slidefrom>
+			<enableclick>false</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</photo>
+		
+		<photo type="youtube">
+		<youtube>
+			<videourl>http://youtu.be/0Vsy5KzsieQ</videourl>
+		</youtube>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+			<imgpath>img/redbull/can03.png</imgpath>
+			<imgwidth>185</imgwidth>
+			<imgheight>185</imgheight>
+			<offsetx>200</offsetx>
+			<offsety>70</offsety>
+			<gloweffect>true</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>move</effecttype>
+			<slidefrom>top</slidefrom>
+			<enableclick>true</enableclick>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</photo>
+		
+	
+		<photo type="imageslide">
+		<imageslide>
+			<imgpath>img/redbull/can01.png</imgpath>
+			<imgwidth>95</imgwidth>
+			<imgheight>224</imgheight>
+			<offsetx>300</offsetx>
+			<offsety>70</offsety>
+			<gloweffect>true</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>move</effecttype>
+			<slidefrom>bottom</slidefrom>
+			<enableclick>true</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+			<imgpath>img/disney/Overlay_Logo.png</imgpath>
+			<imgwidth>369</imgwidth>
+			<imgheight>86</imgheight>
+			<offsetx>160</offsetx>
+			<offsety>110</offsety>
+			<gloweffect>true</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>move</effecttype>
+			<slidefrom>top</slidefrom>
+			<enableclick>false</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</photo>
+		
+		
+		</gallery>
+	</mscontent>
+	
+	
+	<!-- find dealer begin -->
+		<mscontent type="finddealer">
+		<finddealer>
+		
+			<fddata type="dealerform">
+				<dealerform>
+					<mapurl>https://www.google.com/maps/search/</mapurl>
+					<keywords>ford dealer</keywords>
+					<offsetx>200</offsetx>
+					<offsety>100</offsety>
+				</dealerform>
+			</fddata>
+			
+			<fddata type="imageslide">
+				<imageslide>
+				<imgpath>img/mapbg.jpg</imgpath>
+				<imgwidth>640</imgwidth>
+				<imgheight>360</imgheight>
+				<offsetx>0</offsetx>
+				<offsety>0</offsety>
+				<gloweffect>false</gloweffect>
+				<applyanim>true</applyanim>
+				<delaytime>0</delaytime>
+				<effecttype>alpha</effecttype>
+				<slidefrom>bottom</slidefrom>
+				<enableclick>false</enableclick>
+				<enabletracking>false</enabletracking>
+				<clickurl>http://www.pmi5media.com</clickurl>
+				<trackingurl>http://www.pmi5media.com</trackingurl>
+				</imageslide>
+			</fddata>
+			
+			<fddata type="imageslide">
+				<imageslide>
+				<imgpath>img/cart.png</imgpath>
+				<imgwidth>128</imgwidth>
+				<imgheight>128</imgheight>
+				<offsetx>100</offsetx>
+				<offsety>100</offsety>
+				<gloweffect>false</gloweffect>
+				<applyanim>false</applyanim>
+				<delaytime>500</delaytime>
+				<effecttype>move</effecttype>
+				<slidefrom>left</slidefrom>
+				<enableclick>false</enableclick>
+				<enabletracking>false</enabletracking>
+				<clickurl>http://www.pmi5media.com</clickurl>
+				<trackingurl>http://www.pmi5media.com</trackingurl>
+				</imageslide>
+			</fddata>
+			
+			
+			
+		</finddealer>
+		</mscontent>
+	<!-- find dealer end -->
+	
+	<mscontent type="youtube">
+		<youtube>
+			<videourl>http://youtu.be/0Vsy5KzsieQ</videourl>
+		</youtube>
+	</mscontent>
+	
+	<!-- about begin 
+	<mscontent type="about">
+	<about>
+	<adata type="imageslide">
+		<imageslide>
+			<imgpath>img/disney/bgabout.png</imgpath>
+			<imgwidth>640</imgwidth>
+			<imgheight>360</imgheight>
+			<offsetx>0</offsetx>
+			<offsety>0</offsety>
+			<gloweffect>false</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>alpha</effecttype>
+			<slidefrom>left</slidefrom>
+			<enableclick>false</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</adata>
+		
+		<adata type="imageslide">
+		<imageslide>
+			<imgpath>img/disney/layer_26.png</imgpath>
+			<imgwidth>198</imgwidth>
+			<imgheight>178</imgheight>
+			<offsetx>190</offsetx>
+			<offsety>120</offsety>
+			<gloweffect>false</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>500</delaytime>
+			<effecttype>alpha</effecttype>
+			<slidefrom>left</slidefrom>
+			<enableclick>false</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</adata>
+		<adata type="imageslide">
+		<imageslide>
+			<imgpath>img/disney/Overlay_Logo.png</imgpath>
+			<imgwidth>369</imgwidth>
+			<imgheight>86</imgheight>
+			<offsetx>250</offsetx>
+			<offsety>5</offsety>
+			<gloweffect>false</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>move</effecttype>
+			<slidefrom>top</slidefrom>
+			<enableclick>false</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</adata>
+		
+		<adata type="abouttext">
+			<abouttext>
+				<isbold>false</isbold>
+				<fontsize>12</fontsize>
+				<fontcolor>0xffffff</fontcolor>
+				<offsetx>250</offsetx>
+				<offsety>90</offsety>
+				<txtwidth>350</txtwidth>
+				<txtheight>250</txtheight>
+				<fontfamily>verdana</fontfamily>
+				<desc>From New Line Cinema comes the action comedy "We're The Millers," starring Jennifer Aniston ("Horrible Bosses") and Jason Sudeikis ("The Campaign"). The film is directed by Rawson Marshall Thurber ("Dodgeball: A True Underdog Story"). <p>David Burke (Sudeikis) is a small-time pot dealer whose clientele ncludes chefs and soccer moms, but no kids-after all, he has his scruples. So what could go wrong? Plenty. Preferring to keep a low profile for obvious reasons, he learns the hard way that no good deed goes unpunished when he tries to help out some local teens and winds up getting jumped by a trio of gutter punks. Stealing his stash and his cash, they leave him in major debt to his supplier, Brad (Ed Helms).</p><p>In order to wipe the slate clean-and maintain a clean bill of health-David must now become a big-time drug smuggler by bringing Brad's latest shipment in from Mexico. Twisting the arms of his neighbors, cynical stripper Rose (Aniston) and wannabe customer Kenny (Will Poulter), and the tatted-and-pierced streetwise teen Casey (Emma Roberts), he devises a foolproof plan. One fake wife, two pretend kids and a huge, shiny RV later, the "Millers" are headed south of the border for a Fourth of July weekend that is sure to end with a bang.</p> <p>Thurber directs "We're The Millers" from a screenplay by Bob Fisher & Steve Faber ("Wedding Crashers") and Sean Anders & John Morris ("Hot Tub Time Machine"), story by Bob Fisher & Steve Faber. The film also stars Emma Roberts ("The Art of Getting By"), Nick Offerman ("21 Jump Street"), Kathryn Hahn ("The Dictator"), Will Poulter ("The Chronicles of Narnia: The Voyage of the Dawn Treader") and Ed Helms (the "Hangover" films).</p><p>Vincent Newman, Tucker Tooley, Happy Walters and Chris Bender are the producers, with David Heyman, J.C. Spink, Marcus Viscidi, Toby Emmerich, Richard Brener and David Neustadter serving as executive producers.</p><p>Thurber's behind-the-scenes creative team includes director of photography Barry Peterson ("21 Jump Street"); production designer Clayton Hartley ("The Other Guys"); editor Mike Sale ("The Hangover Part II"); and costume designer Shay Cunliffe ("The Bourne Legacy").</p><p>"We're the Millers" is rated R for "crude sexual content, pervasive language, drug material and brief graphic nudity." werethemillers.com</p>
+				</desc>
+			
+			</abouttext>
+		</adata>
+	
+	</about>
+	</mscontent>
+	
+	<!-- about end -->
+	<!-- menu begin -->
+
+	<mscontent type="admenu">
+	 <admenu>
+		<offsetx>14</offsetx>
+		<offsety>29</offsety>
+		<applyanim>true</applyanim>
+		<delaytime>500</delaytime>
+		<effecttype>move</effecttype>
+		<slidefrom>left</slidefrom>
+		
+		
+		<mitem type="itemapp">
+			<itemapp>
+			<bgimg>img/fordmenu/feaover.png</bgimg>
+			<overimg>img/fordmenu/fea.png</overimg>
+			<imgwidth>167</imgwidth>
+			<imgheight>30</imgheight>
+			<offsetx>0</offsetx>
+			<offsety>0</offsety>
+			<type>widget</type>
+			<widgetname>youtube</widgetname>
+			<enableclick>false</enableclick>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<enabletracking>false</enabletracking>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+			</itemapp>
+		</mitem>
+		
+		<mitem type="itemapp">
+			<itemapp>
+			<bgimg>img/fordmenu/galleryover.png</bgimg>
+			<overimg>img/fordmenu/gallery.png</overimg>
+			<imgwidth>167</imgwidth>
+			<imgheight>30</imgheight>
+			<offsetx>0</offsetx>
+			<offsety>34</offsety>
+			<type>widget</type>
+			<widgetname>gallery</widgetname>
+			<enableclick>false</enableclick>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<enabletracking>false</enabletracking>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+			</itemapp>
+		</mitem>
+		
+		
+		<mitem type="itemapp">
+			<itemapp>
+			<bgimg>img/fordmenu/dlover.png</bgimg>
+			<overimg>img/fordmenu/dl.png</overimg>
+			<imgwidth>167</imgwidth>
+			<imgheight>30</imgheight>
+			<offsetx>0</offsetx>
+			<offsety>67</offsety>
+			<type>widget</type>
+			<widgetname>finddealer</widgetname>
+			<enableclick>false</enableclick>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<enabletracking>false</enabletracking>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+			</itemapp>
+		</mitem>
+				
+	 </admenu>
+	</mscontent>
+<!-- menu end -->
+
+	
+	<mscontent type="closebtn">
+		<closebtn>
+		<offsetx>10</offsetx>
+		<offsety>2</offsety>
+		</closebtn>
+	</mscontent>
+	
+</minisiteapp>
+
+</ad>
+
+
+
+<ad type="docicon">
+	<dociconbar>
+		<docalignment>left</docalignment>
+		<scaleicons>150</scaleicons>
+		<bgcolor>0x00ffff</bgcolor>
+		<hidebackground>false</hidebackground>
+		<opacity>100</opacity>
+			<docicon>
+				<tooltip>Doc Icon 1 d Doc </tooltip>
+				<iconno>7</iconno>
+				<iconurl>http://www.google.com</iconurl>
+			</docicon>
+			<docicon>
+				<tooltip>This is Doc Icon 2d</tooltip>
+				<iconno>2</iconno>
+				<iconurl>http://www.pmi5media.com</iconurl>
+			</docicon>
+			<docicon>
+				<tooltip>Doc Icon 1d</tooltip>
+				<iconno>1</iconno>
+				<iconurl>http://www.google.com</iconurl>
+			</docicon>
+			<docicon>
+				<tooltip>Doc Icon 2d</tooltip>
+				<iconno>2</iconno>
+				<iconurl>http://www.pmi5media.com</iconurl>
+			</docicon>
+			<docicon>
+				<tooltip>Doc Icon 3d</tooltip>
+				<iconno>3</iconno>
+				<iconurl>http://www.facebook.com</iconurl>
+			</docicon>
+			<docicon>
+				<tooltip>Doc Icon 3d Hello from testing how r utf-8</tooltip>
+				<iconno>4</iconno>
+				<iconurl>http://www.pmi5media.com</iconurl>
+			</docicon>
+			<docicon>
+				<tooltip>Doc Icon 4d</tooltip>
+				<iconno>8</iconno>
+				<iconurl>http://www.pmi5media.com</iconurl>
+			</docicon>
+				<docicon>
+				<tooltip>H</tooltip>
+				<iconno>3</iconno>
+				<iconurl>http://www.facebook.com</iconurl>
+			</docicon>
+			
+	</dociconbar>
+</ad>
+
+ 
+<ad type="clickthru">
+	<clickthrus>
+		
+		<clickthru>
+			<tooltip>Amazon</tooltip>
+			<iconno>1</iconno>
+			<clickurl>http://www.amazon.com</clickurl>
+			<fromleft>0</fromleft>
+			<fromtop>0</fromtop>
+		</clickthru>
+		<clickthru>
+			<tooltip>Contact Us</tooltip>
+			<iconno>2</iconno>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<fromleft>10</fromleft>
+			<fromtop>10</fromtop>
+		</clickthru>
+		<clickthru>
+			<tooltip>Coupons</tooltip>
+			<iconno>3</iconno>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<fromleft>20</fromleft>
+			<fromtop>20</fromtop>
+		</clickthru>
+		<clickthru>
+			<tooltip>DailyMotion Video</tooltip>
+			<iconno>4</iconno>
+			<clickurl>http://www.dailymotion.com/in</clickurl>
+			<fromleft>30</fromleft>
+			<fromtop>30</fromtop>
+		</clickthru>
+		<clickthru>
+			<tooltip>Dealer Locator</tooltip>
+			<iconno>5</iconno>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<fromleft>40</fromleft>
+			<fromtop>40</fromtop>
+		</clickthru>
+		<clickthru>
+			<tooltip>Facebook</tooltip>
+			<iconno>6</iconno>
+			<clickurl>http://www.facebook.com</clickurl>
+			<fromleft>50</fromleft>
+			<fromtop>50</fromtop>
+		</clickthru>
+		<clickthru>
+			<tooltip>Google Play</tooltip>
+			<iconno>7</iconno>
+			<clickurl>https://play.google.com/store</clickurl>
+			<fromleft>60</fromleft>
+			<fromtop>60</fromtop>
+		</clickthru>
+		<clickthru>
+			<tooltip>Twitter</tooltip>
+			<iconno>17</iconno>
+			<clickurl>http://www.twitter.com</clickurl>
+			<fromleft>70</fromleft>
+			<fromtop>70</fromtop>
+		</clickthru>
+		<clickthru>
+			<tooltip>YouTube</tooltip>
+			<iconno>18</iconno>
+			<clickurl>http://www.youtube.com</clickurl>
+			<fromleft>80</fromleft>
+			<fromtop>80</fromtop>
+		</clickthru>
+		<clickthru>
+			<tooltip>iTunes</tooltip>
+			<iconno>19</iconno>
+			<clickurl>http://www.itunes.com</clickurl>
+			<fromleft>90</fromleft>
+			<fromtop>90</fromtop>
+		</clickthru>
+		<clickthru>
+			<tooltip>Linkedin</tooltip>
+			<iconno>20</iconno>
+			<clickurl>http://www.linkedin.com</clickurl>
+			<fromleft>100</fromleft>
+			<fromtop>100</fromtop>
+		</clickthru>
+		
+		
+
+
+		
+
+	</clickthrus>
+</ad>
+
+
+
+</main>

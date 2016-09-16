@@ -1,0 +1,288 @@
+<main>
+<campaign>
+<showdebugger>false</showdebugger>
+<livepath>http://localhost/riaz/vpaidwrapper/</livepath>
+<swffile>vholder/vpaidholder.swf</swffile>
+<durationseconds>60</durationseconds>
+<islinearad>false</islinearad>
+<showcounter>true</showcounter>
+<counteroffsetx>0</counteroffsetx>
+<counteroffsety>0</counteroffsety>
+<countercolor>0xffffff</countercolor>
+</campaign>
+
+
+
+<!-- thumbnails begin ad-->
+<ad type="thumbnails">
+	<thumbnails>
+		<enabletracking>false</enabletracking>
+		<trackingurl>
+			<data enable="true" mode="show" >http://www.google.com?search=showthumbnails_1</data>
+			<data enable="true"  mode="show" >http://www.google.com?search=showthumbnails_2</data>
+		</trackingurl>
+	<thumbdata type="imageslide">
+		<imageslide>
+				<imgpath>img/thumbs/bg.jpg</imgpath>
+				<imgwidth>640</imgwidth>
+				<imgheight>360</imgheight>
+				<offsetx>0</offsetx>
+				<offsety>0</offsety>
+				<gloweffect>false</gloweffect>
+				<applyanim>true</applyanim>
+				<delaytime>0</delaytime>
+				<effecttype>move</effecttype>
+				<slidefrom>bottom</slidefrom>
+				<enableclick>false</enableclick>
+				<clickurl>http://www.pmi5media.com</clickurl>
+				<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com?search=gallery1FreeW</data>
+						<data enable="true"  >http://www.google.com?search=gallery1gallery1FreeW2</data>
+					</trackingurl>
+		</imageslide>
+	</thumbdata>
+	<thumbdata type="thumbgallery">
+		<thumbgallery >
+		<tgalwidth>640</tgalwidth>
+		<tgalheight>360</tgalheight>
+		<tgaloffsetx>0</tgaloffsetx>
+		<tgaloffsety>0</tgaloffsety>
+		<enabletracking>false</enabletracking>
+		<trackingurl>
+			<data enable="true" mode="Show" >http://www.google.com?search=tNgalShow21</data>
+			<data enable="true" mode="Show" >http://www.google.com?search=tNgalShow22</data>
+		</trackingurl>
+		
+		<thumbbar width="500" height="100" offsetx="50" offsety="20" isvertical="true1" effecttype="fade" iconwidth="100" iconheight="100" galtype="image1">
+		<photo>
+			<small>
+					<imgpath>img/thumbs/small/1.jpg</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+						<data enable="false" >http://www.linkedin.com/</data>
+						<data enable="true" >http://www.pmi5media.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/thumbs/big/1.jpg</imgpath>
+					<imgwidth>300</imgwidth>
+					<imgheight>200</imgheight>
+					<offsetx>100</offsetx>
+					<offsety>50</offsety>
+					<gloweffect>true</gloweffect>
+					<applyanim>true</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>move</effecttype>
+					<slidefrom>top</slidefrom>
+					<enableclick>true</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+						<data enable="false" >http://www.linkedin.com/</data>
+						<data enable="true" >http://www.pmi5media.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		<photo>
+			<small>
+					<imgpath>img/thumbs/small/2.jpg</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+						<data enable="false" >http://www.linkedin.com/</data>
+						<data enable="true" >http://www.pmi5media.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/thumbs/big/2.jpg</imgpath>
+					<imgwidth>500</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>50</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>true</gloweffect>
+					<applyanim>true</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>move</effecttype>
+					<slidefrom>right</slidefrom>
+					<enableclick>true</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>true</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+						<data enable="false" >http://www.linkedin.com/</data>
+						<data enable="true" >http://www.pmi5media.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		<photo>
+			<small>
+					<imgpath>img/thumbs/small/3.jpg</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+						<data enable="false" >http://www.linkedin.com/</data>
+						<data enable="true" >http://www.pmi5media.com/</data>
+					</trackingurl>
+			</small>
+			
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/thumbs/big/2.jpg</imgpath>
+					<imgwidth>150</imgwidth>
+					<imgheight>250</imgheight>
+					<offsetx>240</offsetx>
+					<offsety>20</offsety>
+					<gloweffect>true</gloweffect>
+					<applyanim>true</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>move</effecttype>
+					<slidefrom>top</slidefrom>
+					<enableclick>true</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+						<data enable="false" >http://www.linkedin.com/</data>
+						<data enable="true" >http://www.pmi5media.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/thumbs/big/3.jpg</imgpath>
+					<imgwidth>150</imgwidth>
+					<imgheight>250</imgheight>
+					<offsetx>40</offsetx>
+					<offsety>20</offsety>
+					<gloweffect>true</gloweffect>
+					<applyanim>true</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>move</effecttype>
+					<slidefrom>left</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+						<data enable="false" >http://www.linkedin.com/</data>
+						<data enable="true" >http://www.pmi5media.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+			<big type="imageslide">
+			<imageslide>
+				<imgpath>img/thumbs/big/1.jpg</imgpath>
+				<imgwidth>150</imgwidth>
+				<imgheight>250</imgheight>
+				<offsetx>455</offsetx>
+				<offsety>20</offsety>
+				<gloweffect>true</gloweffect>
+				<applyanim>true</applyanim>
+				<delaytime>0</delaytime>
+				<effecttype>move</effecttype>
+				<slidefrom>right</slidefrom>
+				<enableclick>true</enableclick>
+				<clickurl>http://www.google.com/</clickurl>
+				<enabletracking>false</enabletracking>
+				<trackingurl>
+					<data enable="true" >http://www.google.com/</data>
+					<data enable="false" >http://www.linkedin.com/</data>
+					<data enable="true" >http://www.pmi5media.com/</data>
+				</trackingurl>
+			</imageslide>
+		</big>
+		</photo>
+		<photo>
+			<small>
+					<imgpath>img/thumbs/small/4.jpg</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+						<data enable="false" >http://www.linkedin.com/</data>
+						<data enable="true" >http://www.pmi5media.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/thumbs/big/4.jpg</imgpath>
+					<imgwidth>200</imgwidth>
+					<imgheight>250</imgheight>
+					<offsetx>150</offsetx>
+					<offsety>20</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>move</effecttype>
+					<slidefrom>left</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+						<data enable="false" >http://www.linkedin.com/</data>
+						<data enable="true" >http://www.pmi5media.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		<photo>
+			<small>
+					<imgpath>img/thumbs/small/5.jpg</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+						<data enable="false" >http://www.linkedin.com/</data>
+						<data enable="true" >http://www.pmi5media.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/thumbs/big/5.jpg</imgpath>
+					<imgwidth>150</imgwidth>
+					<imgheight>250</imgheight>
+					<offsetx>150</offsetx>
+					<offsety>20</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>move</effecttype>
+					<slidefrom>left</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+						<data enable="false" >http://www.linkedin.com/</data>
+						<data enable="true" >http://www.pmi5media.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		
+		
+		</thumbbar>
+	</thumbgallery>
+	</thumbdata>
+	<thumbdata type="backbtn">
+				<backbtn>
+					<offsetx>600</offsetx>
+					<offsety>0</offsety>
+					<enabletracking>true1</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com?search=thumbback</data>
+						<data  enable="false" >http://www.google.com?search=thumbback2</data>					
+					</trackingurl>
+				</backbtn>
+	</thumbdata>
+	</thumbnails>
+</ad>
+<!-- thumbnails end ad -->
+
+</main>

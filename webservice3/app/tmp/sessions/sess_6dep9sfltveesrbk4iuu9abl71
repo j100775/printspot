@@ -1,0 +1,2 @@
+Config|a:3:{s:9:"userAgent";s:32:"a7dad5530235a612db473b68cbdf7749";s:4:"time";i:1403190132;s:9:"countdown";i:10;}Message|a:0:{}Auth|a:1:{s:4:"User";a:13:{s:2:"id";s:1:"1";s:9:"parent_id";N;s:3:"lft";s:1:"0";s:4:"rght";s:1:"7";s:9:"user_name";s:5:"admin";s:9:"full_name";s:5:"Admin";s:5:"email";s:28:"rajan.phpdeveloper@gmail.com";s:7:"contact";s:6:"123456";s:7:"address";s:14:"test address
+";s:7:"created";s:19:"2013-11-07 14:16:00";s:8:"modified";s:19:"2013-11-07 10:04:01";s:4:"role";s:11:"super_admin";s:6:"active";b:1;}}

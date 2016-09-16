@@ -1,0 +1,1062 @@
+
+<ad type="minisiteapp">
+<minisiteapp>
+
+<mscontent type="imageapp">
+<imageapp>
+<opengallery>true</opengallery>
+<openonover>false</openonover>
+<bgimg>
+img/ford/welcome.png
+</bgimg>
+<overimg>
+img/ford/welcomeover.png
+</overimg>
+<imgwidth>408</imgwidth>
+<imgheight>165</imgheight>
+<offsetx>150</offsetx>
+<offsety>10</offsety>
+<gloweffect>true</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>false</enabletracking>
+<trackingurl>
+<data enable="true" mode="Show" >http://www.google.com?search=welcomeapp</data>
+</trackingurl>
+<showcrossbtn>false</showcrossbtn>
+<aligncrossbtn>topright</aligncrossbtn>
+</imageapp>
+</mscontent>
+
+
+<mscontent type="imageslide">
+	<imageslide>
+	<imgpath>
+	img/ford/bg.png
+	</imgpath>
+	<imgwidth>640</imgwidth>
+	<imgheight>360</imgheight>
+	<offsetx>0</offsetx>
+	<offsety>0</offsety>
+	<gloweffect>false</gloweffect>
+	<applyanim>true</applyanim>
+	<delaytime>0</delaytime>
+	<effecttype>alpha</effecttype>
+	<slidefrom>left</slidefrom>
+	<enableclick>false</enableclick>
+	<clickurl>http://www.pmi5media.com/</clickurl>
+	<enabletracking>false</enabletracking>
+	<trackingurl>
+	<data enable="true" >http://www.pmi5media.com/</data>
+	</trackingurl>
+	</imageslide>
+</mscontent>
+
+
+<!-- gallery 1 begin -->
+<mscontent type="gallery">
+
+<gallery>
+<navbtneffect>move</navbtneffect>
+<navbtnleftimg>img/ford/leftarrow2.png</navbtnleftimg>
+<navbtnrightimg>img/ford/rightarrow2.png</navbtnrightimg>
+<galwidth>477</galwidth>
+<galheight>314</galheight>
+<galoffsetx>145</galoffsetx>
+<galoffsety>24</galoffsety>
+<enabletracking>false</enabletracking>
+<trackingurl>
+<data enable="true" mode="Show" >http://www.google.com?search=galShow1</data>
+</trackingurl>
+
+<photo type="imageslide">
+	<imageslide>
+	<imgpath>
+	img/ford/newtech/1.jpg
+	</imgpath>
+	<imgwidth>640</imgwidth>
+	<imgheight>360</imgheight>
+	<offsetx>0</offsetx>
+	<offsety>0</offsety>
+	<gloweffect>false</gloweffect>
+	<applyanim>true</applyanim>
+	<delaytime>0</delaytime>
+	<effecttype>move</effecttype>
+	<slidefrom>right</slidefrom>
+	<enableclick>false</enableclick>
+	<clickurl>http://www.google.com/</clickurl>
+	<enabletracking>false</enabletracking>
+	<trackingurl>
+	<data enable="true" >http://www.google.com/</data>
+	<data enable="false" >http://www.linkedin.com/</data>
+	<data enable="true" >http://www.pmi5media.com/</data>
+	</trackingurl>
+	</imageslide>
+</photo>
+
+<photo type="imageslide">
+	<imageslide>
+	<imgpath>
+	img/ford/newtech/2.jpg
+	</imgpath>
+	<imgwidth>640</imgwidth>
+	<imgheight>360</imgheight>
+	<offsetx>0</offsetx>
+	<offsety>0</offsety>
+	<gloweffect>false</gloweffect>
+	<applyanim>true</applyanim>
+	<delaytime>0</delaytime>
+	<effecttype>move</effecttype>
+	<slidefrom>left</slidefrom>
+	<enableclick>false</enableclick>
+	<clickurl>http://www.google.com/</clickurl>
+	<enabletracking>false</enabletracking>
+	<trackingurl>
+	<data enable="true" >http://www.google.com/</data>
+	<data enable="false" >http://www.linkedin.com/</data>
+	<data enable="true" >http://www.pmi5media.com/</data>
+	</trackingurl>
+	</imageslide>
+</photo>
+
+
+<photo type="imageslide">
+	<imageslide>
+	<imgpath>
+	img/ford/newtech/3.jpg
+	</imgpath>
+	<imgwidth>640</imgwidth>
+	<imgheight>360</imgheight>
+	<offsetx>0</offsetx>
+	<offsety>0</offsety>
+	<gloweffect>false</gloweffect>
+	<applyanim>true</applyanim>
+	<delaytime>0</delaytime>
+	<effecttype>move</effecttype>
+	<slidefrom>left</slidefrom>
+	<enableclick>false</enableclick>
+	<clickurl>http://www.google.com/</clickurl>
+	<enabletracking>false</enabletracking>
+	<trackingurl>
+	<data enable="true" >http://www.google.com/</data>
+	<data enable="false" >http://www.linkedin.com/</data>
+	<data enable="true" >http://www.pmi5media.com/</data>
+	</trackingurl>
+	</imageslide>
+</photo>
+
+
+<photo type="imageslide">
+	<imageslide>
+	<imgpath>
+	img/ford/newtech/4.jpg
+	</imgpath>
+	<imgwidth>640</imgwidth>
+	<imgheight>360</imgheight>
+	<offsetx>0</offsetx>
+	<offsety>0</offsety>
+	<gloweffect>false</gloweffect>
+	<applyanim>true</applyanim>
+	<delaytime>0</delaytime>
+	<effecttype>move</effecttype>
+	<slidefrom>left</slidefrom>
+	<enableclick>false</enableclick>
+	<clickurl>http://www.google.com/</clickurl>
+	<enabletracking>false</enabletracking>
+	<trackingurl>
+	<data enable="true" >http://www.google.com/</data>
+	<data enable="false" >http://www.linkedin.com/</data>
+	<data enable="true" >http://www.pmi5media.com/</data>
+	</trackingurl>
+	</imageslide>
+</photo>
+
+
+<photo type="imageslide">
+	<imageslide>
+	<imgpath>
+	img/ford/newtech/5.jpg
+	</imgpath>
+	<imgwidth>640</imgwidth>
+	<imgheight>360</imgheight>
+	<offsetx>0</offsetx>
+	<offsety>0</offsety>
+	<gloweffect>false</gloweffect>
+	<applyanim>true</applyanim>
+	<delaytime>0</delaytime>
+	<effecttype>move</effecttype>
+	<slidefrom>left</slidefrom>
+	<enableclick>false</enableclick>
+	<clickurl>http://www.google.com/</clickurl>
+	<enabletracking>false</enabletracking>
+	<trackingurl>
+	<data enable="true" >http://www.google.com/</data>
+	<data enable="false" >http://www.linkedin.com/</data>
+	<data enable="true" >http://www.pmi5media.com/</data>
+	</trackingurl>
+	</imageslide>
+</photo>
+
+
+<photo type="imageslide">
+	<imageslide>
+	<imgpath>
+	img/ford/newtech/6.jpg
+	</imgpath>
+	<imgwidth>640</imgwidth>
+	<imgheight>360</imgheight>
+	<offsetx>0</offsetx>
+	<offsety>0</offsety>
+	<gloweffect>false</gloweffect>
+	<applyanim>true</applyanim>
+	<delaytime>0</delaytime>
+	<effecttype>move</effecttype>
+	<slidefrom>left</slidefrom>
+	<enableclick>false</enableclick>
+	<clickurl>http://www.google.com/</clickurl>
+	<enabletracking>false</enabletracking>
+	<trackingurl>
+	<data enable="true" >http://www.google.com/</data>
+	<data enable="false" >http://www.linkedin.com/</data>
+	<data enable="true" >http://www.pmi5media.com/</data>
+	</trackingurl>
+	</imageslide>
+</photo>
+
+
+<photo type="imageslide">
+	<imageslide>
+	<imgpath>
+	img/ford/newtech/7.jpg
+	</imgpath>
+	<imgwidth>640</imgwidth>
+	<imgheight>360</imgheight>
+	<offsetx>0</offsetx>
+	<offsety>0</offsety>
+	<gloweffect>false</gloweffect>
+	<applyanim>true</applyanim>
+	<delaytime>0</delaytime>
+	<effecttype>move</effecttype>
+	<slidefrom>left</slidefrom>
+	<enableclick>false</enableclick>
+	<clickurl>http://www.google.com/</clickurl>
+	<enabletracking>false</enabletracking>
+	<trackingurl>
+	<data enable="true" >http://www.google.com/</data>
+	<data enable="false" >http://www.linkedin.com/</data>
+	<data enable="true" >http://www.pmi5media.com/</data>
+	</trackingurl>
+	</imageslide>
+</photo>
+
+</gallery>
+
+</mscontent>
+<!-- gallery 1 end -->
+
+
+<!-- gallery 2 begin -->
+<mscontent type="gallery">
+
+<gallery>
+<navbtneffect>move</navbtneffect>
+<navbtnleftimg>img/ford/lefttarro.png</navbtnleftimg>
+<galwidth>477</galwidth>
+<galheight>314</galheight>
+<galoffsetx>145</galoffsetx>
+<galoffsety>24</galoffsety>
+<enabletracking>false</enabletracking>
+<trackingurl>
+<data enable="true" mode="Show" >http://www.google.com?search=galShow1</data>
+</trackingurl>
+
+<photo type="imageslide">
+	<imageslide>
+	<imgpath>
+	img/ford/newfuel/1.jpg
+	</imgpath>
+	<imgwidth>640</imgwidth>
+	<imgheight>360</imgheight>
+	<offsetx>0</offsetx>
+	<offsety>0</offsety>
+	<gloweffect>false</gloweffect>
+	<applyanim>true</applyanim>
+	<delaytime>0</delaytime>
+	<effecttype>move</effecttype>
+	<slidefrom>left</slidefrom>
+	<enableclick>false</enableclick>
+	<clickurl>http://www.google.com/</clickurl>
+	<enabletracking>false</enabletracking>
+	<trackingurl>
+	<data enable="true" >http://www.google.com/</data>
+	<data enable="false" >http://www.linkedin.com/</data>
+	<data enable="true" >http://www.pmi5media.com/</data>
+	</trackingurl>
+	</imageslide>
+</photo>
+
+<photo type="imageslide">
+	<imageslide>
+	<imgpath>
+	img/ford/newfuel/2.jpg
+	</imgpath>
+	<imgwidth>640</imgwidth>
+	<imgheight>360</imgheight>
+	<offsetx>0</offsetx>
+	<offsety>0</offsety>
+	<gloweffect>false</gloweffect>
+	<applyanim>true</applyanim>
+	<delaytime>0</delaytime>
+	<effecttype>move</effecttype>
+	<slidefrom>left</slidefrom>
+	<enableclick>false</enableclick>
+	<clickurl>http://www.google.com/</clickurl>
+	<enabletracking>false</enabletracking>
+	<trackingurl>
+	<data enable="true" >http://www.google.com/</data>
+	<data enable="false" >http://www.linkedin.com/</data>
+	<data enable="true" >http://www.pmi5media.com/</data>
+	</trackingurl>
+	</imageslide>
+</photo>
+
+</gallery>
+
+</mscontent>
+<!-- gallery 2 end -->
+
+
+<!-- view360 begin -->
+<mscontent type="view360">
+	<view360>
+		<enabletracking>false</enabletracking>
+		<trackingurl>
+			<data enable="true" mode="show" >http://www.google.com?search=view360-1</data>
+			<data enable="true"  mode="show" >http://www.google.com?search=view360-2</data>
+		</trackingurl>
+	
+	
+	<viewdata type="viewgallery">
+	<viewgallery>
+		<viewwidth>477</viewwidth>
+		<viewheight>314</viewheight>
+		<viewoffsetx>145</viewoffsetx>
+		<viewoffsety>24</viewoffsety>
+		<enabletracking>true</enabletracking>
+		<trackingurl>
+			<data enable="true" mode="show" >http://www.google.com?search=galShow1</data>
+			<data enable="true" mode="show" >http://www.google.com?search=galShow2</data>
+		</trackingurl>
+		
+		<photo type="imageslide">
+		<imageslide>
+			<imgpath>img/ford/new360view/1.jpg</imgpath>
+		</imageslide>
+		</photo>
+			
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/2.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/3.jpg</imgpath>
+		</imageslide>
+		</photo>
+			
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/4.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/6.jpg</imgpath>
+		</imageslide>
+		</photo>
+				
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/7.jpg</imgpath>
+		</imageslide>
+		</photo>	
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/8.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/9.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/10.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/11.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/12.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/13.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/14.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/15.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/16.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/17.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/18.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/19.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/20.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/21.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/22.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/23.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/24.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/25.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/26.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/27.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/28.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/30.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/31.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/32.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/33.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/34.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/35.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+		<imgpath>img/ford/new360view/36.jpg</imgpath>
+		</imageslide>
+		</photo>
+		
+		
+		
+	 </viewgallery>
+	</viewdata>
+	
+	</view360>
+	</mscontent>
+<!-- view360 end -->
+
+
+
+<!-- thumbnails begin ad-->
+<mscontent type="thumbnails">
+	<thumbnails>
+		<enabletracking>false</enabletracking>
+		<trackingurl>
+			<data enable="true" mode="show" >http://www.google.com?search=showthumbnails_1</data>
+		</trackingurl>
+
+	<thumbdata type="thumbgallery">
+		<thumbgallery >
+		<tgalwidth>477</tgalwidth>
+		<tgalheight>314</tgalheight>
+		<tgaloffsetx>145</tgaloffsetx>
+		<tgaloffsety>24</tgaloffsety>
+		<enabletracking>false</enabletracking>
+		<trackingurl>
+			<data enable="true" mode="Show" >http://www.google.com?search=tNgalShow21</data>
+		</trackingurl>
+		
+		<thumbbar width="636" height="71" offsetx="2" offsety="289" isvertical="false" effecttype="jump" iconwidth="106" iconheight="71" galtype="image">
+		
+		
+		
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small2.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big2.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>alpha</effecttype>
+					<slidefrom>top</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small3.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big3.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>alpha</effecttype>
+					<slidefrom>top</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small5.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big5.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>alpha</effecttype>
+					<slidefrom>top</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small6.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big6.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>alpha</effecttype>
+					<slidefrom>top</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small7.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big7.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>alpha</effecttype>
+					<slidefrom>top</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small8.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big8.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>move</effecttype>
+					<slidefrom>bottom</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small10.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big10.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>move</effecttype>
+					<slidefrom>bottom</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small11.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big11.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>move</effecttype>
+					<slidefrom>bottom</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		
+		</thumbbar>
+	</thumbgallery>
+	</thumbdata>
+	</thumbnails>
+</mscontent>
+<!-- thumbnails end ad -->
+
+
+
+
+
+<!-- menu begin -->
+
+	<mscontent type="admenu">
+	 <admenu>
+		<offsetx>100</offsetx>
+		<offsety>10
+		</offsety>
+		<applyanim>true</applyanim>
+		<delaytime>0</delaytime>
+		<effecttype>move</effecttype>
+		<slidefrom>top</slidefrom>
+		<showontop>true</showontop>
+		<showfirstwidget>true</showfirstwidget>
+		
+		<mitem type="imageslide">
+			<imageslide>
+				<imgpath>img/ford/logo.png </imgpath>
+				<imgwidth>127</imgwidth>
+				<imgheight>72</imgheight>
+				<offsetx>0</offsetx>
+				<offsety>0</offsety>
+				<gloweffect>false</gloweffect>
+				<applyanim>false</applyanim>
+				<delaytime>0</delaytime>
+				<effecttype>move</effecttype>
+				<slidefrom>left</slidefrom>
+				<enableclick>false</enableclick>
+				<clickurl>http://www.google.com/</clickurl>
+				<enabletracking>false</enabletracking>
+				<trackingurl>
+					<data enable="true" >http://www.google.com/</data>
+				</trackingurl>
+				</imageslide>
+		</mitem>
+		
+		<mitem type="itemapp">
+			<itemapp>
+			<bgimg>img/ford/techover.jpg</bgimg>
+			<overimg>img/ford/tech.jpg</overimg>
+			<imgwidth>127</imgwidth>
+			<imgheight>31</imgheight>
+			<offsetx>0</offsetx>
+			<offsety>72</offsety>
+			<type>widget</type>
+			<widgetname>gallery_1</widgetname>
+			<enableclick>false</enableclick>
+			<clickurl>http://www.olay.com/</clickurl>
+			<enabletracking>false</enabletracking>
+			<trackingurl>
+				<data enable="true"  >http://www.google.com?search=menu2</data>
+			</trackingurl>
+			</itemapp>
+		</mitem>
+		
+		<mitem type="itemapp">
+			<itemapp>
+			<bgimg>img/ford/fuelhover.jpg</bgimg>
+			<overimg>img/ford/fuel.jpg</overimg>
+			<imgwidth>127</imgwidth>
+			<imgheight>31</imgheight>
+			<offsetx>0</offsetx>
+			<offsety>103</offsety>
+			<type>widget</type>
+			<widgetname>gallery_2</widgetname>
+			<enableclick>false</enableclick>
+			<clickurl>http://www.olay.com/</clickurl>
+			<enabletracking>false</enabletracking>
+			<trackingurl>
+				<data enable="true"  >http://www.google.com?search=menu2</data>
+			</trackingurl>
+			</itemapp>
+		</mitem>
+		
+		
+		<mitem type="itemapp">
+			<itemapp>
+			<bgimg>img/ford/360viewhover.jpg</bgimg>
+			<overimg>img/ford/360view.jpg</overimg>
+			<imgwidth>127</imgwidth>
+			<imgheight>31</imgheight>
+			<offsetx>0</offsetx>
+			<offsety>134</offsety>
+			<type>widget</type>
+			<widgetname>view360_1</widgetname>
+			<enableclick>false</enableclick>
+			<clickurl>http://www.olay.com/</clickurl>
+			<enabletracking>false</enabletracking>
+			<trackingurl>
+				<data enable="true"  >http://www.google.com?search=menu2</data>
+			</trackingurl>
+			</itemapp>
+		</mitem>
+		
+		<mitem type="itemapp">
+			<itemapp>
+			<bgimg>img/ford/colorhover.jpg</bgimg>
+			<overimg>img/ford/color.jpg</overimg>
+			<imgwidth>127</imgwidth>
+			<imgheight>31</imgheight>
+			<offsetx>0</offsetx>
+			<offsety>165</offsety>
+			<type>widget</type>
+			<widgetname>thumbnails_1</widgetname>
+			<enableclick>false</enableclick>
+			<clickurl>http://www.olay.com/</clickurl>
+			<enabletracking>false</enabletracking>
+			<trackingurl>
+				<data enable="true"  >http://www.google.com?search=menu2</data>
+			</trackingurl>
+			</itemapp>
+		</mitem>
+		
+		<mitem type="imageslide">
+			<imageslide>
+				<imgpath>img/ford/bgbottom.jpg</imgpath>
+				<imgwidth>127</imgwidth>
+				<imgheight>118</imgheight>
+				<offsetx>0</offsetx>
+				<offsety>196</offsety>
+				<gloweffect>false</gloweffect>
+				<applyanim>false</applyanim>
+				<delaytime>0</delaytime>
+				<effecttype>move</effecttype>
+				<slidefrom>left</slidefrom>
+				<enableclick>false</enableclick>
+				<clickurl>http://www.google.com/</clickurl>
+				<enabletracking>false</enabletracking>
+				<trackingurl>
+					<data enable="true" >http://www.google.com/</data>
+				</trackingurl>
+				</imageslide>
+		</mitem>
+		
+		<mitem type="imageslide">
+			<imageslide>
+				<imgpath>img/ford/facebook.png</imgpath>
+				<imgwidth>25</imgwidth>
+				<imgheight>25</imgheight>
+				<offsetx>15</offsetx>
+				<offsety>270</offsety>
+				<gloweffect>false</gloweffect>
+				<applyanim>false</applyanim>
+				<delaytime>0</delaytime>
+				<effecttype>move</effecttype>
+				<slidefrom>left</slidefrom>
+				<enableclick>true</enableclick>
+				<clickurl>https://www.facebook.com/ford</clickurl>
+				<enabletracking>false</enabletracking>
+				<trackingurl>
+					<data enable="true" >http://www.google.com/</data>
+				</trackingurl>
+				</imageslide>
+		</mitem>
+		
+		<mitem type="imageslide">
+			<imageslide>
+				<imgpath>img/ford/twitter.png</imgpath>
+				<imgwidth>25</imgwidth>
+				<imgheight>25</imgheight>
+				<offsetx>50</offsetx>
+				<offsety>270</offsety>
+				<gloweffect>false</gloweffect>
+				<applyanim>false</applyanim>
+				<delaytime>0</delaytime>
+				<effecttype>move</effecttype>
+				<slidefrom>left</slidefrom>
+				<enableclick>true</enableclick>
+				<clickurl>https://twitter.com/Ford</clickurl>
+				<enabletracking>false</enabletracking>
+				<trackingurl>
+					<data enable="true" >http://www.google.com/</data>
+				</trackingurl>
+				</imageslide>
+		</mitem>
+		
+		<mitem type="imageslide">
+			<imageslide>
+				<imgpath>img/ford/youtube.png</imgpath>
+				<imgwidth>25</imgwidth>
+				<imgheight>25</imgheight>
+				<offsetx>85</offsetx>
+				<offsety>270</offsety>
+				<gloweffect>false</gloweffect>
+				<applyanim>false</applyanim>
+				<delaytime>0</delaytime>
+				<effecttype>move</effecttype>
+				<slidefrom>left</slidefrom>
+				<enableclick>true</enableclick>
+				<clickurl>http://youtu.be/sqk80YvX_zI</clickurl>
+				<enabletracking>false</enabletracking>
+				<trackingurl>
+					<data enable="true" >http://www.google.com/</data>
+				</trackingurl>
+				</imageslide>
+		</mitem>
+		
+				
+	 </admenu>
+	</mscontent>
+<!-- menu end -->
+
+
+
+
+
+<mscontent type="closebtn">
+<closebtn>
+<imgpath>default</imgpath>
+<offsetx>612</offsetx>
+<offsety>8</offsety>
+<removead>false</removead>
+<enabletracking>false</enabletracking>
+			<trackingurl>
+				<data enable="true"  >http://www.google.com?search=closebtn1</data>
+				<data enable="true"  >http://www.google.com?search=closebtn2</data>
+			</trackingurl>
+</closebtn>
+</mscontent>
+</minisiteapp>
+</ad>
+

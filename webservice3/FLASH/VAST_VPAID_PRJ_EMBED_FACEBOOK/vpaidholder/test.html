@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>vpaidholder</title>
+		<style type="text/css" media="screen">
+		html, body { height:100%; background-color: #999999;}
+		body { margin:0; padding:0; overflow:hidden; }
+		#flashContent { width:100%; height:100%; }
+		</style>
+	</head>
+	<script>
+/*	function getFlashMovieObject(movieName){
+	if (window.document[movieName]){
+		return window.document[movieName];
+	}
+	if (navigator.appName.indexOf("Microsoft Internet")==-1){
+		if (document.embeds &amp;&amp; document.embeds[movieName])
+			return document.embeds[movieName];
+	}
+	else{
+		return document.getElementById(movieName);
+	}
+}
+
+	function SendDataToFlashMovie2(str){
+	var flashMovie=getFlashMovieObject("myFlashMovie");
+	flashMovie.sendTextToFlash(str);
+	}*/
+	
+	function SendDataToFlashMovie(str){
+	//var flashMovie=getFlashMovieObject("myFlashMovie");
+	document.getElementById("myFlashMovie").sendTextToFlash(str);
+	}
+	
+	
+</script>
+	</script>
+	<body>
+		<div><button onClick="SendDataToFlashMovie('stopMovie')">sent to flash</button></div>
+		<div id="flashContent">
+			<embed src="vpaidholder.swf"
+				quality="high"
+				bgcolor="#000000"
+				width="640"
+				height="360"
+				name="myFlashMovie" 
+				FlashVars="xmlurl=http://localhost/riaz/vpaidwrapper/embedswf/xml/wrapperdata.xml"
+				align="middle"
+				allowScriptAccess="sameDomain"
+				allowFullScreen="true"
+				type="application/x-shockwave-flash"
+				pluginspage="http://www.adobe.com/go/getflash"
+			/>
+		</div>
+		
+	</body>
+</html>

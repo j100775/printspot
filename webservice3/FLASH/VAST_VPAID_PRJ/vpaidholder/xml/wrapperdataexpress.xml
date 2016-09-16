@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<main>
+<campaign>
+<livepath>http://dev.pmi5media.com/demo/vpaidwrapper/</livepath>
+<islinearad>false</islinearad>
+<swffile>vholder/vpaidholder.swf</swffile>
+<durationseconds>30</durationseconds>
+</campaign>
+
+
+	
+<ad type="minisiteapp">
+<minisiteapp>
+		
+	<mscontent type="imageapp">
+		<imageapp>
+		<opengallery>true</opengallery>
+		<openonover>false</openonover>
+		<bgimg>http://dev.pmi5media.com/demo/vpaidwrapper/img/redbull/full/overlaybg.png</bgimg>
+		<overimg>http://dev.pmi5media.com/demo/vpaidwrapper/img/redbull/full/overlaytext.png</overimg>
+		<imgwidth>301</imgwidth>
+		<imgheight>160</imgheight>
+		<offsetx>339</offsetx>
+		<offsety>130</offsety>
+		<gloweffect>true</gloweffect>
+		<applyanim>true</applyanim>
+		<delaytime>0</delaytime>
+		<effecttype>move</effecttype>
+		<slidefrom>left</slidefrom>
+		<enableclick>true</enableclick>
+		<clickurl>http://www.pmi5media.com</clickurl>
+		<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageapp>
+	</mscontent>
+	
+	<mscontent type="imageslide">	
+		<imageslide>
+		<imgpath>http://dev.pmi5media.com/demo/vpaidwrapper/img/fordmenu/bg.png</imgpath>
+		<imgwidth>640</imgwidth>
+		<imgheight>360</imgheight>
+		<offsetx>0</offsetx>
+		<offsety>0</offsety>
+		<gloweffect>false</gloweffect>
+		<applyanim>true</applyanim>
+		<delaytime>0</delaytime>
+		<effecttype>move</effecttype>
+		<slidefrom>top</slidefrom>
+		<enableclick>false</enableclick>
+		<enabletracking>false</enabletracking>
+		<clickurl>http://www.pmi5media.com</clickurl>
+		<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+	</mscontent>
+
+	<mscontent type="about">
+	<about>
+	<adata type="imageslide">
+		<imageslide>
+			<imgpath>http://dev.pmi5media.com/demo/vpaidwrapper/img/disney/bgabout.png</imgpath>
+			<imgwidth>640</imgwidth>
+			<imgheight>360</imgheight>
+			<offsetx>0</offsetx>
+			<offsety>0</offsety>
+			<gloweffect>false</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>alpha</effecttype>
+			<slidefrom>left</slidefrom>
+			<enableclick>false</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</adata>
+		<adata type="imageslide">
+		<imageslide>
+			<imgpath>http://dev.pmi5media.com/demo/vpaidwrapper/img/disney/layer_26.png</imgpath>
+			<imgwidth>198</imgwidth>
+			<imgheight>178</imgheight>
+			<offsetx>190</offsetx>
+			<offsety>120</offsety>
+			<gloweffect>false</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>500</delaytime>
+			<effecttype>alpha</effecttype>
+			<slidefrom>left</slidefrom>
+			<enableclick>false</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</adata>
+		<adata type="imageslide">
+		<imageslide>
+			<imgpath>http://dev.pmi5media.com/demo/vpaidwrapper/img/disney/Overlay_Logo.png</imgpath>
+			<imgwidth>369</imgwidth>
+			<imgheight>86</imgheight>
+			<offsetx>250</offsetx>
+			<offsety>5</offsety>
+			<gloweffect>false</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>move</effecttype>
+			<slidefrom>top</slidefrom>
+			<enableclick>false</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</adata>
+		<adata type="abouttext">
+			<abouttext>
+				<isbold>false</isbold>
+				<fontsize>12</fontsize>
+				<fontcolor>0xffffff</fontcolor>
+				<offsetx>250</offsetx>
+				<offsety>90</offsety>
+				<txtwidth>350</txtwidth>
+				<txtheight>250</txtheight>
+				
+				<fontfamily>verdana</fontfamily>
+				<desc><b>some long text &quot;break some long&quot; text some</b> long text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,</p> from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet../, comes from a line in section 1.10.32. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). </desc>
+			
+			</abouttext>
+		</adata>
+	
+	</about>
+	</mscontent>
+	
+	<mscontent type="gallery">
+	<gallery>
+		<navbtneffect>move</navbtneffect>
+		<navbtnleftimg>http://dev.pmi5media.com/demo/vpaidwrapper/img/redbull/full/left_arrow.png</navbtnleftimg>
+		<navbtnrightimg>http://dev.pmi5media.com/demo/vpaidwrapper/img/redbull/full/right_arrow.png</navbtnrightimg>
+		<photo type="imageslide">
+		<imageslide>
+			<imgpath>http://dev.pmi5media.com/demo/vpaidwrapper/img/redbull/can01.png</imgpath>
+			<imgwidth>100</imgwidth>
+			<imgheight>208</imgheight>
+			<offsetx>250</offsetx>
+			<offsety>70</offsety>
+			<gloweffect>true</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>move</effecttype>
+			<slidefrom>left</slidefrom>
+			<enableclick>false</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</photo>
+		<photo type="imageslide">
+		<imageslide>
+			<imgpath>http://dev.pmi5media.com/demo/vpaidwrapper/img/redbull/can03.png</imgpath>
+			<imgwidth>185</imgwidth>
+			<imgheight>185</imgheight>
+			<offsetx>200</offsetx>
+			<offsety>70</offsety>
+			<gloweffect>true</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>move</effecttype>
+			<slidefrom>top</slidefrom>
+			<enableclick>true</enableclick>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</photo>
+		
+	
+		<photo type="imageslide">
+		<imageslide>
+			<imgpath>http://dev.pmi5media.com/demo/vpaidwrapper/img/redbull/can01.png</imgpath>
+			<imgwidth>95</imgwidth>
+			<imgheight>224</imgheight>
+			<offsetx>300</offsetx>
+			<offsety>70</offsety>
+			<gloweffect>true</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>move</effecttype>
+			<slidefrom>bottom</slidefrom>
+			<enableclick>true</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</photo>
+		
+		<photo type="imageslide">
+		<imageslide>
+			<imgpath>http://dev.pmi5media.com/demo/vpaidwrapper/img/disney/Overlay_Logo.png</imgpath>
+			<imgwidth>369</imgwidth>
+			<imgheight>86</imgheight>
+			<offsetx>160</offsetx>
+			<offsety>110</offsety>
+			<gloweffect>true</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>move</effecttype>
+			<slidefrom>top</slidefrom>
+			<enableclick>false</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</photo>
+		
+		
+		</gallery>
+	</mscontent>
+	
+	<!-- menu begin -->
+
+	<mscontent type="admenu">
+	 <admenu>
+		<offsetx>14</offsetx>
+		<offsety>29</offsety>
+		<applyanim>true</applyanim>
+		<delaytime>500</delaytime>
+		<effecttype>move</effecttype>
+		<slidefrom>left</slidefrom>
+		
+		
+		<mitem type="itemapp">
+			<itemapp>
+			<bgimg>http://dev.pmi5media.com/demo/vpaidwrapper/img/fordmenu/feaover.png</bgimg>
+			<overimg>http://dev.pmi5media.com/demo/vpaidwrapper/img/fordmenu/fea.png</overimg>
+			<imgwidth>167</imgwidth>
+			<imgheight>30</imgheight>
+			<offsetx>0</offsetx>
+			<offsety>0</offsety>
+			<type>click</type>
+			<widgetname>home1</widgetname>
+			<enableclick>true</enableclick>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<enabletracking>false</enabletracking>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+			</itemapp>
+		</mitem>
+		
+		<mitem type="itemapp">
+			<itemapp>
+			<bgimg>http://dev.pmi5media.com/demo/vpaidwrapper/img/fordmenu/galleryover.png</bgimg>
+			<overimg>http://dev.pmi5media.com/demo/vpaidwrapper/img/fordmenu/gallery.png</overimg>
+			<imgwidth>167</imgwidth>
+			<imgheight>30</imgheight>
+			<offsetx>0</offsetx>
+			<offsety>34</offsety>
+			<type>widget</type>
+			<widgetname>gallery</widgetname>
+			<enableclick>false</enableclick>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<enabletracking>false</enabletracking>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+			</itemapp>
+		</mitem>
+		
+		
+		<mitem type="itemapp">
+			<itemapp>
+			<bgimg>http://dev.pmi5media.com/demo/vpaidwrapper/img/fordmenu/dlover.png</bgimg>
+			<overimg>http://dev.pmi5media.com/demo/vpaidwrapper/img/fordmenu/dl.png</overimg>
+			<imgwidth>167</imgwidth>
+			<imgheight>30</imgheight>
+			<offsetx>0</offsetx>
+			<offsety>67</offsety>
+			<type>widget</type>
+			<widgetname>about</widgetname>
+			<enableclick>false</enableclick>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<enabletracking>false</enabletracking>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+			</itemapp>
+		</mitem>
+				
+	 </admenu>
+	</mscontent>
+<!-- menu end -->
+
+	
+	<mscontent type="closebtn">
+		<closebtn>
+		<offsetx>10</offsetx>
+		<offsety>2</offsety>
+		</closebtn>
+	</mscontent>
+	
+</minisiteapp>
+
+</ad>
+
+
+
+ 
+
+</main>

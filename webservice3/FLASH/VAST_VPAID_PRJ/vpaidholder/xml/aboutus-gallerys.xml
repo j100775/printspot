@@ -1,0 +1,2274 @@
+						
+								
+<main>
+<campaign>
+<showdebugger>true1</showdebugger>
+<livepath>http://localhost/riaz/vpaidwrapper/</livepath>
+<swffile>vholder/vpaidholder.swf</swffile>
+<durationseconds>5</durationseconds>
+<islinearad>true</islinearad>
+<switchtononlinear>true1</switchtononlinear>
+<showcounter>true1</showcounter>
+<stopcounter>true1</stopcounter>
+<counteroffsetx>400</counteroffsetx>
+<counteroffsety>10</counteroffsety>
+<countercolor>0x00ffff</countercolor>
+<showskipad>true</showskipad>
+<skipadvalue>5</skipadvalue>
+<skipadoffsetx>570</skipadoffsetx>
+<skipadoffsety>50</skipadoffsety>
+<skipadcolor>0xf000ff</skipadcolor>
+<campid>118</campid>
+<campgroup>Standard</campgroup>
+</campaign>
+
+
+
+<ad type="videoplayer">
+<vidplayer>
+    <vidpath>http://localhost/riaz/vpaidwrapper/video/nike.mp4</vidpath>
+    <showontop>true1</showontop>
+     
+    <volume>50</volume>
+    <showcontrols>true</showcontrols>
+    <enableclick>true1</enableclick>
+    <clickurl>http://www.pmi5media.com/</clickurl>
+    <enabletracking>true</enabletracking>
+     <trackingurl>
+      <data enable="true" >http://www.google.com?search=playervideo1</data>
+      <data enable="true"  >http://www.google.com?search=playervideo2</data>
+     </trackingurl>
+   
+    <seekbartracking>
+      <trackingurl timeval="2" >
+       <data enable="true" usefor="vid">seekbar2,creative</data>
+       <data enable="true" >http://www.google.com?search=timeval21</data>
+      </trackingurl>
+      <trackingurl timeval="5">
+       <data enable="true" usefor="vid">seekbar5,creative</data>
+       <data enable="true"  >http://www.google.com?search=timeval51</data>
+      </trackingurl>
+      <trackingurl timeval="7">
+      <data enable="true" usefor="vid">seekbar7,creative</data>
+       <data enable="true"  >http://www.google.com?search=timeval71</data>
+      </trackingurl>
+      <trackingurl timeval="9">
+      <data enable="true" usefor="vid">seekbar9,creative</data>
+       <data enable="true"  >http://www.google.com?search=timeval91</data>
+      </trackingurl>
+    </seekbartracking> 
+	
+   </vidplayer>
+</ad>
+
+
+<!-- gallery 1 begin -->
+<ad type="gallery">
+
+<gallery>
+
+<type>video</type>
+<navbtneffect>move</navbtneffect>
+<navbtnleftimg>img/redbull/left.png</navbtnleftimg>
+<navbtnrightimg>img/redbull/right.png</navbtnrightimg>
+<galwidth>477</galwidth>
+<galheight>314</galheight>
+<galoffsetx>0</galoffsetx>
+<galoffsety>24</galoffsety>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" mode="show"  usefor="vid">galShow2,Cratives</data>
+</trackingurl>
+
+<slides>
+<slide>
+
+<photo type="clickthru">
+<clickthrus>
+<clickthru>
+<showafter>0</showafter>
+<hideafter>20</hideafter>
+<tooltip> ford 1 Boolean value that indicates whether Flash Player automatically scroll  </tooltip>
+<iconno>img/sjacket4.jpg</iconno>
+<iconwidth>100</iconwidth>
+<iconheight>60</iconheight>
+<enableclick>true</enableclick>
+<clickurl>http://www.vidaptiv.com/</clickurl>
+<fromleft>20</fromleft>
+<fromtop>200</fromtop>
+<tipwidth>100</tipwidth>
+<tipheight>100</tipheight>
+<tipbgcolor>0x47F029</tipbgcolor>
+<tiplinecolor>0x3929F0</tiplinecolor>
+<tiptextcolor>0xF43315</tiptextcolor>
+<tipoffsetx>120</tipoffsetx>
+<tipoffsety>250</tipoffsety>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default" usefor="vid">clickicon3,creative</data>
+<data type="default" enable="true">http://www.google.com/search=clickicon31</data>
+</trackingurl>
+</clickthru>
+</clickthrus>
+</photo>
+
+
+
+<photo type="videoplayer">
+			<vidplayer>
+				<vidpath>http://localhost/riaz/vpaidwrapper/video/ford.mp4</vidpath>
+				<enableclick>true</enableclick>
+				<clickurl>http://www.google.com</clickurl>
+				<autoplay>true1</autoplay>
+				<volume>50</volume>
+				<showcontrols>true</showcontrols>
+				<enabletracking>true</enabletracking>
+					<trackingurl>
+						<data enable="true"  usefor="vid">clickicon3,creative</data>
+						<data enable="true"  >http://www.google.com?search=gallery1gallery1FreeW2</data>
+					</trackingurl>
+			</vidplayer>
+</photo>
+			
+
+
+</slide>
+
+</slides>
+
+
+<slides>
+<slide>
+<photo type="youtube">
+			<youtube>
+				<videourl>http://youtu.be/D-AlxvUWoso</videourl>
+				<showcontrols>true1</showcontrols>
+				<autoplay>true</autoplay>
+				<volume>50</volume>
+			</youtube>
+</photo>
+<photo type="clickthru">
+<clickthrus>
+<clickthru>
+<showafter>0</showafter>
+<hideafter>20</hideafter>
+<tooltip>you tube value that indicates whether Flash Player automatically scroll  </tooltip>
+<iconno>img/sjacket4.jpg</iconno>
+<iconwidth>100</iconwidth>
+<iconheight>60</iconheight>
+<enableclick>true</enableclick>
+<clickurl>http://www.vidaptiv.com/</clickurl>
+<fromleft>200</fromleft>
+<fromtop>200</fromtop>
+<tipwidth>100</tipwidth>
+<tipheight>100</tipheight>
+<tipbgcolor>0x47F029</tipbgcolor>
+<tiplinecolor>0x3929F0</tiplinecolor>
+<tiptextcolor>0xF43315</tiptextcolor>
+<tipoffsetx>120</tipoffsetx>
+<tipoffsety>250</tipoffsety>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default" usefor="vid">clickicon3,creative</data>
+<data type="default" enable="true">http://www.google.com/search=clickicon31</data>
+</trackingurl>
+</clickthru>
+</clickthrus>
+</photo>
+</slide>
+</slides>
+
+
+<slides>
+<slide>
+<photo type="videoplayer">
+			<vidplayer>
+				<vidpath>http://localhost/riaz/vpaidwrapper/video/nike.mp4</vidpath>
+				<vidwidth>640</vidwidth>
+				<vidheight>360</vidheight>
+				<offsetx>0</offsetx>
+				<offsety>0</offsety>
+				<enableclick>false</enableclick>
+				<clickurl>false</clickurl>
+				<autoplay>true</autoplay>
+				<volume>50</volume>
+				<showcontrols>true</showcontrols>
+				<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com?search=gallery1FreeW</data>
+						<data enable="true"  >http://www.google.com?search=gallery1gallery1FreeW2</data>
+					</trackingurl>
+			</vidplayer>
+</photo>
+		
+<photo type="clickthru">
+<clickthrus>
+<clickthru>
+<showafter>0</showafter>
+<hideafter>20</hideafter>
+<tooltip>nike 2 Boolean value that indicates whether Flash Player automatically scroll  ok Icon Returns a DisplayObject reference for the  </tooltip>
+<iconno>img/sjacket3.jpg</iconno>
+<iconwidth>60</iconwidth>
+<iconheight>150</iconheight>
+<enableclick>true</enableclick>
+<clickurl>http://www.vidaptiv.com/</clickurl>
+<fromleft>100</fromleft>
+<fromtop>150</fromtop>
+<tipwidth>150</tipwidth>
+<tipheight>130</tipheight>
+<tipbgcolor>0x47F029</tipbgcolor>
+<tiplinecolor>0x3929F0</tiplinecolor>
+<tiptextcolor>0xF43315</tiptextcolor>
+<tipoffsetx>50</tipoffsetx>
+<tipoffsety>60</tipoffsety>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default" usefor="vid">clickicon3,creative</data>
+<data type="default" enable="true">http://www.google.com/search=clickicon31</data>
+</trackingurl>
+</clickthru>
+</clickthrus>
+</photo>
+
+
+</slide>
+
+</slides>
+
+<slides>
+<slide>
+
+
+<photo type="clickthru">
+<clickthrus>
+<clickthru>
+<showafter>0</showafter>
+<hideafter>20</hideafter>
+<tooltip> sea horse  3 Boolean value that indicates whether Flash Player automatically scroll  ok Icon Returns a DisplayObject reference for the given id, for an image or SWF file that has been added to an HTML-formatted text field by using an  tag. s multiline text</tooltip>
+<iconno>img/sjacket3.jpg</iconno>
+<iconwidth>60</iconwidth>
+<iconheight>150</iconheight>
+<enableclick>true</enableclick>
+<clickurl>http://www.vidaptiv.com/</clickurl>
+<fromleft>300</fromleft>
+<fromtop>150</fromtop>
+<tipwidth>220</tipwidth>
+<tipheight>130</tipheight>
+<tipbgcolor>0xF029</tipbgcolor>
+<tiplinecolor>0x3929F0</tiplinecolor>
+<tiptextcolor>0xebeb15</tiptextcolor>
+<tipoffsetx>50</tipoffsetx>
+<tipoffsety>60</tipoffsety>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default" usefor="vid">clickicon3,creative</data>
+<data type="default" enable="true">http://www.google.com/search=clickicon31</data>
+</trackingurl>
+</clickthru>
+</clickthrus>
+</photo>
+
+
+<photo type="clickthru">
+<clickthrus>
+<clickthru>
+<showafter>0</showafter>
+<hideafter>20</hideafter>
+<tooltip> sea horse 3 Boolean value that indicates whether Flash Player automatically scroll  ok Icon Returns a DisplayObject reference for the given id, for an image or SWF file that has been added to an HTML-formatted text field by using an  tag. s multiline text</tooltip>
+<iconno>img/sjacket5.jpg</iconno>
+<iconwidth>60</iconwidth>
+<iconheight>150</iconheight>
+<enableclick>true</enableclick>
+<clickurl>http://www.vidaptiv.com/</clickurl>
+<fromleft>200</fromleft>
+<fromtop>50</fromtop>
+<tipwidth>220</tipwidth>
+<tipheight>150</tipheight>
+<tipbgcolor>0xfff029</tipbgcolor>
+<tiplinecolor>0x3929F0</tiplinecolor>
+<tiptextcolor>0x000000</tiptextcolor>
+<tipoffsetx>250</tipoffsetx>
+<tipoffsety>60</tipoffsety>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default" usefor="vid">clickicon3,creative</data>
+<data type="default" enable="true">http://www.google.com/search=clickicon31</data>
+</trackingurl>
+</clickthru>
+</clickthrus>
+</photo>
+
+
+<photo type="videoplayer">
+			<vidplayer>
+				<vidpath>http://localhost/riaz/vpaidwrapper/video/Sea_SeaHorse.mp4</vidpath>
+				<enableclick>false</enableclick>
+				<clickurl>false</clickurl>
+				<autoplay>true</autoplay>
+				<volume>50</volume>
+				<showcontrols>true</showcontrols>
+				<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com?search=gallery1FreeW</data>
+						<data enable="true"  >http://www.google.com?search=gallery1gallery1FreeW2</data>
+					</trackingurl>
+			</vidplayer>
+</photo>
+			
+
+
+
+
+</slide>
+</slides>
+
+<slides>
+<photo type="backbtn">
+				<backbtn>
+					<offsetx>500</offsetx>
+					<offsety>0</offsety>
+					<enabletracking>true1</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com?search=thumbback</data>
+						<data  enable="false" >http://www.google.com?search=thumbback2</data>					
+					</trackingurl>
+				</backbtn>
+	</photo>
+
+</slides>
+
+</gallery>
+</ad>
+<!-- gallery 1 end -->
+
+
+
+<!-- gallery 2 begin -->
+<ad type="gallery">
+
+<gallery>
+
+<type>video</type>
+<navbtneffect>move</navbtneffect>
+<navbtnleftimg>img/redbull/left.png</navbtnleftimg>
+<navbtnrightimg>img/redbull/right.png</navbtnrightimg>
+<galwidth>477</galwidth>
+<galheight>314</galheight>
+<galoffsetx>130</galoffsetx>
+<galoffsety>0</galoffsety>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" mode="show"  usefor="vid">galShow2,Cratives</data>
+</trackingurl>
+
+<slides>
+<slide>
+
+<photo type="clickthru">
+<clickthrus>
+<clickthru>
+<showafter>0</showafter>
+<hideafter>20</hideafter>
+<tooltip> ford 1 Boolean value that indicates whether Flash Player automatically scroll  </tooltip>
+<iconno>img/sjacket4.jpg</iconno>
+<iconwidth>100</iconwidth>
+<iconheight>60</iconheight>
+<enableclick>true</enableclick>
+<clickurl>http://www.vidaptiv.com/</clickurl>
+<fromleft>20</fromleft>
+<fromtop>200</fromtop>
+<tipwidth>100</tipwidth>
+<tipheight>100</tipheight>
+<tipbgcolor>0x47F029</tipbgcolor>
+<tiplinecolor>0x3929F0</tiplinecolor>
+<tiptextcolor>0xF43315</tiptextcolor>
+<tipoffsetx>120</tipoffsetx>
+<tipoffsety>250</tipoffsety>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default" usefor="vid">clickicon3,creative</data>
+<data type="default" enable="true">http://www.google.com/search=clickicon31</data>
+</trackingurl>
+</clickthru>
+</clickthrus>
+</photo>
+
+
+
+<photo type="videoplayer">
+			<vidplayer>
+				<vidpath>http://localhost/riaz/vpaidwrapper/video/ford.mp4</vidpath>
+				<enableclick>true</enableclick>
+				<clickurl>http://www.google.com</clickurl>
+				<autoplay>true1</autoplay>
+				<volume>50</volume>
+				<showcontrols>true</showcontrols>
+				<enabletracking>true</enabletracking>
+					<trackingurl>
+						<data enable="true"  usefor="vid">clickicon3,creative</data>
+						<data enable="true"  >http://www.google.com?search=gallery1gallery1FreeW2</data>
+					</trackingurl>
+			</vidplayer>
+</photo>
+			
+
+
+</slide>
+
+</slides>
+
+
+<slides>
+<slide>
+<photo type="youtube">
+			<youtube>
+				<videourl>http://youtu.be/D-AlxvUWoso</videourl>
+				<showcontrols>true1</showcontrols>
+				<autoplay>true</autoplay>
+				<volume>50</volume>
+			</youtube>
+</photo>
+<photo type="clickthru">
+<clickthrus>
+<clickthru>
+<showafter>0</showafter>
+<hideafter>20</hideafter>
+<tooltip>you tube value that indicates whether Flash Player automatically scroll  </tooltip>
+<iconno>img/sjacket4.jpg</iconno>
+<iconwidth>100</iconwidth>
+<iconheight>60</iconheight>
+<enableclick>true</enableclick>
+<clickurl>http://www.vidaptiv.com/</clickurl>
+<fromleft>200</fromleft>
+<fromtop>200</fromtop>
+<tipwidth>100</tipwidth>
+<tipheight>100</tipheight>
+<tipbgcolor>0x47F029</tipbgcolor>
+<tiplinecolor>0x3929F0</tiplinecolor>
+<tiptextcolor>0xF43315</tiptextcolor>
+<tipoffsetx>120</tipoffsetx>
+<tipoffsety>250</tipoffsety>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default" usefor="vid">clickicon3,creative</data>
+<data type="default" enable="true">http://www.google.com/search=clickicon31</data>
+</trackingurl>
+</clickthru>
+</clickthrus>
+</photo>
+</slide>
+</slides>
+
+
+<slides>
+<slide>
+<photo type="videoplayer">
+			<vidplayer>
+				<vidpath>http://localhost/riaz/vpaidwrapper/video/nike.mp4</vidpath>
+				<vidwidth>640</vidwidth>
+				<vidheight>360</vidheight>
+				<offsetx>0</offsetx>
+				<offsety>0</offsety>
+				<enableclick>false</enableclick>
+				<clickurl>false</clickurl>
+				<autoplay>true</autoplay>
+				<volume>50</volume>
+				<showcontrols>true</showcontrols>
+				<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com?search=gallery1FreeW</data>
+						<data enable="true"  >http://www.google.com?search=gallery1gallery1FreeW2</data>
+					</trackingurl>
+			</vidplayer>
+</photo>
+		
+<photo type="clickthru">
+<clickthrus>
+<clickthru>
+<showafter>0</showafter>
+<hideafter>20</hideafter>
+<tooltip>nike 2 Boolean value that indicates whether Flash Player automatically scroll  ok Icon Returns a DisplayObject reference for the  </tooltip>
+<iconno>img/sjacket3.jpg</iconno>
+<iconwidth>60</iconwidth>
+<iconheight>150</iconheight>
+<enableclick>true</enableclick>
+<clickurl>http://www.vidaptiv.com/</clickurl>
+<fromleft>100</fromleft>
+<fromtop>150</fromtop>
+<tipwidth>150</tipwidth>
+<tipheight>130</tipheight>
+<tipbgcolor>0x47F029</tipbgcolor>
+<tiplinecolor>0x3929F0</tiplinecolor>
+<tiptextcolor>0xF43315</tiptextcolor>
+<tipoffsetx>50</tipoffsetx>
+<tipoffsety>60</tipoffsety>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default" usefor="vid">clickicon3,creative</data>
+<data type="default" enable="true">http://www.google.com/search=clickicon31</data>
+</trackingurl>
+</clickthru>
+</clickthrus>
+</photo>
+
+
+</slide>
+
+</slides>
+
+<slides>
+<slide>
+
+
+<photo type="clickthru">
+<clickthrus>
+<clickthru>
+<showafter>0</showafter>
+<hideafter>20</hideafter>
+<tooltip> sea horse  3 Boolean value that indicates whether Flash Player automatically scroll  ok Icon Returns a DisplayObject reference for the given id, for an image or SWF file that has been added to an HTML-formatted text field by using an  tag. s multiline text</tooltip>
+<iconno>img/sjacket3.jpg</iconno>
+<iconwidth>60</iconwidth>
+<iconheight>150</iconheight>
+<enableclick>true</enableclick>
+<clickurl>http://www.vidaptiv.com/</clickurl>
+<fromleft>300</fromleft>
+<fromtop>150</fromtop>
+<tipwidth>220</tipwidth>
+<tipheight>130</tipheight>
+<tipbgcolor>0xF029</tipbgcolor>
+<tiplinecolor>0x3929F0</tiplinecolor>
+<tiptextcolor>0xebeb15</tiptextcolor>
+<tipoffsetx>50</tipoffsetx>
+<tipoffsety>60</tipoffsety>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default" usefor="vid">clickicon3,creative</data>
+<data type="default" enable="true">http://www.google.com/search=clickicon31</data>
+</trackingurl>
+</clickthru>
+</clickthrus>
+</photo>
+
+
+<photo type="clickthru">
+<clickthrus>
+<clickthru>
+<showafter>0</showafter>
+<hideafter>20</hideafter>
+<tooltip> sea horse 3 Boolean value that indicates whether Flash Player automatically scroll  ok Icon Returns a DisplayObject reference for the given id, for an image or SWF file that has been added to an HTML-formatted text field by using an  tag. s multiline text</tooltip>
+<iconno>img/sjacket5.jpg</iconno>
+<iconwidth>60</iconwidth>
+<iconheight>150</iconheight>
+<enableclick>true</enableclick>
+<clickurl>http://www.vidaptiv.com/</clickurl>
+<fromleft>200</fromleft>
+<fromtop>50</fromtop>
+<tipwidth>220</tipwidth>
+<tipheight>150</tipheight>
+<tipbgcolor>0xfff029</tipbgcolor>
+<tiplinecolor>0x3929F0</tiplinecolor>
+<tiptextcolor>0x000000</tiptextcolor>
+<tipoffsetx>250</tipoffsetx>
+<tipoffsety>60</tipoffsety>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default" usefor="vid">clickicon3,creative</data>
+<data type="default" enable="true">http://www.google.com/search=clickicon31</data>
+</trackingurl>
+</clickthru>
+</clickthrus>
+</photo>
+
+
+<photo type="videoplayer">
+			<vidplayer>
+				<vidpath>http://localhost/riaz/vpaidwrapper/video/Sea_SeaHorse.mp4</vidpath>
+				<enableclick>false</enableclick>
+				<clickurl>false</clickurl>
+				<autoplay>true</autoplay>
+				<volume>50</volume>
+				<showcontrols>true</showcontrols>
+				<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com?search=gallery1FreeW</data>
+						<data enable="true"  >http://www.google.com?search=gallery1gallery1FreeW2</data>
+					</trackingurl>
+			</vidplayer>
+</photo>
+			
+
+
+
+
+</slide>
+</slides>
+
+<slides>
+<photo type="backbtn">
+				<backbtn>
+					<offsetx>500</offsetx>
+					<offsety>0</offsety>
+					<enabletracking>true1</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com?search=thumbback</data>
+						<data  enable="false" >http://www.google.com?search=thumbback2</data>					
+					</trackingurl>
+				</backbtn>
+	</photo>
+
+</slides>
+
+</gallery>
+</ad>
+<!-- gallery 2 end -->
+
+
+
+
+
+
+<ad type="minisiteapp">
+<minisiteapp>
+
+<mscontent type="imageapp">
+<imageapp>
+<opengallery>true</opengallery>
+<openonover>false</openonover>
+<bgimg>
+img/ford/welcome.png
+</bgimg>
+<overimg>
+img/ford/welcomeover.png
+</overimg>
+<imgwidth>200</imgwidth>
+<imgheight>100</imgheight>
+<offsetx>250</offsetx>
+<offsety>250</offsety>
+<gloweffect>true</gloweffect>
+<applyanim>true</applyanim>
+<delaytime>0</delaytime>
+<effecttype>move</effecttype>
+<slidefrom>left</slidefrom>
+<enableclick>false</enableclick>
+<clickurl>false</clickurl>
+<enabletracking>false</enabletracking>
+<trackingurl>
+<data mode="show" type="default" enable="true">http://www.pmi5media.com</data>
+<data mode="show" type="user" tagname="det-Welcome" enable="true">http://www.google.com</data>
+<data mode="show" type="default" enable="true" usefor="vid">det-Welcome,Creative</data>
+</trackingurl>
+<showcrossbtn>false</showcrossbtn>
+<aligncrossbtn>topright</aligncrossbtn>
+</imageapp>
+</mscontent>
+
+
+<mscontent type="imageslide">
+	<imageslide>
+	<imgpath>
+	img/ford/bg.png
+	</imgpath>
+	<imgwidth>640</imgwidth>
+	<imgheight>360</imgheight>
+	<offsetx>0</offsetx>
+	<offsety>0</offsety>
+	<gloweffect>false</gloweffect>
+	<applyanim>true</applyanim>
+	<delaytime>0</delaytime>
+	<effecttype>alpha</effecttype>
+	<slidefrom>left</slidefrom>
+	<enableclick>false</enableclick>
+	<clickurl>http://www.pmi5media.com/</clickurl>
+	<enabletracking>false</enabletracking>
+	<trackingurl>
+	<data enable="true" >http://www.pmi5media.com/</data>
+	</trackingurl>
+	</imageslide>
+</mscontent>
+
+
+
+
+<!-- about us -->
+<mscontent type="about">
+	<about>
+	<adata type="imageslide">
+		<imageslide>
+			<imgpath>img/lbg2.jpg</imgpath>
+			<imgwidth>477</imgwidth>
+			<imgheight>314</imgheight>
+			<offsetx>145</offsetx>
+			<offsety>24</offsety>
+			<gloweffect>false</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>alpha</effecttype>
+			<slidefrom>left</slidefrom>
+			<enableclick>false</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</adata>
+		
+	<!--
+		<adata type="abouttext">
+			<abouttext>
+				<isbold>false</isbold>
+				<fontsize>12</fontsize>
+				<fontcolor>0xffffff</fontcolor>
+				<offsetx>250</offsetx>
+				<offsety>90</offsety>
+				<txtwidth>350</txtwidth>
+				<txtheight>250</txtheight>
+				<fontfamily>verdana</fontfamily>
+				<desc>some long text &quot;break some long&quot; text somelong text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,</p> from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet../, comes from a line in section 1.10.32. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). </desc>
+			
+			</abouttext>
+		</adata>
+		
+		-->
+		
+	
+	 
+<!-- thumbnails begin ad-->
+<adata type="thumbnails">
+	<thumbnails>
+		<enabletracking>true</enabletracking>
+		<trackingurl>
+			<data enable="true" mode="show" >http://www.google.com?search=showthumbnails_1</data>
+		</trackingurl>
+
+	<thumbdata type="thumbgallery">
+		<thumbgallery >
+		<tgalwidth>400</tgalwidth>
+		<tgalheight>250</tgalheight>
+		<tgaloffsetx>200</tgaloffsetx>
+		<tgaloffsety>50</tgaloffsety>
+		<enabletracking>true</enabletracking>
+		<trackingurl>
+			<data enable="true" mode="Show" >http://www.google.com?search=tNgalShow21</data>
+		</trackingurl>
+		
+		<thumbbar width="636" height="71" offsetx="2" offsety="289" isvertical="false" effecttype="jump" iconwidth="106" iconheight="71" galtype="image">
+		
+		
+		
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small2.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big2.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>alpha</effecttype>
+					<slidefrom>top</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small3.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big3.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>alpha</effecttype>
+					<slidefrom>top</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small5.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big5.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>alpha</effecttype>
+					<slidefrom>top</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small6.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big6.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>alpha</effecttype>
+					<slidefrom>top</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small7.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big7.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>alpha</effecttype>
+					<slidefrom>top</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small8.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big8.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>move</effecttype>
+					<slidefrom>bottom</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small10.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big10.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>move</effecttype>
+					<slidefrom>bottom</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small11.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big11.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>move</effecttype>
+					<slidefrom>bottom</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		
+		</thumbbar>
+	</thumbgallery>
+	</thumbdata>
+	</thumbnails>
+</adata>
+<!-- thumbnails end ad -->
+
+<adata type="backbtn">
+<backbtn>
+<offsetx>350</offsetx>
+<offsety>78</offsety><enabletracking>true</enabletracking><trackingurl><data type="default" enable="true">http://www.pmi5media.com</data></trackingurl></backbtn>
+</adata>
+
+</about>
+
+</mscontent>
+<!-- about us -->
+
+
+<!-- gallery 1 begin -->
+<mscontent type="gallery">
+
+<gallery>
+
+<type>video</type>
+<navbtneffect>move</navbtneffect>
+<navbtnleftimg>img/redbull/left.png</navbtnleftimg>
+<navbtnrightimg>img/redbull/right.png</navbtnrightimg>
+<galwidth>477</galwidth>
+<galheight>314</galheight>
+<galoffsetx>145</galoffsetx>
+<galoffsety>24</galoffsety>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" mode="show"  usefor="vid">galShow2,Cratives</data>
+</trackingurl>
+
+<slides>
+<slide>
+
+<photo type="clickthru">
+<clickthrus>
+<clickthru>
+<showafter>0</showafter>
+<hideafter>20</hideafter>
+<tooltip> ford 1 Boolean value that indicates whether Flash Player automatically scroll  </tooltip>
+<iconno>img/sjacket4.jpg</iconno>
+<iconwidth>100</iconwidth>
+<iconheight>60</iconheight>
+<enableclick>true</enableclick>
+<clickurl>http://www.vidaptiv.com/</clickurl>
+<fromleft>20</fromleft>
+<fromtop>200</fromtop>
+<tipwidth>100</tipwidth>
+<tipheight>100</tipheight>
+<tipbgcolor>0x47F029</tipbgcolor>
+<tiplinecolor>0x3929F0</tiplinecolor>
+<tiptextcolor>0xF43315</tiptextcolor>
+<tipoffsetx>120</tipoffsetx>
+<tipoffsety>250</tipoffsety>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default" usefor="vid">clickicon3,creative</data>
+<data type="default" enable="true">http://www.google.com/search=clickicon31</data>
+</trackingurl>
+</clickthru>
+</clickthrus>
+</photo>
+
+
+
+<photo type="videoplayer">
+			<vidplayer>
+				<vidpath>http://localhost/riaz/vpaidwrapper/video/ford.mp4</vidpath>
+				<enableclick>true</enableclick>
+				<clickurl>http://www.google.com</clickurl>
+				<autoplay>true1</autoplay>
+				<volume>50</volume>
+				<showcontrols>true</showcontrols>
+				<enabletracking>true</enabletracking>
+					<trackingurl>
+						<data enable="true"  usefor="vid">clickicon3,creative</data>
+						<data enable="true"  >http://www.google.com?search=gallery1gallery1FreeW2</data>
+					</trackingurl>
+			</vidplayer>
+</photo>
+			
+
+
+</slide>
+
+</slides>
+
+
+<slides>
+<slide>
+<photo type="youtube">
+			<youtube>
+				<videourl>http://youtu.be/D-AlxvUWoso</videourl>
+				<showcontrols>true1</showcontrols>
+				<autoplay>true</autoplay>
+				<volume>50</volume>
+			</youtube>
+</photo>
+<photo type="clickthru">
+<clickthrus>
+<clickthru>
+<showafter>0</showafter>
+<hideafter>20</hideafter>
+<tooltip>you tube value that indicates whether Flash Player automatically scroll  </tooltip>
+<iconno>img/sjacket4.jpg</iconno>
+<iconwidth>100</iconwidth>
+<iconheight>60</iconheight>
+<enableclick>true</enableclick>
+<clickurl>http://www.vidaptiv.com/</clickurl>
+<fromleft>200</fromleft>
+<fromtop>200</fromtop>
+<tipwidth>100</tipwidth>
+<tipheight>100</tipheight>
+<tipbgcolor>0x47F029</tipbgcolor>
+<tiplinecolor>0x3929F0</tiplinecolor>
+<tiptextcolor>0xF43315</tiptextcolor>
+<tipoffsetx>120</tipoffsetx>
+<tipoffsety>250</tipoffsety>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default" usefor="vid">clickicon3,creative</data>
+<data type="default" enable="true">http://www.google.com/search=clickicon31</data>
+</trackingurl>
+</clickthru>
+</clickthrus>
+</photo>
+</slide>
+</slides>
+
+
+<slides>
+<slide>
+<photo type="videoplayer">
+			<vidplayer>
+				<vidpath>http://localhost/riaz/vpaidwrapper/video/nike.mp4</vidpath>
+				<vidwidth>640</vidwidth>
+				<vidheight>360</vidheight>
+				<offsetx>0</offsetx>
+				<offsety>0</offsety>
+				<enableclick>false</enableclick>
+				<clickurl>false</clickurl>
+				<autoplay>true</autoplay>
+				<volume>50</volume>
+				<showcontrols>true</showcontrols>
+				<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com?search=gallery1FreeW</data>
+						<data enable="true"  >http://www.google.com?search=gallery1gallery1FreeW2</data>
+					</trackingurl>
+			</vidplayer>
+</photo>
+		
+<photo type="clickthru">
+<clickthrus>
+<clickthru>
+<showafter>0</showafter>
+<hideafter>20</hideafter>
+<tooltip>nike 2 Boolean value that indicates whether Flash Player automatically scroll  ok Icon Returns a DisplayObject reference for the  </tooltip>
+<iconno>img/sjacket3.jpg</iconno>
+<iconwidth>60</iconwidth>
+<iconheight>150</iconheight>
+<enableclick>true</enableclick>
+<clickurl>http://www.vidaptiv.com/</clickurl>
+<fromleft>100</fromleft>
+<fromtop>150</fromtop>
+<tipwidth>150</tipwidth>
+<tipheight>130</tipheight>
+<tipbgcolor>0x47F029</tipbgcolor>
+<tiplinecolor>0x3929F0</tiplinecolor>
+<tiptextcolor>0xF43315</tiptextcolor>
+<tipoffsetx>50</tipoffsetx>
+<tipoffsety>60</tipoffsety>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default" usefor="vid">clickicon3,creative</data>
+<data type="default" enable="true">http://www.google.com/search=clickicon31</data>
+</trackingurl>
+</clickthru>
+</clickthrus>
+</photo>
+
+
+</slide>
+
+</slides>
+
+<slides>
+<slide>
+
+
+<photo type="clickthru">
+<clickthrus>
+<clickthru>
+<showafter>0</showafter>
+<hideafter>20</hideafter>
+<tooltip> sea horse  3 Boolean value that indicates whether Flash Player automatically scroll  ok Icon Returns a DisplayObject reference for the given id, for an image or SWF file that has been added to an HTML-formatted text field by using an  tag. s multiline text</tooltip>
+<iconno>img/sjacket3.jpg</iconno>
+<iconwidth>60</iconwidth>
+<iconheight>150</iconheight>
+<enableclick>true</enableclick>
+<clickurl>http://www.vidaptiv.com/</clickurl>
+<fromleft>300</fromleft>
+<fromtop>150</fromtop>
+<tipwidth>220</tipwidth>
+<tipheight>130</tipheight>
+<tipbgcolor>0xF029</tipbgcolor>
+<tiplinecolor>0x3929F0</tiplinecolor>
+<tiptextcolor>0xebeb15</tiptextcolor>
+<tipoffsetx>50</tipoffsetx>
+<tipoffsety>60</tipoffsety>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default" usefor="vid">clickicon3,creative</data>
+<data type="default" enable="true">http://www.google.com/search=clickicon31</data>
+</trackingurl>
+</clickthru>
+</clickthrus>
+</photo>
+
+
+<photo type="clickthru">
+<clickthrus>
+<clickthru>
+<showafter>0</showafter>
+<hideafter>20</hideafter>
+<tooltip> sea horse 3 Boolean value that indicates whether Flash Player automatically scroll  ok Icon Returns a DisplayObject reference for the given id, for an image or SWF file that has been added to an HTML-formatted text field by using an  tag. s multiline text</tooltip>
+<iconno>img/sjacket5.jpg</iconno>
+<iconwidth>60</iconwidth>
+<iconheight>150</iconheight>
+<enableclick>true</enableclick>
+<clickurl>http://www.vidaptiv.com/</clickurl>
+<fromleft>200</fromleft>
+<fromtop>50</fromtop>
+<tipwidth>220</tipwidth>
+<tipheight>150</tipheight>
+<tipbgcolor>0xfff029</tipbgcolor>
+<tiplinecolor>0x3929F0</tiplinecolor>
+<tiptextcolor>0x000000</tiptextcolor>
+<tipoffsetx>250</tipoffsetx>
+<tipoffsety>60</tipoffsety>
+<enabletracking>true</enabletracking>
+<trackingurl>
+<data enable="true" type="default" usefor="vid">clickicon3,creative</data>
+<data type="default" enable="true">http://www.google.com/search=clickicon31</data>
+</trackingurl>
+</clickthru>
+</clickthrus>
+</photo>
+
+
+<photo type="videoplayer">
+			<vidplayer>
+				<vidpath>http://localhost/riaz/vpaidwrapper/video/Sea_SeaHorse.mp4</vidpath>
+				<enableclick>false</enableclick>
+				<clickurl>false</clickurl>
+				<autoplay>true</autoplay>
+				<volume>50</volume>
+				<showcontrols>true</showcontrols>
+				<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com?search=gallery1FreeW</data>
+						<data enable="true"  >http://www.google.com?search=gallery1gallery1FreeW2</data>
+					</trackingurl>
+			</vidplayer>
+</photo>
+			
+
+
+
+
+</slide>
+</slides>
+
+<slides>
+<photo type="backbtn">
+				<backbtn>
+					<offsetx>500</offsetx>
+					<offsety>0</offsety>
+					<enabletracking>true1</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com?search=thumbback</data>
+						<data  enable="false" >http://www.google.com?search=thumbback2</data>					
+					</trackingurl>
+				</backbtn>
+	</photo>
+
+</slides>
+
+</gallery>
+</mscontent>
+<!-- gallery 1 end -->
+
+
+
+<!-- about us -->
+<mscontent type="about">
+	<about>
+	<enabletracking>true</enabletracking>
+		<trackingurl>
+		<data enable="true" mode="Show" >http://www.google.com?search=about2</data> 
+		</trackingurl>
+	<adata type="imageslide">
+		<imageslide>
+			<imgpath>img/disney/bgabout.png</imgpath>
+			<imgwidth>477</imgwidth>
+			<imgheight>314</imgheight>
+			<offsetx>145</offsetx>
+			<offsety>24</offsety>
+			<gloweffect>false</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>alpha</effecttype>
+			<slidefrom>left</slidefrom>
+			<enableclick>false</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</adata>
+		
+		<adata type="imageslide">
+		<imageslide>
+			<imgpath>img/disney/layer_26.png</imgpath>
+			<imgwidth>198</imgwidth>
+			<imgheight>178</imgheight>
+			<offsetx>120</offsetx>
+			<offsety>24</offsety>
+			<gloweffect>false</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>1500</delaytime>
+			<effecttype>move</effecttype>
+			<slidefrom>left</slidefrom>
+			<enableclick>false</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</adata>
+		<!--
+		<adata type="abouttext">
+			<abouttext>
+				<isbold>false</isbold>
+				<fontsize>12</fontsize>
+				<fontcolor>0xffffff</fontcolor>
+				<offsetx>250</offsetx>
+				<offsety>90</offsety>
+				<txtwidth>350</txtwidth>
+				<txtheight>250</txtheight>
+				<fontfamily>verdana</fontfamily>
+				<desc>some long text &quot;break some long&quot; text somelong text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,</p> from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet../, comes from a line in section 1.10.32. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). </desc>
+			
+			</abouttext>
+		</adata>
+		
+		-->
+		
+	<adata type="gallery">
+
+		<gallery>
+		<type>image</type>
+		<navbtneffect>move</navbtneffect>
+		<navbtnleftimg>img/ford/lefttarro.png</navbtnleftimg>
+		<galwidth>300</galwidth>
+		<galheight>200</galheight>
+		<galoffsetx>145</galoffsetx>
+		<galoffsety>130</galoffsety>
+		<enabletracking>true</enabletracking>
+		<trackingurl>
+		<data enable="true" mode="Show" >http://www.google.com?search=galShow1</data>
+		</trackingurl>
+
+		<slides>
+		<slide>
+
+		<photo type="imageslide">
+			<imageslide>
+			<imgpath>
+			img/ford/newfuel/1.jpg
+			</imgpath>
+			<imgwidth>640</imgwidth>
+			<imgheight>360</imgheight>
+			<offsetx>0</offsetx>
+			<offsety>0</offsety>
+			<gloweffect>false</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>move</effecttype>
+			<slidefrom>left</slidefrom>
+			<enableclick>false</enableclick>
+			<clickurl>http://www.google.com/</clickurl>
+			<enabletracking>false</enabletracking>
+			<trackingurl>
+			<data enable="true" >http://www.google.com/</data>
+			<data enable="false" >http://www.linkedin.com/</data>
+			<data enable="true" >http://www.pmi5media.com/</data>
+			</trackingurl>
+			</imageslide>
+		</photo>
+		</slide>
+		</slides>
+
+		<slides>
+		<slide>
+		<photo type="imageslide">
+			<imageslide>
+			<imgpath>
+			img/ford/newfuel/2.jpg
+			</imgpath>
+			<imgwidth>640</imgwidth>
+			<imgheight>360</imgheight>
+			<offsetx>0</offsetx>
+			<offsety>0</offsety>
+			<gloweffect>false</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>move</effecttype>
+			<slidefrom>left</slidefrom>
+			<enableclick>false</enableclick>
+			<clickurl>http://www.google.com/</clickurl>
+			<enabletracking>false</enabletracking>
+			<trackingurl>
+			<data enable="true" >http://www.google.com/</data>
+			<data enable="false" >http://www.linkedin.com/</data>
+			<data enable="true" >http://www.pmi5media.com/</data>
+			</trackingurl>
+			</imageslide>
+		</photo>
+		</slide>
+		</slides>
+
+
+		</gallery>
+
+	 </adata>
+	 
+	 
+<!-- thumbnails begin ad-->
+<adata type="thumbnails">
+	<thumbnails>
+		<enabletracking>false</enabletracking>
+		<trackingurl>
+			<data enable="true" mode="show" >http://www.google.com?search=showthumbnails_1</data>
+		</trackingurl>
+
+	<thumbdata type="thumbgallery">
+		<thumbgallery >
+		<tgalwidth>300</tgalwidth>
+		<tgalheight>200</tgalheight>
+		<tgaloffsetx>300</tgaloffsetx>
+		<tgaloffsety>20</tgaloffsety>
+		<enabletracking>false</enabletracking>
+		<trackingurl>
+			<data enable="true" mode="Show" >http://www.google.com?search=tNgalShow21</data>
+		</trackingurl>
+		
+		<thumbbar width="636" height="71" offsetx="2" offsety="289" isvertical="false" effecttype="jump" iconwidth="106" iconheight="71" galtype="image">
+		
+		
+		
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small2.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big2.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>alpha</effecttype>
+					<slidefrom>top</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small3.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big3.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>alpha</effecttype>
+					<slidefrom>top</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small5.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big5.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>alpha</effecttype>
+					<slidefrom>top</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small6.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big6.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>alpha</effecttype>
+					<slidefrom>top</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small7.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big7.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>alpha</effecttype>
+					<slidefrom>top</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small8.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big8.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>move</effecttype>
+					<slidefrom>bottom</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small10.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big10.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>move</effecttype>
+					<slidefrom>bottom</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small11.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big11.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>move</effecttype>
+					<slidefrom>bottom</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		
+		</thumbbar>
+	</thumbgallery>
+	</thumbdata>
+	</thumbnails>
+</adata>
+<!-- thumbnails end ad -->
+
+
+		<adata type="imageslide">
+		<imageslide>
+			<imgpath>img/disney/Overlay_Logo.png</imgpath>
+			<imgwidth>369</imgwidth>
+			<imgheight>86</imgheight>
+			<offsetx>200</offsetx>
+			<offsety>24</offsety>
+			<gloweffect>true</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>move</effecttype>
+			<slidefrom>top</slidefrom>
+			<enableclick>true</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</adata>
+		
+		
+	<adata type="backbtn">
+<backbtn>
+<offsetx>570</offsetx>
+<offsety>50</offsety><enabletracking>true</enabletracking><trackingurl><data type="default" enable="true">http://www.pmi5media.com</data></trackingurl></backbtn>
+</adata>	
+		
+
+	
+	</about>
+	</mscontent>
+<!-- about us -->
+
+
+
+
+<!-- about us -->
+<mscontent type="about">
+	<about>
+	<adata type="imageslide">
+		<imageslide>
+			<imgpath>img/lbg2.jpg</imgpath>
+			<imgwidth>477</imgwidth>
+			<imgheight>314</imgheight>
+			<offsetx>145</offsetx>
+			<offsety>24</offsety>
+			<gloweffect>false</gloweffect>
+			<applyanim>true</applyanim>
+			<delaytime>0</delaytime>
+			<effecttype>alpha</effecttype>
+			<slidefrom>left</slidefrom>
+			<enableclick>false</enableclick>
+			<enabletracking>false</enabletracking>
+			<clickurl>http://www.pmi5media.com</clickurl>
+			<trackingurl>http://www.pmi5media.com</trackingurl>
+		</imageslide>
+		</adata>
+		
+	<!--
+		<adata type="abouttext">
+			<abouttext>
+				<isbold>false</isbold>
+				<fontsize>12</fontsize>
+				<fontcolor>0xffffff</fontcolor>
+				<offsetx>250</offsetx>
+				<offsety>90</offsety>
+				<txtwidth>350</txtwidth>
+				<txtheight>250</txtheight>
+				<fontfamily>verdana</fontfamily>
+				<desc>some long text &quot;break some long&quot; text somelong text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,</p> from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet../, comes from a line in section 1.10.32. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). </desc>
+			
+			</abouttext>
+		</adata>
+		
+		-->
+		
+	
+	 
+<!-- thumbnails begin ad-->
+<adata type="thumbnails">
+	<thumbnails>
+		<enabletracking>true</enabletracking>
+		<trackingurl>
+			<data enable="true" mode="show" >http://www.google.com?search=showthumbnails_1</data>
+		</trackingurl>
+
+	<thumbdata type="thumbgallery">
+		<thumbgallery >
+		<tgalwidth>400</tgalwidth>
+		<tgalheight>250</tgalheight>
+		<tgaloffsetx>200</tgaloffsetx>
+		<tgaloffsety>50</tgaloffsety>
+		<enabletracking>true</enabletracking>
+		<trackingurl>
+			<data enable="true" mode="Show" >http://www.google.com?search=tNgalShow21</data>
+		</trackingurl>
+		
+		<thumbbar width="636" height="71" offsetx="2" offsety="289" isvertical="false" effecttype="jump" iconwidth="106" iconheight="71" galtype="image">
+		
+		
+		
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small2.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big2.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>alpha</effecttype>
+					<slidefrom>top</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small3.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big3.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>alpha</effecttype>
+					<slidefrom>top</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small5.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big5.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>alpha</effecttype>
+					<slidefrom>top</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small6.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big6.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>alpha</effecttype>
+					<slidefrom>top</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small7.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big7.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>alpha</effecttype>
+					<slidefrom>top</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small8.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big8.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>move</effecttype>
+					<slidefrom>bottom</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small10.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big10.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>move</effecttype>
+					<slidefrom>bottom</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		<photo>
+			<small>
+					<imgpath>img/ford/newcolor/small11.png</imgpath>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+			</small>
+			<big type="imageslide">
+				<imageslide>
+					<imgpath>img/ford/newcolor/big11.jpg</imgpath>
+					<imgwidth>640</imgwidth>
+					<imgheight>360</imgheight>
+					<offsetx>0</offsetx>
+					<offsety>0</offsety>
+					<gloweffect>false</gloweffect>
+					<applyanim>false</applyanim>
+					<delaytime>0</delaytime>
+					<effecttype>move</effecttype>
+					<slidefrom>bottom</slidefrom>
+					<enableclick>false</enableclick>
+					<clickurl>http://www.google.com/</clickurl>
+					<enabletracking>false</enabletracking>
+					<trackingurl>
+						<data enable="true" >http://www.google.com/</data>
+					</trackingurl>
+				</imageslide>
+			</big>
+		</photo>
+		
+		</thumbbar>
+	</thumbgallery>
+	</thumbdata>
+	</thumbnails>
+</adata>
+<!-- thumbnails end ad -->
+
+</about>
+</mscontent>
+<!-- about us -->
+
+
+<!-- menu begin -->
+
+	<mscontent type="admenu">
+	 <admenu>
+		<offsetx>16</offsetx>
+		<offsety>24	</offsety>
+		<applyanim>true</applyanim>
+		<delaytime>0</delaytime>
+		<effecttype>move</effecttype>
+		<slidefrom>top</slidefrom>
+		<showontop>true</showontop>
+		<showfirstwidget>true</showfirstwidget>
+		
+		<mitem type="imageslide">
+			<imageslide>
+				<imgpath>img/ford/logo.png </imgpath>
+				<imgwidth>127</imgwidth>
+				<imgheight>72</imgheight>
+				<offsetx>0</offsetx>
+				<offsety>0</offsety>
+				<gloweffect>false</gloweffect>
+				<applyanim>false</applyanim>
+				<delaytime>0</delaytime>
+				<effecttype>move</effecttype>
+				<slidefrom>left</slidefrom>
+				<enableclick>false</enableclick>
+				<clickurl>http://www.google.com/</clickurl>
+				<enabletracking>false</enabletracking>
+				<trackingurl>
+					<data enable="true" >http://www.google.com/</data>
+				</trackingurl>
+				</imageslide>
+		</mitem>
+		
+		<mitem type="itemapp">
+			<itemapp>
+			<bgimg>img/ford/techover.jpg</bgimg>
+			<overimg>img/ford/tech.jpg</overimg>
+			<imgwidth>127</imgwidth>
+			<imgheight>31</imgheight>
+			<offsetx>0</offsetx>
+			<offsety>72</offsety>
+			<type>widget</type>
+			<widgetname>gallery_1</widgetname>
+			<enableclick>false</enableclick>
+			<clickurl>http://www.olay.com/</clickurl>
+			<enabletracking>false</enabletracking>
+			<trackingurl>
+				<data enable="true"  >http://www.google.com?search=menu2</data>
+			</trackingurl>
+			</itemapp>
+		</mitem>
+		
+		<mitem type="itemapp">
+			<itemapp>
+			<bgimg>img/ford/fuelhover.jpg</bgimg>
+			<overimg>img/ford/fuel.jpg</overimg>
+			<imgwidth>127</imgwidth>
+			<imgheight>31</imgheight>
+			<offsetx>0</offsetx>
+			<offsety>103</offsety>
+			<type>widget</type>
+			<widgetname>about_1</widgetname>
+			<enableclick>false</enableclick>
+			<clickurl>http://www.olay.com/</clickurl>
+			<enabletracking>false</enabletracking>
+			<trackingurl>
+				<data enable="true"  >http://www.google.com?search=menu2</data>
+			</trackingurl>
+			</itemapp>
+		</mitem>
+		
+		
+		<mitem type="itemapp">
+			<itemapp>
+			<bgimg>img/ford/360viewhover.jpg</bgimg>
+			<overimg>img/ford/360view.jpg</overimg>
+			<imgwidth>127</imgwidth>
+			<imgheight>31</imgheight>
+			<offsetx>0</offsetx>
+			<offsety>134</offsety>
+			<type>widget</type>
+			<widgetname>about_2</widgetname>
+			<enableclick>false</enableclick>
+			<clickurl>http://www.olay.com/</clickurl>
+			<enabletracking>false</enabletracking>
+			<trackingurl>
+				<data enable="true"  >http://www.google.com?search=menu2</data>
+			</trackingurl>
+			</itemapp>
+		</mitem>
+		
+		<mitem type="itemapp">
+			<itemapp>
+			<bgimg>img/ford/colorhover.jpg</bgimg>
+			<overimg>img/ford/color.jpg</overimg>
+			<imgwidth>127</imgwidth>
+			<imgheight>31</imgheight>
+			<offsetx>0</offsetx>
+			<offsety>165</offsety>
+			<type>widget</type>
+			<widgetname>about_3</widgetname>
+			<enableclick>false</enableclick>
+			<clickurl>http://www.olay.com/</clickurl>
+			<enabletracking>false</enabletracking>
+			<trackingurl>
+				<data enable="true"  >http://www.google.com?search=menu2</data>
+			</trackingurl>
+			</itemapp>
+		</mitem>
+		
+		<mitem type="imageslide">
+			<imageslide>
+				<imgpath>img/ford/bgbottom.jpg</imgpath>
+				<imgwidth>127</imgwidth>
+				<imgheight>118</imgheight>
+				<offsetx>0</offsetx>
+				<offsety>196</offsety>
+				<gloweffect>false</gloweffect>
+				<applyanim>false</applyanim>
+				<delaytime>0</delaytime>
+				<effecttype>move</effecttype>
+				<slidefrom>left</slidefrom>
+				<enableclick>false</enableclick>
+				<clickurl>http://www.google.com/</clickurl>
+				<enabletracking>false</enabletracking>
+				<trackingurl>
+					<data enable="true" >http://www.google.com/</data>
+				</trackingurl>
+				</imageslide>
+		</mitem>
+		
+		<mitem type="imageslide">
+			<imageslide>
+				<imgpath>img/ford/facebook.png</imgpath>
+				<imgwidth>25</imgwidth>
+				<imgheight>25</imgheight>
+				<offsetx>15</offsetx>
+				<offsety>270</offsety>
+				<gloweffect>false</gloweffect>
+				<applyanim>false</applyanim>
+				<delaytime>0</delaytime>
+				<effecttype>move</effecttype>
+				<slidefrom>left</slidefrom>
+				<enableclick>true</enableclick>
+				<clickurl>https://www.facebook.com/ford</clickurl>
+				<enabletracking>false</enabletracking>
+				<trackingurl>
+					<data enable="true" >http://www.google.com/</data>
+				</trackingurl>
+				</imageslide>
+		</mitem>
+		
+		<mitem type="imageslide">
+			<imageslide>
+				<imgpath>img/ford/twitter.png</imgpath>
+				<imgwidth>25</imgwidth>
+				<imgheight>25</imgheight>
+				<offsetx>50</offsetx>
+				<offsety>270</offsety>
+				<gloweffect>false</gloweffect>
+				<applyanim>false</applyanim>
+				<delaytime>0</delaytime>
+				<effecttype>move</effecttype>
+				<slidefrom>left</slidefrom>
+				<enableclick>true</enableclick>
+				<clickurl>https://twitter.com/Ford</clickurl>
+				<enabletracking>false</enabletracking>
+				<trackingurl>
+					<data enable="true" >http://www.google.com/</data>
+				</trackingurl>
+				</imageslide>
+		</mitem>
+		
+		<mitem type="imageslide">
+			<imageslide>
+				<imgpath>img/ford/youtube.png</imgpath>
+				<imgwidth>25</imgwidth>
+				<imgheight>25</imgheight>
+				<offsetx>85</offsetx>
+				<offsety>270</offsety>
+				<gloweffect>false</gloweffect>
+				<applyanim>false</applyanim>
+				<delaytime>0</delaytime>
+				<effecttype>move</effecttype>
+				<slidefrom>left</slidefrom>
+				<enableclick>true</enableclick>
+				<clickurl>http://youtu.be/sqk80YvX_zI</clickurl>
+				<enabletracking>false</enabletracking>
+				<trackingurl>
+					<data enable="true" >http://www.google.com/</data>
+				</trackingurl>
+				</imageslide>
+		</mitem>
+		
+				
+	 </admenu>
+	</mscontent>
+<!-- menu end -->
+
+
+
+
+
+<mscontent type="closebtn">
+<closebtn>
+<imgpath>default</imgpath>
+<offsetx>612</offsetx>
+<offsety>8</offsety>
+<removead>false</removead>
+<enabletracking>false</enabletracking>
+			<trackingurl>
+				<data enable="true"  >http://www.google.com?search=closebtn1</data>
+				<data enable="true"  >http://www.google.com?search=closebtn2</data>
+			</trackingurl>
+</closebtn>
+</mscontent>
+</minisiteapp>
+</ad>
+
+	
+	
+
+</main>		
+	

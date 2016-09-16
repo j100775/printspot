@@ -1,0 +1,749 @@
+<main>
+    <campaign>
+        <showdebugger>false</showdebugger>
+        <livepath>http://console.vidaptiv.com/</livepath>
+        <swffile>swf/vpaidholder.swf</swffile>
+        <durationseconds>130</durationseconds>
+        <islinearad>true</islinearad>
+        <switchtononlinear>false</switchtononlinear>
+        <showcounter>false</showcounter>
+        <stopcounter>true</stopcounter>
+        <counteroffsetx>0</counteroffsetx>
+        <counteroffsety>0</counteroffsety>
+        <countercolor>0xffffff</countercolor>
+        <showskipad>false</showskipad>
+        <skipadoffsetx>0</skipadoffsetx>
+        <skipadoffsety>0</skipadoffsety>
+        <skipadvalue>0</skipadvalue>
+        <skipadcolor>0xffffff</skipadcolor>
+        <scripttag/>
+        <campid>#campid#</campid>
+        <jsbasepath>http://console.vidaptiv.com/</jsbasepath>
+        <campgroup>Standard</campgroup>
+    </campaign>
+    <ad type="about">
+        <about>
+            <enabletracking>true</enabletracking>
+            <trackingurl>
+                <data mode="show" enable="true" type="default" usefor="vid">AboutShow,Creative</data>
+            </trackingurl>
+        </about>
+    </ad>
+    <ad type="videoplayer">
+        <vidplayer>
+            <showontop>false</showontop>
+            <vidpath>http://console.vidaptiv.com/campaigns/media/6faa8040da20ef399b63a72d0e4ab575.mp4</vidpath>
+            <isresize>false</isresize>
+            <resizeduration>0</resizeduration>
+            <resizeheight>100</resizeheight>
+            <resizewidth>100</resizewidth>
+            <resizeoffsetx>50</resizeoffsetx>
+            <resizeoffsety>50</resizeoffsety>
+            <btnbaroffsetx>45</btnbaroffsetx>
+            <btnbaroffsety>288</btnbaroffsety>
+            <showcontrols>true</showcontrols>
+            <enableclick>false</enableclick>
+            <clickurl>false</clickurl>
+            <volume>100</volume>
+            <enabletracking>true</enabletracking>
+            <trackingurl>
+                <data type="default" enable="true">http://www.pmi5media.com</data>
+            </trackingurl>
+            <seekbartracking>
+                <trackingurl timeval="1">
+                    <data type="default" enable="true">http://www.pmi5media.com</data>
+                </trackingurl>
+            </seekbartracking>
+        </vidplayer>
+    </ad>
+    <ad type="clickthru">
+        <clickthrus>
+            <clickthru>
+                <showafter>11</showafter>
+                <hideafter>18</hideafter>
+                <iconno>http://console.vidaptiv.com/files/non_linear_images/1519/1_roommain1439209817.png</iconno>
+                <iconwidth>160</iconwidth>
+                <iconheight>90</iconheight>
+                <fromleft>57</fromleft>
+                <fromtop>127</fromtop>
+                <showtooltip>false</showtooltip>
+                <tipwidth>0</tipwidth>
+                <tipheight>0</tipheight>
+                <tipoffsetx>0</tipoffsetx>
+                <tipoffsety>0</tipoffsety>
+                <tooltip/>
+                <tipbgcolor>0xffffff</tipbgcolor>
+                <tiplinecolor>0xffffff</tiplinecolor>
+                <tiptextcolor>0xffffff</tiptextcolor>
+                <enableclick>true</enableclick>
+                <type>widget</type>
+                <widgetname>about_2</widgetname>
+                <enabletracking>true</enabletracking>
+                <trackingurl>
+                    <data type="default" enable="true">http://www.pmi5media.com</data>
+                </trackingurl>
+            </clickthru>
+        </clickthrus>
+    </ad>
+    <ad type="clickthru">
+        <clickthrus>
+            <clickthru>
+                <showafter>19</showafter>
+                <hideafter>26</hideafter>
+                <iconno>http://console.vidaptiv.com/files/non_linear_images/1519/2_activitymain1439209831.png</iconno>
+                <iconwidth>176</iconwidth>
+                <iconheight>99</iconheight>
+                <fromleft>236</fromleft>
+                <fromtop>170</fromtop>
+                <showtooltip>false</showtooltip>
+                <tipwidth>0</tipwidth>
+                <tipheight>0</tipheight>
+                <tipoffsetx>0</tipoffsetx>
+                <tipoffsety>0</tipoffsety>
+                <tooltip/>
+                <tipbgcolor>0xffffff</tipbgcolor>
+                <tiplinecolor>0xffffff</tiplinecolor>
+                <tiptextcolor>0xffffff</tiptextcolor>
+                <enableclick>true</enableclick>
+                <type>widget</type>
+                <widgetname>about_3</widgetname>
+                <enabletracking>true</enabletracking>
+                <trackingurl>
+                    <data type="default" enable="true">http://www.pmi5media.com</data>
+                </trackingurl>
+            </clickthru>
+        </clickthrus>
+    </ad>
+    <ad type="clickthru">
+        <clickthrus>
+            <clickthru>
+                <showafter>26</showafter>
+                <hideafter>33</hideafter>
+                <iconno>http://console.vidaptiv.com/files/non_linear_images/1519/3_diningmain1439210043.png</iconno>
+                <iconwidth>160</iconwidth>
+                <iconheight>90</iconheight>
+                <fromleft>391</fromleft>
+                <fromtop>41</fromtop>
+                <showtooltip>false</showtooltip>
+                <tipwidth>0</tipwidth>
+                <tipheight>0</tipheight>
+                <tipoffsetx>0</tipoffsetx>
+                <tipoffsety>0</tipoffsety>
+                <tooltip/>
+                <tipbgcolor>0xffffff</tipbgcolor>
+                <tiplinecolor>0xffffff</tiplinecolor>
+                <tiptextcolor>0xffffff</tiptextcolor>
+                <enableclick>true</enableclick>
+                <type>widget</type>
+                <widgetname>about_4</widgetname>
+                <enabletracking>true</enabletracking>
+                <trackingurl>
+                    <data type="default" enable="true">http://www.pmi5media.com</data>
+                </trackingurl>
+            </clickthru>
+        </clickthrus>
+    </ad>
+    <ad type="clickthru">
+        <clickthrus>
+            <clickthru>
+                <showafter>33</showafter>
+                <hideafter>40</hideafter>
+                <iconno>http://console.vidaptiv.com/files/non_linear_images/1519/4_meeting_eventmain1439210259.png</iconno>
+                <iconwidth>224</iconwidth>
+                <iconheight>126</iconheight>
+                <fromleft>46</fromleft>
+                <fromtop>135</fromtop>
+                <showtooltip>false</showtooltip>
+                <tipwidth>0</tipwidth>
+                <tipheight>0</tipheight>
+                <tipoffsetx>0</tipoffsetx>
+                <tipoffsety>0</tipoffsety>
+                <tooltip/>
+                <tipbgcolor>0xffffff</tipbgcolor>
+                <tiplinecolor>0xffffff</tiplinecolor>
+                <tiptextcolor>0xffffff</tiptextcolor>
+                <enableclick>true</enableclick>
+                <type>widget</type>
+                <widgetname>about_5</widgetname>
+                <enabletracking>true</enabletracking>
+                <trackingurl>
+                    <data type="default" enable="true">http://www.pmi5media.com</data>
+                </trackingurl>
+            </clickthru>
+        </clickthrus>
+    </ad>
+    <ad type="clickthru">
+        <clickthrus>
+            <clickthru>
+                <showafter>40</showafter>
+                <hideafter>48</hideafter>
+                <iconno>http://console.vidaptiv.com/files/non_linear_images/1519/5_spamain1439210414.png</iconno>
+                <iconwidth>144</iconwidth>
+                <iconheight>81</iconheight>
+                <fromleft>415</fromleft>
+                <fromtop>177</fromtop>
+                <showtooltip>false</showtooltip>
+                <tipwidth>0</tipwidth>
+                <tipheight>0</tipheight>
+                <tipoffsetx>0</tipoffsetx>
+                <tipoffsety>0</tipoffsety>
+                <tooltip/>
+                <tipbgcolor>0xffffff</tipbgcolor>
+                <tiplinecolor>0xffffff</tiplinecolor>
+                <tiptextcolor>0xffffff</tiptextcolor>
+                <enableclick>true</enableclick>
+                <type>widget</type>
+                <widgetname>about_6</widgetname>
+                <enabletracking>true</enabletracking>
+                <trackingurl>
+                    <data type="default" enable="true">http://www.pmi5media.com</data>
+                </trackingurl>
+            </clickthru>
+        </clickthrus>
+    </ad>
+    <ad type="clickthru">
+        <clickthrus>
+            <clickthru>
+                <showafter>51</showafter>
+                <hideafter>54</hideafter>
+                <iconno>http://console.vidaptiv.com/files/non_linear_images/1519/new_bg_for_videomain1439212791.png</iconno>
+                <iconwidth>640</iconwidth>
+                <iconheight>360</iconheight>
+                <fromleft>0</fromleft>
+                <fromtop>0</fromtop>
+                <showtooltip>false</showtooltip>
+                <tipwidth>0</tipwidth>
+                <tipheight>0</tipheight>
+                <tipoffsetx>0</tipoffsetx>
+                <tipoffsety>0</tipoffsety>
+                <tooltip/>
+                <tipbgcolor>0xffffff</tipbgcolor>
+                <tiplinecolor>0xffffff</tiplinecolor>
+                <tiptextcolor>0xffffff</tiptextcolor>
+                <enableclick>true</enableclick>
+                <type>click</type>
+                <clickurl>http://playadelcarmen.grand.hyatt.com/en/hotel/offers.html</clickurl>
+                <widgetname>false</widgetname>
+                <enabletracking>true</enabletracking>
+                <trackingurl>
+                    <data type="default" enable="true">http://www.pmi5media.com</data>
+                </trackingurl>
+            </clickthru>
+        </clickthrus>
+    </ad>
+    <ad type="imageslide">
+        <imageslide>
+            <imgpath>http://console.vidaptiv.com/files/non_linear_images/1519/bannermain1439212709.png</imgpath>
+            <imgwidth>176</imgwidth>
+            <imgheight>99</imgheight>
+            <offsetx>0</offsetx>
+            <offsety>0</offsety>
+            <gloweffect>false</gloweffect>
+            <applyanim>false</applyanim>
+            <delaytime>0</delaytime>
+            <effecttype>alpha</effecttype>
+            <slidefrom>left</slidefrom>
+            <enableclick>true</enableclick>
+            <clickurl>http://playadelcarmen.grand.hyatt.com/en/hotel/home.html</clickurl>
+            <enabletracking>true</enabletracking>
+            <trackingurl>
+                <data type="default" enable="true">http://www.pmi5media.com</data>
+            </trackingurl>
+        </imageslide>
+    </ad>
+    <ad type="about">
+        <about>
+            <enabletracking>true</enabletracking>
+            <trackingurl>
+                <data mode="show" type="default" enable="true" usefor="vid">AboutShow,Creative</data>
+            </trackingurl>
+            <adata type="backbtn">
+                <backbtn>
+                    <imgpath>http://console.vidaptiv.com/files/non_linear_images/1519/back_btnmain1430398454main1439212100.png</imgpath>
+                    <imgwidth>66</imgwidth>
+                    <imgheight>37</imgheight>
+                    <offsetx>575</offsetx>
+                    <offsety>10</offsety>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data enable="true" type="default">http://www.pmi5media.com</data>
+                    </trackingurl>
+                </backbtn>
+            </adata>
+            <adata type="gallery">
+                <gallery>
+                    <navbtneffect>move</navbtneffect>
+                    <navbtnleftimg>default</navbtnleftimg>
+                    <navbtnrightimg>default</navbtnrightimg>
+                    <galwidth>640</galwidth>
+                    <galheight>360</galheight>
+                    <galoffsetx>0</galoffsetx>
+                    <galoffsety>0</galoffsety>
+                    <type>video</type>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data mode="show" type="default" enable="true" usefor="vid">GalleryShow,Creative</data>
+                    </trackingurl>
+                    <slides>
+                        <slide>
+                            <photo type="videoplayer">
+                                <vidplayer>
+                                    <vidwidth>640</vidwidth>
+                                    <vidheight>360</vidheight>
+                                    <offsetx>0</offsetx>
+                                    <offsety>0</offsety>
+                                    <autoplay>false</autoplay>
+                                    <showcontrols>true</showcontrols>
+                                    <enableclick>false</enableclick>
+                                    <clickurl/>
+                                    <volume>99</volume>
+                                    <enabletracking>true</enabletracking>
+                                    <vidpath>http://console.vidaptiv.com/campaigns/media/371bce7dc83817b7893bcdeed13799b5.mp4</vidpath>
+                                    <trackingurl>
+                                        <data type="default" enable="true">http://www.pmi5media.com</data>
+                                    </trackingurl>
+                                </vidplayer>
+                            </photo>
+                        </slide>
+                    </slides>
+                </gallery>
+            </adata>
+            <adata type="imageslide">
+                <imageslide>
+                    <imgpath>http://console.vidaptiv.com/files/non_linear_images/1519/bannermain1439287885.png</imgpath>
+                    <imgwidth>176</imgwidth>
+                    <imgheight>99</imgheight>
+                    <offsetx>0</offsetx>
+                    <offsety>0</offsety>
+                    <gloweffect>false</gloweffect>
+                    <applyanim>false</applyanim>
+                    <delaytime>0</delaytime>
+                    <effecttype>alpha</effecttype>
+                    <slidefrom>left</slidefrom>
+                    <enableclick>true</enableclick>
+                    <clickurl>http://playadelcarmen.grand.hyatt.com/en/hotel/home.html</clickurl>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data type="default" enable="true">http://www.pmi5media.com</data>
+                    </trackingurl>
+                </imageslide>
+            </adata>
+            <adata type="imageslide">
+                <imageslide>
+                    <imgpath>http://console.vidaptiv.com/files/non_linear_images/1519/1_roommain1439291685.png</imgpath>
+                    <imgwidth>240</imgwidth>
+                    <imgheight>135</imgheight>
+                    <offsetx>390</offsetx>
+                    <offsety>208</offsety>
+                    <gloweffect>false</gloweffect>
+                    <applyanim>false</applyanim>
+                    <delaytime/>
+                    <effecttype>alpha</effecttype>
+                    <slidefrom>left</slidefrom>
+                    <enableclick>true</enableclick>
+                    <clickurl>http://playadelcarmen.grand.hyatt.com/en/hotel/rooms.html</clickurl>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data type="default" enable="true">http://www.pmi5media.com</data>
+                    </trackingurl>
+                </imageslide>
+            </adata>
+        </about>
+    </ad>
+    <ad type="about">
+        <about>
+            <enabletracking>true</enabletracking>
+            <trackingurl>
+                <data mode="show" enable="true" type="default" usefor="vid">AboutShow,Creative</data>
+            </trackingurl>
+            <adata type="backbtn">
+                <backbtn>
+                    <imgpath>http://console.vidaptiv.com/files/non_linear_images/1519/back_btnmain1430398454main1439293327.png</imgpath>
+                    <imgwidth>66</imgwidth>
+                    <imgheight>37</imgheight>
+                    <offsetx>575</offsetx>
+                    <offsety>10</offsety>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data enable="true" type="default">http://www.pmi5media.com</data>
+                    </trackingurl>
+                </backbtn>
+            </adata>
+            <adata type="gallery">
+                <gallery>
+                    <navbtneffect>move</navbtneffect>
+                    <navbtnleftimg>default</navbtnleftimg>
+                    <navbtnrightimg>default</navbtnrightimg>
+                    <galwidth>640</galwidth>
+                    <galheight>360</galheight>
+                    <galoffsetx>0</galoffsetx>
+                    <galoffsety>0</galoffsety>
+                    <type>video</type>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data mode="show" enable="true" type="default" usefor="vid">GalleryShow,Creative</data>
+                    </trackingurl>
+                    <slides>
+                        <slide>
+                            <photo type="videoplayer">
+                                <vidplayer>
+                                    <vidwidth>640</vidwidth>
+                                    <vidheight>360</vidheight>
+                                    <offsetx>0</offsetx>
+                                    <offsety>0</offsety>
+                                    <autoplay>false</autoplay>
+                                    <showcontrols>true</showcontrols>
+                                    <enableclick>false</enableclick>
+                                    <clickurl>false</clickurl>
+                                    <volume>99</volume>
+                                    <enabletracking>true</enabletracking>
+                                    <vidpath>http://console.vidaptiv.com/campaigns/media/3dd48ab31d016ffcbf3314df2b3cb9ce.mp4</vidpath>
+                                    <trackingurl>
+                                        <data type="default" enable="true">http://www.pmi5media.com</data>
+                                    </trackingurl>
+                                </vidplayer>
+                            </photo>
+                        </slide>
+                    </slides>
+                </gallery>
+            </adata>
+            <adata type="imageslide">
+                <imageslide>
+                    <imgpath>http://console.vidaptiv.com/files/non_linear_images/1519/bannermain1439293478.png</imgpath>
+                    <imgwidth>176</imgwidth>
+                    <imgheight>99</imgheight>
+                    <offsetx>0</offsetx>
+                    <offsety>0</offsety>
+                    <gloweffect>false</gloweffect>
+                    <applyanim>false</applyanim>
+                    <delaytime>0</delaytime>
+                    <effecttype>alpha</effecttype>
+                    <slidefrom>left</slidefrom>
+                    <enableclick>true</enableclick>
+                    <clickurl>http://playadelcarmen.grand.hyatt.com/en/hotel/home.html</clickurl>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data type="default" enable="true">http://www.pmi5media.com</data>
+                    </trackingurl>
+                </imageslide>
+            </adata>
+            <adata type="imageslide">
+                <imageslide>
+                    <imgpath>http://console.vidaptiv.com/files/non_linear_images/1519/2_activitiesmain1439298746.png</imgpath>
+                    <imgwidth>240</imgwidth>
+                    <imgheight>135</imgheight>
+                    <offsetx>390</offsetx>
+                    <offsety>208</offsety>
+                    <gloweffect>false</gloweffect>
+                    <applyanim>false</applyanim>
+                    <delaytime>0</delaytime>
+                    <effecttype>alpha</effecttype>
+                    <slidefrom>left</slidefrom>
+                    <enableclick>true</enableclick>
+                    <clickurl>http://playadelcarmen.grand.hyatt.com/en/hotel/activities.html</clickurl>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data type="default" enable="true">http://www.pmi5media.com</data>
+                    </trackingurl>
+                </imageslide>
+            </adata>
+        </about>
+    </ad>
+    <ad type="about">
+        <about>
+            <enabletracking>true</enabletracking>
+            <trackingurl>
+                <data mode="show" enable="true" type="default" usefor="vid">AboutShow,Creative</data>
+            </trackingurl>
+            <adata type="backbtn">
+                <backbtn>
+                    <imgpath>http://console.vidaptiv.com/files/non_linear_images/1519/back_btnmain1430398454main1439294382.png</imgpath>
+                    <imgwidth>66</imgwidth>
+                    <imgheight>37</imgheight>
+                    <offsetx>575</offsetx>
+                    <offsety>10</offsety>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data enable="true" type="default">http://www.pmi5media.com</data>
+                    </trackingurl>
+                </backbtn>
+            </adata>
+            <adata type="gallery">
+                <gallery>
+                    <navbtneffect>move</navbtneffect>
+                    <navbtnleftimg>default</navbtnleftimg>
+                    <navbtnrightimg>default</navbtnrightimg>
+                    <galwidth>640</galwidth>
+                    <galheight>360</galheight>
+                    <galoffsetx>0</galoffsetx>
+                    <galoffsety>0</galoffsety>
+                    <type>video</type>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data mode="show" enable="true" type="default" usefor="vid">GalleryShow,Creative</data>
+                    </trackingurl>
+                    <slides>
+                        <slide>
+                            <photo type="videoplayer">
+                                <vidplayer>
+                                    <vidwidth>640</vidwidth>
+                                    <vidheight>360</vidheight>
+                                    <offsetx>0</offsetx>
+                                    <offsety>0</offsety>
+                                    <autoplay>false</autoplay>
+                                    <showcontrols>true</showcontrols>
+                                    <enableclick>false</enableclick>
+                                    <clickurl>false</clickurl>
+                                    <volume>99</volume>
+                                    <enabletracking>true</enabletracking>
+                                    <vidpath>http://console.vidaptiv.com/campaigns/media/d81f9c1be2e08964bf9f24b15f0e4900.mp4</vidpath>
+                                    <trackingurl>
+                                        <data type="default" enable="true">http://www.pmi5media.com</data>
+                                    </trackingurl>
+                                </vidplayer>
+                            </photo>
+                        </slide>
+                    </slides>
+                </gallery>
+            </adata>
+            <adata type="imageslide">
+                <imageslide>
+                    <imgpath>http://console.vidaptiv.com/files/non_linear_images/1519/bannermain1439294599.png</imgpath>
+                    <imgwidth>176</imgwidth>
+                    <imgheight>99</imgheight>
+                    <offsetx>0</offsetx>
+                    <offsety>0</offsety>
+                    <gloweffect>false</gloweffect>
+                    <applyanim>false</applyanim>
+                    <delaytime>0</delaytime>
+                    <effecttype>alpha</effecttype>
+                    <slidefrom>left</slidefrom>
+                    <enableclick>true</enableclick>
+                    <clickurl>http://playadelcarmen.grand.hyatt.com/en/hotel/home.</clickurl>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data enable="true" type="default">http://www.pmi5media.com</data>
+                    </trackingurl>
+                </imageslide>
+            </adata>
+            <adata type="imageslide">
+                <imageslide>
+                    <imgpath>http://console.vidaptiv.com/files/non_linear_images/1519/3_diningmain1439294668.png</imgpath>
+                    <imgwidth>240</imgwidth>
+                    <imgheight>135</imgheight>
+                    <offsetx>390</offsetx>
+                    <offsety>208</offsety>
+                    <gloweffect>false</gloweffect>
+                    <applyanim>false</applyanim>
+                    <delaytime>0</delaytime>
+                    <effecttype>alpha</effecttype>
+                    <slidefrom>left</slidefrom>
+                    <enableclick>true</enableclick>
+                    <clickurl>http://playadelcarmen.grand.hyatt.com/en/hotel/dining.html</clickurl>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data type="default" enable="true">http://www.pmi5media.com</data>
+                    </trackingurl>
+                </imageslide>
+            </adata>
+        </about>
+    </ad>
+    <ad type="about">
+        <about>
+            <enabletracking>true</enabletracking>
+            <trackingurl>
+                <data mode="show" enable="true" type="default" usefor="vid">AboutShow,Creative</data>
+            </trackingurl>
+            <adata type="backbtn">
+                <backbtn>
+                    <imgpath>http://console.vidaptiv.com/files/non_linear_images/1519/back_btnmain1430398454main1439294962.png</imgpath>
+                    <imgwidth>66</imgwidth>
+                    <imgheight>37</imgheight>
+                    <offsetx>575</offsetx>
+                    <offsety>10</offsety>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data enable="true" type="default">http://www.pmi5media.com</data>
+                    </trackingurl>
+                </backbtn>
+            </adata>
+            <adata type="gallery">
+                <gallery>
+                    <navbtneffect>move</navbtneffect>
+                    <navbtnleftimg>default</navbtnleftimg>
+                    <navbtnrightimg>default</navbtnrightimg>
+                    <galwidth>640</galwidth>
+                    <galheight>360</galheight>
+                    <galoffsetx>0</galoffsetx>
+                    <galoffsety>0</galoffsety>
+                    <type>video</type>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data mode="show" enable="true" type="default" usefor="vid">GalleryShow,Creative</data>
+                    </trackingurl>
+                    <slides>
+                        <slide>
+                            <photo type="videoplayer">
+                                <vidplayer>
+                                    <vidwidth>640</vidwidth>
+                                    <vidheight>360</vidheight>
+                                    <offsetx>0</offsetx>
+                                    <offsety>0</offsety>
+                                    <autoplay>false</autoplay>
+                                    <showcontrols>true</showcontrols>
+                                    <enableclick>false</enableclick>
+                                    <clickurl>false</clickurl>
+                                    <volume>99</volume>
+                                    <enabletracking>true</enabletracking>
+                                    <vidpath>http://console.vidaptiv.com/campaigns/media/13f9896df61279c928f19721878fac41.mp4</vidpath>
+                                    <trackingurl>
+                                        <data type="default" enable="true">http://www.pmi5media.com</data>
+                                    </trackingurl>
+                                </vidplayer>
+                            </photo>
+                        </slide>
+                    </slides>
+                </gallery>
+            </adata>
+            <adata type="imageslide">
+                <imageslide>
+                    <imgpath>http://console.vidaptiv.com/files/non_linear_images/1519/bannermain1439295011.png</imgpath>
+                    <imgwidth>176</imgwidth>
+                    <imgheight>99</imgheight>
+                    <offsetx>0</offsetx>
+                    <offsety>0</offsety>
+                    <gloweffect>false</gloweffect>
+                    <applyanim>false</applyanim>
+                    <delaytime>0</delaytime>
+                    <effecttype>alpha</effecttype>
+                    <slidefrom>left</slidefrom>
+                    <enableclick>true</enableclick>
+                    <clickurl> http://playadelcarmen.grand.hyatt.com/en/hotel/home.html</clickurl>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data enable="true" type="default">http://www.pmi5media.com</data>
+                    </trackingurl>
+                </imageslide>
+            </adata>
+            <adata type="imageslide">
+                <imageslide>
+                    <imgpath>http://console.vidaptiv.com/files/non_linear_images/1519/4_meetingmain1439297846.png</imgpath>
+                    <imgwidth>240</imgwidth>
+                    <imgheight>135</imgheight>
+                    <offsetx>390</offsetx>
+                    <offsety>208</offsety>
+                    <gloweffect>false</gloweffect>
+                    <applyanim>false</applyanim>
+                    <delaytime>0</delaytime>
+                    <effecttype>alpha</effecttype>
+                    <slidefrom>left</slidefrom>
+                    <enableclick>true</enableclick>
+                    <clickurl>http://playadelcarmen.grand.hyatt.com/en/hotel/meetings-and-events.html</clickurl>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data type="default" enable="true">http://www.pmi5media.com</data>
+                    </trackingurl>
+                </imageslide>
+            </adata>
+        </about>
+    </ad>
+    <ad type="about">
+        <about>
+            <enabletracking>true</enabletracking>
+            <trackingurl>
+                <data mode="show" enable="true" type="default" usefor="vid">AboutShow,Creative</data>
+            </trackingurl>
+            <adata type="backbtn">
+                <backbtn>
+                    <imgpath>http://console.vidaptiv.com/files/non_linear_images/1519/back_btnmain1430398454main1439295224.png</imgpath>
+                    <imgwidth>66</imgwidth>
+                    <imgheight>37</imgheight>
+                    <offsetx>575</offsetx>
+                    <offsety>10</offsety>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data enable="true" type="default">http://www.pmi5media.com</data>
+                    </trackingurl>
+                </backbtn>
+            </adata>
+            <adata type="gallery">
+                <gallery>
+                    <navbtneffect>move</navbtneffect>
+                    <navbtnleftimg>default</navbtnleftimg>
+                    <navbtnrightimg>default</navbtnrightimg>
+                    <galwidth>640</galwidth>
+                    <galheight>360</galheight>
+                    <galoffsetx>0</galoffsetx>
+                    <galoffsety>0</galoffsety>
+                    <type>video</type>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data mode="show" enable="true" type="default" usefor="vid">GalleryShow,Creative</data>
+                    </trackingurl>
+                    <slides>
+                        <slide>
+                            <photo type="videoplayer">
+                                <vidplayer>
+                                    <vidwidth>640</vidwidth>
+                                    <vidheight>360</vidheight>
+                                    <offsetx>0</offsetx>
+                                    <offsety>0</offsety>
+                                    <autoplay>false</autoplay>
+                                    <showcontrols>true</showcontrols>
+                                    <enableclick>false</enableclick>
+                                    <clickurl>false</clickurl>
+                                    <volume>99</volume>
+                                    <enabletracking>true</enabletracking>
+                                    <vidpath>http://console.vidaptiv.com/campaigns/media/01386bd6d8e091c2ab4c7c7de644d37b.mp4</vidpath>
+                                    <trackingurl>
+                                        <data type="default" enable="true">http://www.pmi5media.com</data>
+                                    </trackingurl>
+                                </vidplayer>
+                            </photo>
+                        </slide>
+                    </slides>
+                </gallery>
+            </adata>
+            <adata type="imageslide">
+                <imageslide>
+                    <imgpath>http://console.vidaptiv.com/files/non_linear_images/1519/bannermain1439295503.png</imgpath>
+                    <imgwidth>176</imgwidth>
+                    <imgheight>99</imgheight>
+                    <offsetx>0</offsetx>
+                    <offsety>0</offsety>
+                    <gloweffect>false</gloweffect>
+                    <applyanim>false</applyanim>
+                    <delaytime>0</delaytime>
+                    <effecttype>alpha</effecttype>
+                    <slidefrom>left</slidefrom>
+                    <enableclick>true</enableclick>
+                    <clickurl> http://playadelcarmen.grand.hyatt.com/en/hotel/home.html</clickurl>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data enable="true" type="default">http://www.pmi5media.com</data>
+                    </trackingurl>
+                </imageslide>
+            </adata>
+            <adata type="imageslide">
+                <imageslide>
+                    <imgpath>http://console.vidaptiv.com/files/non_linear_images/1519/5_spamain1439295567.png</imgpath>
+                    <imgwidth>240</imgwidth>
+                    <imgheight>135</imgheight>
+                    <offsetx>390</offsetx>
+                    <offsety>208</offsety>
+                    <gloweffect>false</gloweffect>
+                    <applyanim>false</applyanim>
+                    <delaytime>0</delaytime>
+                    <effecttype>alpha</effecttype>
+                    <slidefrom>left</slidefrom>
+                    <enableclick>true</enableclick>
+                    <clickurl>http://playadelcarmen.grand.hyatt.com/en/hotel/activities/hotel-activities/spa.html</clickurl>
+                    <enabletracking>true</enabletracking>
+                    <trackingurl>
+                        <data type="default" enable="true">http://www.pmi5media.com</data>
+                    </trackingurl>
+                </imageslide>
+            </adata>
+        </about>
+    </ad>
+</main>
