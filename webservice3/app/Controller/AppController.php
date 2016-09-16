@@ -53,21 +53,4 @@ class AppController extends Controller {
         parent::beforeRender();
      }
 
-    //    function isAuthorized($user = null) {     
-    //        if($user['role'] === 'super_admin'){
-    //            return true;
-    //        }
-    //        if ($this->request->controller === 'publishers') {
-    //            return (bool)($user['role'] === 'publisher');
-    //        }
-    //        if ($this->request->controller === 'advertisers') {
-    //            return (bool)($user['role'] === 'advertiser');
-    //        }
-    //
-    //        // Default deny
-    //        return false;        
-    //    }
-
-   
-
 }
