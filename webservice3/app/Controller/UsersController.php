@@ -61,7 +61,7 @@ class UsersController extends AppController {
             $this->set('response_body', array('message' => 'Please Enter Password', 'code' => 1));
         }
 
-        $this->render('/Users/request_response');    // display request response
+        $this->render('/Client/request_response');    // display request response
     }
 
 // new user will be register
